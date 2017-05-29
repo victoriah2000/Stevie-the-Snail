@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DCr-Nc-TFM">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ext Wide Angle To View Controller-->
+        <scene sceneID="qvv-nf-x8p">
+            <objects>
+                <viewController id="DCr-Nc-TFM" customClass="ExtWideAngleToViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iML-u5-xgk"/>
+                        <viewControllerLayoutGuide type="bottom" id="WA2-7A-6M2"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3G0-na-n8B">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenview_006" translatesAutoresizingMaskIntoConstraints="NO" id="Rqz-R8-pqv">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="768" id="6sH-VK-9Dh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001_0000_flowers" translatesAutoresizingMaskIntoConstraints="NO" id="Is3-kx-czu">
+                                <rect key="frame" x="619" y="601" width="405" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="405" id="ElB-wI-M0L"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grasshopper_small" translatesAutoresizingMaskIntoConstraints="NO" id="f5l-aT-xxx">
+                                <rect key="frame" x="425" y="650" width="72" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun_001" translatesAutoresizingMaskIntoConstraints="NO" id="fMo-Ha-bzr">
+                                <rect key="frame" x="1032" y="70" width="416" height="291"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="416" id="QVx-e8-1Vl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly1" translatesAutoresizingMaskIntoConstraints="NO" id="F8b-ts-Hec">
+                                <rect key="frame" x="580" y="748" width="43" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee_1" translatesAutoresizingMaskIntoConstraints="NO" id="rrh-5r-c5W">
+                                <rect key="frame" x="455" y="282" width="129" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ladybug-" translatesAutoresizingMaskIntoConstraints="NO" id="pe2-A7-M3p">
+                                <rect key="frame" x="921" y="936" width="97" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-kj-Z6H">
+                                <rect key="frame" x="512" y="432" width="400" height="400"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowerstem" translatesAutoresizingMaskIntoConstraints="NO" id="Eb8-4j-FkO">
+                                <rect key="frame" x="905" y="544" width="103" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="pqL-pO-bxT"/>
+                                    <constraint firstAttribute="width" constant="103" id="prR-d6-7Ho"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower_magenta" translatesAutoresizingMaskIntoConstraints="NO" id="f2e-gc-RT8">
+                                <rect key="frame" x="894" y="531" width="27" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="AfU-sx-gQc"/>
+                                    <constraint firstAttribute="width" constant="27" id="jts-06-1zz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee_2" translatesAutoresizingMaskIntoConstraints="NO" id="BGV-Mw-GUo">
+                                <rect key="frame" x="217" y="337" width="156" height="131"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf0-Dr-aou">
+                                <rect key="frame" x="342" y="20" width="320" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="4W9-uE-D2J"/>
+                                </constraints>
+                                <string key="text">Flower, ladybug,
+butterly and bumble bee, grasshopper jumping
+and cat so free.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bZ-LZ-EPT" userLabel="sunButton">
+                                <rect key="frame" x="726" y="0.0" width="282" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="ow8-Wj-HpP"/>
+                                    <constraint firstAttribute="width" constant="282" id="y5P-20-Pmd"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button" image="sun_328_338_"/>
+                                <connections>
+                                    <action selector="sunButton:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="o3n-m8-ajB"/>
+                                    <action selector="tapSun:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="jWZ-iu-bkY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rqz-R8-pqv" firstAttribute="centerX" secondItem="3G0-na-n8B" secondAttribute="centerX" id="3Gz-vP-mEI"/>
+                            <constraint firstItem="Is3-kx-czu" firstAttribute="bottom" secondItem="Rqz-R8-pqv" secondAttribute="bottom" id="8pZ-mH-6SY"/>
+                            <constraint firstItem="Hf0-Dr-aou" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leading" constant="342" id="9sk-xU-Pem"/>
+                            <constraint firstAttribute="bottom" secondItem="f2e-gc-RT8" secondAttribute="bottom" constant="210" id="EHD-QG-dfc"/>
+                            <constraint firstItem="Eb8-4j-FkO" firstAttribute="centerY" secondItem="PWS-kj-Z6H" secondAttribute="centerY" id="EfD-9D-Ire"/>
+                            <constraint firstAttribute="trailing" secondItem="f2e-gc-RT8" secondAttribute="trailing" constant="103" id="It6-PY-Rhd"/>
+                            <constraint firstItem="3bZ-LZ-EPT" firstAttribute="top" secondItem="Rqz-R8-pqv" secondAttribute="top" id="MTz-bf-PPy"/>
+                            <constraint firstItem="PWS-kj-Z6H" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leading" constant="533" id="Nku-RC-a4l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rrh-5r-c5W" secondAttribute="trailing" constant="420" id="Qas-Qw-bOv"/>
+                            <constraint firstItem="3bZ-LZ-EPT" firstAttribute="leading" secondItem="Hf0-Dr-aou" secondAttribute="trailing" constant="79" id="Ryc-dO-EBI"/>
+                            <constraint firstItem="Is3-kx-czu" firstAttribute="top" secondItem="f2e-gc-RT8" secondAttribute="bottom" constant="43" id="SgI-IU-igX"/>
+                            <constraint firstAttribute="trailing" secondItem="Eb8-4j-FkO" secondAttribute="trailing" constant="16" id="Uz4-VU-jJq"/>
+                            <constraint firstItem="BGV-Mw-GUo" firstAttribute="top" secondItem="Hf0-Dr-aou" secondAttribute="bottom" constant="119" id="Uz5-Fc-TuS"/>
+                            <constraint firstItem="Hf0-Dr-aou" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="top" constant="20" id="XJJ-7M-2Kq"/>
+                            <constraint firstItem="fMo-Ha-bzr" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="topMargin" constant="70" id="dOO-t7-byR"/>
+                            <constraint firstItem="fMo-Ha-bzr" firstAttribute="leading" secondItem="3bZ-LZ-EPT" secondAttribute="trailing" constant="9" id="gaY-Yw-EKy"/>
+                            <constraint firstItem="Is3-kx-czu" firstAttribute="trailing" secondItem="Rqz-R8-pqv" secondAttribute="trailing" id="hMP-qo-6de"/>
+                            <constraint firstAttribute="bottom" secondItem="PWS-kj-Z6H" secondAttribute="bottom" constant="-64" id="hc6-H2-Hs3"/>
+                            <constraint firstItem="rrh-5r-c5W" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="262" id="nxN-BV-t7U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BGV-Mw-GUo" secondAttribute="trailing" constant="631" id="rbI-8T-lOI"/>
+                            <constraint firstItem="BGV-Mw-GUo" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="top" constant="337" id="sW8-D4-Ddk"/>
+                            <constraint firstItem="Rqz-R8-pqv" firstAttribute="centerY" secondItem="3G0-na-n8B" secondAttribute="centerY" id="voI-Vr-LLA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBD-6v-SE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163.4765625" y="101.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_gardenarrive_001_0000_flowers" width="638" height="372"/>
+        <image name="Background_gardenview_006" width="1024" height="768"/>
+        <image name="bee_1" width="129" height="128"/>
+        <image name="bee_2" width="156" height="131"/>
+        <image name="butterfly1" width="43" height="33"/>
+        <image name="cat" width="400" height="400"/>
+        <image name="flower_magenta" width="28" height="28"/>
+        <image name="flowerstem" width="58" height="74"/>
+        <image name="grasshopper_small" width="72" height="75"/>
+        <image name="ladybug-" width="97" height="90"/>
+        <image name="sun_001" width="291" height="291"/>
+        <image name="sun_328_338_" width="329" height="339"/>
+    </resources>
+</document>

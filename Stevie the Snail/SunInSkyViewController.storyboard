@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sun In Sky View Controller-->
+        <scene sceneID="ABv-NB-uMt">
+            <objects>
+                <viewController id="3gE-KI-Mq7" customClass="SunInSkyViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YXL-Hx-Sks"/>
+                        <viewControllerLayoutGuide type="bottom" id="wly-ig-VRM"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bkK-pS-GMy">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="fcF-YB-ena">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-N6-7XF" userLabel="sunButton">
+                                <rect key="frame" x="367" y="205" width="329" height="339"/>
+                                <state key="normal" image="sun_328_338_"/>
+                                <connections>
+                                    <action selector="tapSun:" destination="3gE-KI-Mq7" eventType="touchUpInside" id="txL-r9-9az"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQz-n7-6a9">
+                                <rect key="frame" x="45" y="43" width="345" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In the moring,                                                 the sun was back in the sky,                     saying, "Go! Give it a try!"</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_morning_001" translatesAutoresizingMaskIntoConstraints="NO" id="8iZ-C1-m6t">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8iZ-C1-m6t" firstAttribute="centerY" secondItem="bkK-pS-GMy" secondAttribute="centerY" id="94o-UF-wTM"/>
+                            <constraint firstItem="8iZ-C1-m6t" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="HBa-cb-VDG"/>
+                            <constraint firstAttribute="trailing" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="328" id="IZD-io-SCk"/>
+                            <constraint firstItem="WpT-N6-7XF" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="205" id="RYl-0X-xhD"/>
+                            <constraint firstItem="fcF-YB-ena" firstAttribute="centerY" secondItem="bkK-pS-GMy" secondAttribute="centerY" id="aCN-CK-cnC"/>
+                            <constraint firstItem="fcF-YB-ena" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="vHQ-jR-0CA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KoQ-Ux-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="Background_morning_001" width="1024" height="768"/>
+        <image name="sun_328_338_" width="329" height="339"/>
+    </resources>
+</document>

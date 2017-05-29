@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eme-BB-4ZP">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gardn Close Up2 View Controller-->
+        <scene sceneID="gja-6q-nau">
+            <objects>
+                <viewController id="eme-BB-4ZP" customClass="GardnCloseUp2ViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5ut-a8-ZBr"/>
+                        <viewControllerLayoutGuide type="bottom" id="MqM-B0-tij"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="u70-wv-mph">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="8vo-Jc-FmB">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenview_007-1" translatesAutoresizingMaskIntoConstraints="NO" id="CCX-Kl-56l">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyI-hI-BYB">
+                                <rect key="frame" x="457" y="64" width="390" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Flower, ladybug,                                                     butterfly and bumble bee,                                   grasshopper jumping                                             and cat so free.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grasshopper-1" translatesAutoresizingMaskIntoConstraints="NO" id="KNc-m5-7QP">
+                                <rect key="frame" x="638" y="601" width="209" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8vo-Jc-FmB" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" id="4fs-XB-OPB"/>
+                            <constraint firstItem="8vo-Jc-FmB" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" id="RNU-bU-3qw"/>
+                            <constraint firstItem="CCX-Kl-56l" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" id="ebT-D2-sKZ"/>
+                            <constraint firstItem="CCX-Kl-56l" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" id="kau-cc-jbD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1dg-ER-mh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="Background_gardenview_007-1" width="1024" height="768"/>
+        <image name="grasshopper-1" width="133" height="140"/>
+    </resources>
+</document>

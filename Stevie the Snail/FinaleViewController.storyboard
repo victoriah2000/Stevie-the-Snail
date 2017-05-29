@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lpY-pa-Hzu">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Finale View Controller-->
+        <scene sceneID="QFy-aB-FEH">
+            <objects>
+                <viewController id="lpY-pa-Hzu" customClass="FinaleViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dan-Vb-8aV"/>
+                        <viewControllerLayoutGuide type="bottom" id="FIk-ok-5tz"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="LcV-Qg-Dww">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="Fsk-Ie-2Ud">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_final_002" translatesAutoresizingMaskIntoConstraints="NO" id="kd4-Ri-a1f">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7b-T2-GSM">
+                                <rect key="frame" x="108" y="447" width="426" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The sun in the sky,                                       was happy with glee,                                    and Stevie made a new home,                   under a new tree.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ladyorange" translatesAutoresizingMaskIntoConstraints="NO" id="PWR-f7-OLY">
+                                <rect key="frame" x="654" y="391" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aam-kF-7rN" userLabel="sunButton">
+                                <rect key="frame" x="39" y="63" width="329" height="339"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sun_328_338_"/>
+                                <connections>
+                                    <action selector="sunButton:" destination="lpY-pa-Hzu" eventType="touchUpInside" id="wUu-gv-btu"/>
+                                    <action selector="tapSun:" destination="lpY-pa-Hzu" eventType="touchUpInside" id="lfa-kd-1Cd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fsk-Ie-2Ud" firstAttribute="centerX" secondItem="LcV-Qg-Dww" secondAttribute="centerX" id="MZ3-eD-aao"/>
+                            <constraint firstItem="Fsk-Ie-2Ud" firstAttribute="centerY" secondItem="LcV-Qg-Dww" secondAttribute="centerY" id="Yfu-oL-dgi"/>
+                            <constraint firstItem="kd4-Ri-a1f" firstAttribute="centerY" secondItem="LcV-Qg-Dww" secondAttribute="centerY" id="eHt-sH-mkB"/>
+                            <constraint firstItem="kd4-Ri-a1f" firstAttribute="centerX" secondItem="LcV-Qg-Dww" secondAttribute="centerX" id="jrA-bR-oOP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="orange" destination="PWR-f7-OLY" id="FDQ-a3-9rT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZ9-bV-n5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177.5390625" y="132.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_final_002" width="1024" height="768"/>
+        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="ladyorange" width="75" height="75"/>
+        <image name="sun_328_338_" width="329" height="339"/>
+    </resources>
+</document>

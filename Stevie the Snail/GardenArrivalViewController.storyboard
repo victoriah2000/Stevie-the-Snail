@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1GE-Gh-4XU">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Garden Arrival View Controller-->
+        <scene sceneID="nXt-uk-t1J">
+            <objects>
+                <viewController id="1GE-Gh-4XU" customClass="GardenArrivalViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bAN-mV-mI8"/>
+                        <viewControllerLayoutGuide type="bottom" id="IWI-gi-8Xv"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="kZi-co-YFf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="mQX-Ed-XXT">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background_gardenarrive_002" translatesAutoresizingMaskIntoConstraints="NO" id="tTJ-F2-lbM" userLabel="grass patch">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001_0000_flowers" translatesAutoresizingMaskIntoConstraints="NO" id="bcs-Ha-ocI" userLabel="dirt">
+                                <rect key="frame" x="394" y="396" width="638" height="372"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qa5-Ui-csK">
+                                <rect key="frame" x="47" y="0.0" width="456" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It was about coming out of your shell                and finding your own way.                                     Stevie made it to the garden                                the very next day.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="ImA-ri-j7s">
+                                <rect key="frame" x="47" y="508" width="186" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="hcN-gn-tqW">
+                                <rect key="frame" x="154" y="205" width="105" height="103"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bcs-Ha-ocI" firstAttribute="top" secondItem="kZi-co-YFf" secondAttribute="top" constant="396" id="DUy-br-4bP"/>
+                            <constraint firstItem="hcN-gn-tqW" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leading" constant="154" id="eID-lo-ywA"/>
+                            <constraint firstAttribute="bottom" secondItem="hcN-gn-tqW" secondAttribute="bottom" constant="460" id="gAh-vX-ipr"/>
+                            <constraint firstItem="bcs-Ha-ocI" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leading" constant="394" id="k11-GJ-HDG"/>
+                            <constraint firstItem="mQX-Ed-XXT" firstAttribute="centerX" secondItem="kZi-co-YFf" secondAttribute="centerX" id="n0p-98-Ygl"/>
+                            <constraint firstItem="mQX-Ed-XXT" firstAttribute="centerY" secondItem="kZi-co-YFf" secondAttribute="centerY" id="x0c-cf-TiB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="61y-DZ-MXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="62"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_gardenarrive_001_0000_flowers" width="638" height="372"/>
+        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="Background_gardenarrive_002" width="1024" height="768"/>
+        <image name="Stevie_v1_s7" width="500" height="500"/>
+        <image name="bee2" width="105" height="103"/>
+    </resources>
+</document>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Night View Controller-->
+        <scene sceneID="XOC-ri-52U">
+            <objects>
+                <viewController id="wzZ-TF-O2q" customClass="NightViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lUH-k4-sXe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cdn-Ph-0pw"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="4zW-CI-FBr">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night_001" translatesAutoresizingMaskIntoConstraints="NO" id="0YZ-Wj-kbb">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground_night Image" translatesAutoresizingMaskIntoConstraints="NO" id="Fy7-UY-e0E">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dust" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-Ae-xeA">
+                                <rect key="frame" x="150" y="-2" width="700" height="502"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ID-fZm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="189"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="or0-aS-GDk">
+                                <rect key="frame" x="500" y="0.0" width="600" height="189"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="QOw-hp-YCg">
+                                <rect key="frame" x="212" y="-135" width="774" height="601"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbU-tY-HAg">
+                                <rect key="frame" x="132" y="508" width="493.5" height="118"/>
+                                <string key="text">The sky grew black and full of star,
+this was the scariest moment by far.
+The night was dark and cold out there,
+with bad sounds from who knows where.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
+                                <rect key="frame" x="250" y="0.0" width="600" height="189"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
+                                <rect key="frame" x="775" y="600" width="150" height="124.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
+                                <rect key="frame" x="-12.5" y="-140.5" width="1049" height="1049"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="T4Q-P7-BZ0" secondAttribute="trailing" constant="79" id="30t-uv-EcN"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="QOw-hp-YCg" secondAttribute="bottom" constant="302" id="5to-wD-LYv"/>
+                            <constraint firstItem="OVm-un-UqT" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="BNp-Qq-3d0"/>
+                            <constraint firstItem="Zc9-ID-fZm" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="-20" id="CYp-u0-AvT"/>
+                            <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="FZ7-zC-KxQ"/>
+                            <constraint firstItem="or0-aS-GDk" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="480" id="L5a-9b-Wmh"/>
+                            <constraint firstItem="Fy7-UY-e0E" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="Mds-Tg-lwx"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="or0-aS-GDk" secondAttribute="bottom" constant="579" id="NpO-gX-TS4"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="T4Q-P7-BZ0" secondAttribute="bottom" constant="43.5" id="Shs-4p-qNT"/>
+                            <constraint firstItem="OVm-un-UqT" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Uz1-gp-S7P"/>
+                            <constraint firstItem="Fy7-UY-e0E" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Xul-Zt-pAr"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="tBB-5a-1FT" secondAttribute="bottom" constant="579" id="dxP-B1-h9f"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="4gI-Ae-xeA" secondAttribute="bottom" constant="268" id="fbB-WM-vUF"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="112" id="m0E-pc-mgk"/>
+                            <constraint firstItem="4gI-Ae-xeA" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="130" id="nhr-Wg-LnG"/>
+                            <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="sIY-wd-PAi"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="Zc9-ID-fZm" secondAttribute="bottom" constant="579" id="sc4-sh-HrF"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="142" id="tVz-jm-QMg"/>
+                            <constraint firstItem="QOw-hp-YCg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="192" id="tWZ-cF-a0c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tBB-5a-1FT" secondAttribute="trailing" constant="154" id="uP5-ri-0cQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clouds" destination="QOw-hp-YCg" id="QD5-VC-yKV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GzN-nN-bgK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="94.921875" y="154.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flare_1049" width="1049" height="1049"/>
+        <image name="clouds_700" width="774" height="601"/>
+        <image name="dust" width="700" height="502"/>
+        <image name="ground_night Image" width="1024" height="768"/>
+        <image name="night_001" width="1024" height="768"/>
+        <image name="stars2_600" width="600" height="189"/>
+        <image name="stevie_sad_150" width="147" height="117"/>
+    </resources>
+</document>

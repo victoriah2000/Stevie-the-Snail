@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AB51EC77EBD00F0173F /* GardenCloseUpViewController.swift */; };
+		03CE7ABF1EC77EEB00F0173F /* NightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AB91EC77EEB00F0173F /* NightViewController.swift */; };
+		03CE7AC11EC77EEB00F0173F /* ShellLiftToPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7ABB1EC77EEB00F0173F /* ShellLiftToPathViewController.swift */; };
+		03CE7AC31EC77EEB00F0173F /* SnailCrawlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7ABD1EC77EEB00F0173F /* SnailCrawlViewController.swift */; };
+		03CE7AC61EC78F4C00F0173F /* AppleShotViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AC51EC78F4C00F0173F /* AppleShotViewController.storyboard */; };
+		03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AC71EC7925300F0173F /* ExtTreeWideShotViewController.storyboard */; };
+		03CE7ACA1EC7932400F0173F /* ExtWideAngleToViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AC91EC7932400F0173F /* ExtWideAngleToViewController.storyboard */; };
+		03CE7ACC1EC793A600F0173F /* GardenCloseUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ACB1EC793A600F0173F /* GardenCloseUpViewController.storyboard */; };
+		03CE7ACE1EC7943D00F0173F /* HeartbeatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ACD1EC7943D00F0173F /* HeartbeatViewController.storyboard */; };
+		03CE7AD01EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ACF1EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard */; };
+		03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD11EC794CB00F0173F /* NightViewController.storyboard */; };
+		03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */; };
+		03CE7AD61EC795A100F0173F /* SnailCrawlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD51EC795A100F0173F /* SnailCrawlViewController.storyboard */; };
+		03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */; };
+		03CE7ADA1EC7967800F0173F /* OnTheMoveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */; };
+		03CE7ADC1EC796AE00F0173F /* GardenArrivalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */; };
+		03CE7ADE1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADD1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard */; };
+		03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADF1EC7979A00F0173F /* FinaleViewController.storyboard */; };
+		03CE7AE21EC7980200F0173F /* TheEndViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE11EC7980200F0173F /* TheEndViewController.storyboard */; };
+		03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */; };
+		03CE7AE61EC79F9A00F0173F /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */; };
+		03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE71EC79FE400F0173F /* Main.storyboard */; };
+		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
+		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
+		B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */; };
+		B2FD3AB61E4444E600EA21EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB51E4444E600EA21EE /* ViewController.swift */; };
+		B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FD3AB71E4444E600EA21EE /* TitleViewController.storyboard */; };
+		B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FD3ABC1E4444E600EA21EE /* LaunchScreen.storyboard */; };
+		B2FD3AC91E4444E600EA21EE /* Stevie_the_SnailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AC81E4444E600EA21EE /* Stevie_the_SnailTests.swift */; };
+		B2FD3AD41E4444E600EA21EE /* Stevie_the_SnailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AD31E4444E600EA21EE /* Stevie_the_SnailUITests.swift */; };
+		B2FD3AE31E44464100EA21EE /* AppleShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AE11E44464100EA21EE /* AppleShotViewController.swift */; };
+		B2FD3AE71E44466100EA21EE /* ExtTreeWideShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AE51E44466100EA21EE /* ExtTreeWideShotViewController.swift */; };
+		B2FD3AEB1E44467F00EA21EE /* ExtWideAngleToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AE91E44467F00EA21EE /* ExtWideAngleToViewController.swift */; };
+		B2FD3AF71E44476C00EA21EE /* HeartbeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AF51E44476C00EA21EE /* HeartbeatViewController.swift */; };
+		B2FD3B0D1E44489500EA21EE /* SunInSkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B0B1E44489500EA21EE /* SunInSkyViewController.swift */; };
+		B2FD3B111E4448A800EA21EE /* OnTheMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B0F1E4448A800EA21EE /* OnTheMoveViewController.swift */; };
+		B2FD3B171E444C6B00EA21EE /* GardenArrivalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B151E444C6B00EA21EE /* GardenArrivalViewController.swift */; };
+		B2FD3B1B1E444CF500EA21EE /* GardnCloseUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B191E444CF500EA21EE /* GardnCloseUp2ViewController.swift */; };
+		B2FD3B1F1E444D5100EA21EE /* FinaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B1D1E444D5100EA21EE /* FinaleViewController.swift */; };
+		B2FD3B231E444D6500EA21EE /* TheEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B211E444D6500EA21EE /* TheEndViewController.swift */; };
+		B2FD3B271E444D7D00EA21EE /* TitlesAndCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B251E444D7D00EA21EE /* TitlesAndCreditsViewController.swift */; };
+		B2FD3B2A1E44540100EA21EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FD3B291E44540100EA21EE /* Assets.xcassets */; };
+		B2FD3B471E67E7D200EA21EE /* MainBookNavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3B461E67E7D200EA21EE /* MainBookNavigatorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2FD3AC51E4444E600EA21EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FD3AA81E4444E500EA21EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2FD3AAF1E4444E600EA21EE;
+			remoteInfo = "Stevie the Snail";
+		};
+		B2FD3AD01E4444E600EA21EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FD3AA81E4444E500EA21EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2FD3AAF1E4444E600EA21EE;
+			remoteInfo = "Stevie the Snail";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CE7AB51EC77EBD00F0173F /* GardenCloseUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenCloseUpViewController.swift; sourceTree = "<group>"; };
+		03CE7AB91EC77EEB00F0173F /* NightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightViewController.swift; sourceTree = "<group>"; };
+		03CE7ABB1EC77EEB00F0173F /* ShellLiftToPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellLiftToPathViewController.swift; sourceTree = "<group>"; };
+		03CE7ABD1EC77EEB00F0173F /* SnailCrawlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnailCrawlViewController.swift; sourceTree = "<group>"; };
+		03CE7AC51EC78F4C00F0173F /* AppleShotViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppleShotViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AC71EC7925300F0173F /* ExtTreeWideShotViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExtTreeWideShotViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AC91EC7932400F0173F /* ExtWideAngleToViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExtWideAngleToViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ACB1EC793A600F0173F /* GardenCloseUpViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GardenCloseUpViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ACD1EC7943D00F0173F /* HeartbeatViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeartbeatViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ACF1EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CloseUpTreeToSunViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AD11EC794CB00F0173F /* NightViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NightViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShellLiftToPathViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AD51EC795A100F0173F /* SnailCrawlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SnailCrawlViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SunInSkyViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnTheMoveViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GardenArrivalViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ADD1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GardnCloseUp2ViewController.storyboard; sourceTree = "<group>"; };
+		03CE7ADF1EC7979A00F0173F /* FinaleViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FinaleViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AE11EC7980200F0173F /* TheEndViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TheEndViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TitlesAndCreditsViewController.storyboard; sourceTree = "<group>"; };
+		03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		03CE7AE71EC79FE400F0173F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
+		B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stevie the Snail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2FD3AB51E4444E600EA21EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2FD3AB81E4444E600EA21EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TitleViewController.storyboard; sourceTree = "<group>"; };
+		B2FD3ABD1E4444E600EA21EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2FD3ABF1E4444E600EA21EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FD3AC41E4444E600EA21EE /* Stevie the SnailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stevie the SnailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FD3AC81E4444E600EA21EE /* Stevie_the_SnailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stevie_the_SnailTests.swift; sourceTree = "<group>"; };
+		B2FD3ACA1E4444E600EA21EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FD3ACF1E4444E600EA21EE /* Stevie the SnailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stevie the SnailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FD3AD31E4444E600EA21EE /* Stevie_the_SnailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stevie_the_SnailUITests.swift; sourceTree = "<group>"; };
+		B2FD3AD51E4444E600EA21EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FD3AE11E44464100EA21EE /* AppleShotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleShotViewController.swift; sourceTree = "<group>"; };
+		B2FD3AE51E44466100EA21EE /* ExtTreeWideShotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtTreeWideShotViewController.swift; sourceTree = "<group>"; };
+		B2FD3AE91E44467F00EA21EE /* ExtWideAngleToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtWideAngleToViewController.swift; sourceTree = "<group>"; };
+		B2FD3AF51E44476C00EA21EE /* HeartbeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartbeatViewController.swift; sourceTree = "<group>"; };
+		B2FD3B0B1E44489500EA21EE /* SunInSkyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunInSkyViewController.swift; sourceTree = "<group>"; };
+		B2FD3B0F1E4448A800EA21EE /* OnTheMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMoveViewController.swift; sourceTree = "<group>"; };
+		B2FD3B151E444C6B00EA21EE /* GardenArrivalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenArrivalViewController.swift; sourceTree = "<group>"; };
+		B2FD3B191E444CF500EA21EE /* GardnCloseUp2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardnCloseUp2ViewController.swift; sourceTree = "<group>"; };
+		B2FD3B1D1E444D5100EA21EE /* FinaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinaleViewController.swift; sourceTree = "<group>"; };
+		B2FD3B211E444D6500EA21EE /* TheEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheEndViewController.swift; sourceTree = "<group>"; };
+		B2FD3B251E444D7D00EA21EE /* TitlesAndCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesAndCreditsViewController.swift; sourceTree = "<group>"; };
+		B2FD3B291E44540100EA21EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2FD3B461E67E7D200EA21EE /* MainBookNavigatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBookNavigatorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FD3AAD1E4444E600EA21EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3AC11E4444E600EA21EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3ACC1E4444E600EA21EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2FD3AA71E4444E500EA21EE = {
+			isa = PBXGroup;
+			children = (
+				B2FD3AB21E4444E600EA21EE /* Stevie the Snail */,
+				B2FD3AC71E4444E600EA21EE /* Stevie the SnailTests */,
+				B2FD3AD21E4444E600EA21EE /* Stevie the SnailUITests */,
+				B2FD3AB11E4444E600EA21EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FD3AB11E4444E600EA21EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */,
+				B2FD3AC41E4444E600EA21EE /* Stevie the SnailTests.xctest */,
+				B2FD3ACF1E4444E600EA21EE /* Stevie the SnailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FD3AB21E4444E600EA21EE /* Stevie the Snail */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD3B291E44540100EA21EE /* Assets.xcassets */,
+				B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */,
+				B2FD3AB51E4444E600EA21EE /* ViewController.swift */,
+				B2FD3ABC1E4444E600EA21EE /* LaunchScreen.storyboard */,
+				B2FD3ABF1E4444E600EA21EE /* Info.plist */,
+				B2FD3B461E67E7D200EA21EE /* MainBookNavigatorViewController.swift */,
+				03CE7AE71EC79FE400F0173F /* Main.storyboard */,
+				B2FD3AB71E4444E600EA21EE /* TitleViewController.storyboard */,
+				03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */,
+				B2FD3AE11E44464100EA21EE /* AppleShotViewController.swift */,
+				03CE7AC51EC78F4C00F0173F /* AppleShotViewController.storyboard */,
+				B2FD3AE51E44466100EA21EE /* ExtTreeWideShotViewController.swift */,
+				03CE7AC71EC7925300F0173F /* ExtTreeWideShotViewController.storyboard */,
+				B2FD3AE91E44467F00EA21EE /* ExtWideAngleToViewController.swift */,
+				03CE7AC91EC7932400F0173F /* ExtWideAngleToViewController.storyboard */,
+				03CE7AB51EC77EBD00F0173F /* GardenCloseUpViewController.swift */,
+				03CE7ACB1EC793A600F0173F /* GardenCloseUpViewController.storyboard */,
+				B2FD3AF51E44476C00EA21EE /* HeartbeatViewController.swift */,
+				03CE7ACD1EC7943D00F0173F /* HeartbeatViewController.storyboard */,
+				B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */,
+				03CE7ACF1EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard */,
+				03CE7AB91EC77EEB00F0173F /* NightViewController.swift */,
+				03CE7AD11EC794CB00F0173F /* NightViewController.storyboard */,
+				03CE7ABB1EC77EEB00F0173F /* ShellLiftToPathViewController.swift */,
+				03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */,
+				03CE7ABD1EC77EEB00F0173F /* SnailCrawlViewController.swift */,
+				03CE7AD51EC795A100F0173F /* SnailCrawlViewController.storyboard */,
+				B2FD3B0B1E44489500EA21EE /* SunInSkyViewController.swift */,
+				03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */,
+				B2FD3B0F1E4448A800EA21EE /* OnTheMoveViewController.swift */,
+				03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */,
+				B2FD3B151E444C6B00EA21EE /* GardenArrivalViewController.swift */,
+				03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */,
+				B2FD3B191E444CF500EA21EE /* GardnCloseUp2ViewController.swift */,
+				03CE7ADD1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard */,
+				B2FD3B1D1E444D5100EA21EE /* FinaleViewController.swift */,
+				03CE7ADF1EC7979A00F0173F /* FinaleViewController.storyboard */,
+				B2FD3B211E444D6500EA21EE /* TheEndViewController.swift */,
+				03CE7AE11EC7980200F0173F /* TheEndViewController.storyboard */,
+				B2FD3B251E444D7D00EA21EE /* TitlesAndCreditsViewController.swift */,
+				03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */,
+				B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */,
+			);
+			path = "Stevie the Snail";
+			sourceTree = "<group>";
+		};
+		B2FD3AC71E4444E600EA21EE /* Stevie the SnailTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD3AC81E4444E600EA21EE /* Stevie_the_SnailTests.swift */,
+				B2FD3ACA1E4444E600EA21EE /* Info.plist */,
+			);
+			path = "Stevie the SnailTests";
+			sourceTree = "<group>";
+		};
+		B2FD3AD21E4444E600EA21EE /* Stevie the SnailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2FD3AD31E4444E600EA21EE /* Stevie_the_SnailUITests.swift */,
+				B2FD3AD51E4444E600EA21EE /* Info.plist */,
+			);
+			path = "Stevie the SnailUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FD3AAF1E4444E600EA21EE /* Stevie the Snail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FD3AD81E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the Snail" */;
+			buildPhases = (
+				B2FD3AAC1E4444E600EA21EE /* Sources */,
+				B2FD3AAD1E4444E600EA21EE /* Frameworks */,
+				B2FD3AAE1E4444E600EA21EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stevie the Snail";
+			productName = "Stevie the Snail";
+			productReference = B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2FD3AC31E4444E600EA21EE /* Stevie the SnailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FD3ADB1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailTests" */;
+			buildPhases = (
+				B2FD3AC01E4444E600EA21EE /* Sources */,
+				B2FD3AC11E4444E600EA21EE /* Frameworks */,
+				B2FD3AC21E4444E600EA21EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2FD3AC61E4444E600EA21EE /* PBXTargetDependency */,
+			);
+			name = "Stevie the SnailTests";
+			productName = "Stevie the SnailTests";
+			productReference = B2FD3AC41E4444E600EA21EE /* Stevie the SnailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2FD3ACE1E4444E600EA21EE /* Stevie the SnailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FD3ADE1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailUITests" */;
+			buildPhases = (
+				B2FD3ACB1E4444E600EA21EE /* Sources */,
+				B2FD3ACC1E4444E600EA21EE /* Frameworks */,
+				B2FD3ACD1E4444E600EA21EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2FD3AD11E4444E600EA21EE /* PBXTargetDependency */,
+			);
+			name = "Stevie the SnailUITests";
+			productName = "Stevie the SnailUITests";
+			productReference = B2FD3ACF1E4444E600EA21EE /* Stevie the SnailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FD3AA81E4444E500EA21EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victoria Heric";
+				TargetAttributes = {
+					B2FD3AAF1E4444E600EA21EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 249REVVXPG;
+						ProvisioningStyle = Automatic;
+					};
+					B2FD3AC31E4444E600EA21EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 249REVVXPG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2FD3AAF1E4444E600EA21EE;
+					};
+					B2FD3ACE1E4444E600EA21EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 249REVVXPG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2FD3AAF1E4444E600EA21EE;
+					};
+				};
+			};
+			buildConfigurationList = B2FD3AAB1E4444E500EA21EE /* Build configuration list for PBXProject "Stevie the Snail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2FD3AA71E4444E500EA21EE;
+			productRefGroup = B2FD3AB11E4444E600EA21EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FD3AAF1E4444E600EA21EE /* Stevie the Snail */,
+				B2FD3AC31E4444E600EA21EE /* Stevie the SnailTests */,
+				B2FD3ACE1E4444E600EA21EE /* Stevie the SnailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FD3AAE1E4444E600EA21EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CE7ACC1EC793A600F0173F /* GardenCloseUpViewController.storyboard in Resources */,
+				03CE7AD61EC795A100F0173F /* SnailCrawlViewController.storyboard in Resources */,
+				B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */,
+				B2FD3B2A1E44540100EA21EE /* Assets.xcassets in Resources */,
+				03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */,
+				03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */,
+				03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */,
+				B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */,
+				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
+				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
+				03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */,
+				03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */,
+				03CE7AC61EC78F4C00F0173F /* AppleShotViewController.storyboard in Resources */,
+				03CE7ADE1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard in Resources */,
+				03CE7AD01EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard in Resources */,
+				03CE7ACE1EC7943D00F0173F /* HeartbeatViewController.storyboard in Resources */,
+				03CE7ADA1EC7967800F0173F /* OnTheMoveViewController.storyboard in Resources */,
+				03CE7ACA1EC7932400F0173F /* ExtWideAngleToViewController.storyboard in Resources */,
+				03CE7AE21EC7980200F0173F /* TheEndViewController.storyboard in Resources */,
+				03CE7ADC1EC796AE00F0173F /* GardenArrivalViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3AC21E4444E600EA21EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3ACD1E4444E600EA21EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FD3AAC1E4444E600EA21EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FD3AF71E44476C00EA21EE /* HeartbeatViewController.swift in Sources */,
+				B2FD3B471E67E7D200EA21EE /* MainBookNavigatorViewController.swift in Sources */,
+				03CE7AC11EC77EEB00F0173F /* ShellLiftToPathViewController.swift in Sources */,
+				B2FD3B1F1E444D5100EA21EE /* FinaleViewController.swift in Sources */,
+				B2FD3B111E4448A800EA21EE /* OnTheMoveViewController.swift in Sources */,
+				B2FD3AB61E4444E600EA21EE /* ViewController.swift in Sources */,
+				03CE7AC31EC77EEB00F0173F /* SnailCrawlViewController.swift in Sources */,
+				B2FD3B1B1E444CF500EA21EE /* GardnCloseUp2ViewController.swift in Sources */,
+				B2FD3AE71E44466100EA21EE /* ExtTreeWideShotViewController.swift in Sources */,
+				03CE7ABF1EC77EEB00F0173F /* NightViewController.swift in Sources */,
+				B2FD3AEB1E44467F00EA21EE /* ExtWideAngleToViewController.swift in Sources */,
+				B2FD3B171E444C6B00EA21EE /* GardenArrivalViewController.swift in Sources */,
+				B2FD3AE31E44464100EA21EE /* AppleShotViewController.swift in Sources */,
+				B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */,
+				B2FD3B271E444D7D00EA21EE /* TitlesAndCreditsViewController.swift in Sources */,
+				03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */,
+				B2FD3B231E444D6500EA21EE /* TheEndViewController.swift in Sources */,
+				B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */,
+				B2FD3B0D1E44489500EA21EE /* SunInSkyViewController.swift in Sources */,
+				03CE7AE61EC79F9A00F0173F /* TitleViewController.swift in Sources */,
+				B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3AC01E4444E600EA21EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FD3AC91E4444E600EA21EE /* Stevie_the_SnailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FD3ACB1E4444E600EA21EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FD3AD41E4444E600EA21EE /* Stevie_the_SnailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2FD3AC61E4444E600EA21EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2FD3AAF1E4444E600EA21EE /* Stevie the Snail */;
+			targetProxy = B2FD3AC51E4444E600EA21EE /* PBXContainerItemProxy */;
+		};
+		B2FD3AD11E4444E600EA21EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2FD3AAF1E4444E600EA21EE /* Stevie the Snail */;
+			targetProxy = B2FD3AD01E4444E600EA21EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2FD3AB71E4444E600EA21EE /* TitleViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FD3AB81E4444E600EA21EE /* Base */,
+			);
+			name = TitleViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		B2FD3ABC1E4444E600EA21EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FD3ABD1E4444E600EA21EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2FD3AD61E4444E600EA21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B2FD3AD71E4444E600EA21EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FD3AD91E4444E600EA21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the Snail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2FD3ADA1E4444E600EA21EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the Snail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B2FD3ADC1E4444E600EA21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the SnailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stevie the Snail.app/Stevie the Snail";
+			};
+			name = Debug;
+		};
+		B2FD3ADD1E4444E600EA21EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the SnailTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stevie the Snail.app/Stevie the Snail";
+			};
+			name = Release;
+		};
+		B2FD3ADF1E4444E600EA21EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the SnailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Stevie the Snail";
+			};
+			name = Debug;
+		};
+		B2FD3AE01E4444E600EA21EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 249REVVXPG;
+				INFOPLIST_FILE = "Stevie the SnailUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Stevie the Snail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FD3AAB1E4444E500EA21EE /* Build configuration list for PBXProject "Stevie the Snail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FD3AD61E4444E600EA21EE /* Debug */,
+				B2FD3AD71E4444E600EA21EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FD3AD81E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the Snail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FD3AD91E4444E600EA21EE /* Debug */,
+				B2FD3ADA1E4444E600EA21EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FD3ADB1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FD3ADC1E4444E600EA21EE /* Debug */,
+				B2FD3ADD1E4444E600EA21EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FD3ADE1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FD3ADF1E4444E600EA21EE /* Debug */,
+				B2FD3AE01E4444E600EA21EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FD3AA81E4444E500EA21EE /* Project object */;
+}

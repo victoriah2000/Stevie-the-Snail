@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TaF-zM-9hF">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Heartbeat View Controller-->
+        <scene sceneID="sKL-IT-MMP">
+            <objects>
+                <viewController id="TaF-zM-9hF" customClass="HeartbeatViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xbb-h9-cPQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="zwt-Cd-oPe"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6yC-79-fZn">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_sad_001-1" translatesAutoresizingMaskIntoConstraints="NO" id="OV7-Yx-q0O">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqw-Pq-9uM">
+                                <rect key="frame" x="418" y="53" width="265" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="5PR-TR-KTr"/>
+                                    <constraint firstAttribute="height" constant="164" id="kOz-49-FJ4"/>
+                                </constraints>
+                                <string key="text">Snails are slow. 
+Snails are not smart. 
+To feel it was so hard 
+hurt Stevie's heart.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart_1" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-js-zQ2">
+                                <rect key="frame" x="593" y="653" width="113" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="afJ-qd-Zhc"/>
+                                    <constraint firstAttribute="height" constant="95" id="n0D-lQ-dgc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1K3-js-zQ2" secondAttribute="bottom" constant="-11" id="AFp-Fx-WJv"/>
+                            <constraint firstItem="OV7-Yx-q0O" firstAttribute="centerY" secondItem="6yC-79-fZn" secondAttribute="centerY" id="FaD-c8-cWD"/>
+                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="top" secondItem="6yC-79-fZn" secondAttribute="top" constant="53" id="JjQ-Mv-Lcx"/>
+                            <constraint firstItem="1K3-js-zQ2" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leading" constant="589" id="UCb-8o-tGZ"/>
+                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leading" constant="418" id="VZT-b6-36e"/>
+                            <constraint firstItem="OV7-Yx-q0O" firstAttribute="centerX" secondItem="6yC-79-fZn" secondAttribute="centerX" id="mnO-Rc-TSy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heartBeat" destination="1K3-js-zQ2" id="0le-Tf-CkG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IZv-wk-ooi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background_sad_001-1" width="1024" height="768"/>
+        <image name="heart_1" width="219" height="187"/>
+    </resources>
+</document>
