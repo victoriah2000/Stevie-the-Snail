@@ -314,13 +314,115 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/GardenCloseUpViewController.swift"
-            timestampString = "517375236.190217"
+            timestampString = "517883268.227964"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "tapGrasshopper(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stevie the Snail/GardenCloseUpViewController.swift"
+            timestampString = "517884493.062549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "longPress(_:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stevie the Snail/GardenCloseUpViewController.swift"
+            timestampString = "517883870.213313"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "GardenCloseUpViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stevie_the_Snail.GardenCloseUpViewController.ButterflyEffect.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;__ObjC.UIImageView&gt;&gt;"
+                  moduleName = "Stevie the Snail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victoriaheric/Documents/Apps/Develop/Stevie%20the%20Snail/Stevie%20the%20Snail/GardenCloseUpViewController.swift"
+                  timestampString = "517884375.258342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stevie_the_Snail.GardenCloseUpViewController.ButterflyEffect.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;__ObjC.UIImageView&gt;&gt;"
+                  moduleName = "Stevie the Snail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victoriaheric/Documents/Apps/Develop/Stevie%20the%20Snail/Stevie%20the%20Snail/GardenCloseUpViewController.swift"
+                  timestampString = "517884375.261879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stevie_the_Snail.GardenCloseUpViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Stevie_the_Snail.GardenCloseUpViewController"
+                  moduleName = "Stevie the Snail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victoriaheric/Documents/Apps/Develop/Stevie%20the%20Snail/Stevie%20the%20Snail/GardenCloseUpViewController.swift"
+                  timestampString = "517884375.266164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stevie_the_Snail.GardenCloseUpViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Stevie_the_Snail.GardenCloseUpViewController&gt;"
+                  moduleName = "Stevie the Snail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victoriaheric/Documents/Apps/Develop/Stevie%20the%20Snail/Stevie%20the%20Snail/GardenCloseUpViewController.swift"
+                  timestampString = "517884375.27141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
