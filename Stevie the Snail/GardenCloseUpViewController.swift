@@ -12,20 +12,7 @@ class GardenCloseUpViewController: UIViewController {
 
     @IBOutlet var ButterflyEffect: [UIImageView]!
     @IBOutlet var grasshopperJump: UIImageView!
-    
-    
-    @IBAction func tapGrasshopper(_ sender: Any) {
-        UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseOut], animations: {
-            self.grasshopperJump.transform = CGAffineTransform(translationX: 0, y: -3*self.grasshopperJump.bounds.size.height)
-        }, completion: { _ in
-            UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseIn], animations: {
-                self.grasshopperJump.transform = .identity
-            }, completion: { _ in
-                
-            })
-        })
-        
-    }
+
     
     // MARK: Variables
     var animator: UIDynamicAnimator!
@@ -59,7 +46,14 @@ class GardenCloseUpViewController: UIViewController {
     
     deinit {
     }
+    
     @IBAction func longPress(_ recognizer: UILongPressGestureRecognizer) {
+        guard !grasshopperJump.bounds.contains( recognizer.location(in: grasshopperJump))else {
+            tapGrasshopper(recognizer)
+            recognizer.isEnabled = false
+            recognizer.isEnabled = true
+            return
+        }
         switch recognizer.state {
         case .began:
             let gravity = UIFieldBehavior.radialGravityField(position: recognizer.location(in: view))
@@ -79,6 +73,18 @@ class GardenCloseUpViewController: UIViewController {
         default:
             break
         }
+        
+    }
+    @IBAction func tapGrasshopper(_ sender: Any) {
+        UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseOut], animations: {
+            self.grasshopperJump.transform = CGAffineTransform(translationX: 0, y: -3*self.grasshopperJump.bounds.size.height)
+        }, completion: { _ in
+            UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseIn], animations: {
+                self.grasshopperJump.transform = .identity
+            }, completion: { _ in
+                
+            })
+        })
         
     }
   

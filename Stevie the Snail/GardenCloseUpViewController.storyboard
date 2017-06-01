@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="RCY-er-qyh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky" translatesAutoresizingMaskIntoConstraints="NO" id="RCY-er-qyh">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdI-fM-shR">
@@ -98,6 +98,9 @@ but going was the hard part. </string>
                             <constraint firstItem="2Qf-6e-ipE" firstAttribute="centerX" secondItem="xuz-U5-fIe" secondAttribute="centerX" id="x1A-dD-Whf"/>
                             <constraint firstItem="RCY-er-qyh" firstAttribute="centerY" secondItem="xuz-U5-fIe" secondAttribute="centerY" id="xTQ-tu-xEy"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="o9Q-T9-RU1" appends="YES" id="may-sz-Dkj"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="grasshopperJump" destination="0L2-DI-dXe" id="uiy-S7-g2s"/>
@@ -115,12 +118,17 @@ but going was the hard part. </string>
                         <action selector="tapGrasshopper:" destination="cPa-y6-J17" id="Zmu-bc-mEq"/>
                     </connections>
                 </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.0" id="o9Q-T9-RU1">
+                    <connections>
+                        <action selector="longPress:" destination="cPa-y6-J17" id="9nN-ku-ELk"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-86.1328125" y="134.375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="bluesky" width="1024" height="768"/>
         <image name="butterfly_d" width="165" height="148"/>
         <image name="butterfly_f" width="61" height="56"/>
         <image name="butterfly_g" width="70" height="67"/>

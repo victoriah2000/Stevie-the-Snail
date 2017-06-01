@@ -29,6 +29,8 @@
 		03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */; };
 		03CE7AE61EC79F9A00F0173F /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */; };
 		03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE71EC79FE400F0173F /* Main.storyboard */; };
+		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
+		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
 		B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */; };
@@ -92,6 +94,8 @@
 		03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TitlesAndCreditsViewController.storyboard; sourceTree = "<group>"; };
 		03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		03CE7AE71EC79FE400F0173F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
+		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
 		B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stevie the Snail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +173,8 @@
 		B2FD3AB21E4444E600EA21EE /* Stevie the Snail */ = {
 			isa = PBXGroup;
 			children = (
+				B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */,
+				B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */,
 				B2FD3B291E44540100EA21EE /* Assets.xcassets */,
 				B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */,
 				B2FD3AB51E4444E600EA21EE /* ViewController.swift */,
@@ -343,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */,
 				03CE7ACC1EC793A600F0173F /* GardenCloseUpViewController.storyboard in Resources */,
 				03CE7AD61EC795A100F0173F /* SnailCrawlViewController.storyboard in Resources */,
 				B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */,
@@ -401,6 +408,7 @@
 				B2FD3B171E444C6B00EA21EE /* GardenArrivalViewController.swift in Sources */,
 				B2FD3AE31E44464100EA21EE /* AppleShotViewController.swift in Sources */,
 				B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */,
+				B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */,
 				B2FD3B271E444D7D00EA21EE /* TitlesAndCreditsViewController.swift in Sources */,
 				03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */,
 				B2FD3B231E444D6500EA21EE /* TheEndViewController.swift in Sources */,

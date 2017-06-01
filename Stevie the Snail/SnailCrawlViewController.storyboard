@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gtl-3Z-mC1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gtl-3Z-mC1">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="tKp-RV-6vt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky" translatesAutoresizingMaskIntoConstraints="NO" id="tKp-RV-6vt">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_dirt_001" translatesAutoresizingMaskIntoConstraints="NO" id="lqc-Zu-QCK">
@@ -83,9 +83,9 @@ went whizzing right past!</string>
     </scenes>
     <resources>
         <image name="Background_dirt_001" width="1024" height="768"/>
-        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
         <image name="Stevie_v1_s7" width="500" height="500"/>
         <image name="bee2" width="105" height="103"/>
+        <image name="bluesky" width="1024" height="768"/>
         <image name="ladybug" width="82" height="93"/>
         <image name="mosquito1" width="500" height="500"/>
     </resources>

@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background_gardenarrive_001a" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -37,8 +37,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_d" translatesAutoresizingMaskIntoConstraints="NO" id="bOW-qm-e5e">
+                                <rect key="frame" x="115" y="135" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="Y99-JP-gXL">
+                                <rect key="frame" x="736" y="189" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grasshopper-1" translatesAutoresizingMaskIntoConstraints="NO" id="JX0-g6-zTZ">
                                 <rect key="frame" x="540" y="641" width="133" height="140"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hYO-3a-oku" appends="YES" id="4OM-hr-HKF"/>
+                                </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-OD-r1f">
                                 <rect key="frame" x="434" y="552" width="319" height="329"/>
@@ -47,21 +58,41 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VFW-OD-r1f" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="414" id="DFE-IP-hcq"/>
+                            <constraint firstItem="VFW-OD-r1f" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="532" id="YJa-nj-Ldh"/>
                             <constraint firstItem="CCX-Kl-56l" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" constant="168.5" id="ebT-D2-sKZ"/>
-                            <constraint firstItem="JX0-g6-zTZ" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="621" id="kHb-Ug-c4U"/>
                             <constraint firstItem="CCX-Kl-56l" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" constant="4" id="kau-cc-jbD"/>
-                            <constraint firstItem="VFW-OD-r1f" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="532" id="loN-8C-lT9"/>
+                            <constraint firstItem="JX0-g6-zTZ" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="621" id="ltu-L4-ScZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JX0-g6-zTZ" secondAttribute="trailing" constant="331" id="rZp-ar-T23"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Ucz-rg-jnT" appends="YES" id="7EE-1w-c9X"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="grasshopperJump" destination="JX0-g6-zTZ" id="krX-J8-aoJ"/>
+                        <outletCollection property="butterflyEffect" destination="Y99-JP-gXL" collectionClass="NSMutableArray" id="XjI-r2-JBv"/>
+                        <outletCollection property="butterflyEffect" destination="bOW-qm-e5e" collectionClass="NSMutableArray" id="Dm3-pm-qva"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1dg-ER-mh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hYO-3a-oku">
+                    <connections>
+                        <action selector="tapGrasshopper:" destination="eme-BB-4ZP" id="BEG-CF-svz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer cancelsTouchesInView="NO" allowableMovement="10" minimumPressDuration="0.0" id="Ucz-rg-jnT">
+                    <connections>
+                        <action selector="longPress:" destination="eme-BB-4ZP" id="id8-Na-3pI"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="159" y="132"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background_gardenarrive_001a" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024" height="768"/>
+        <image name="butterfly_d" width="165" height="148"/>
+        <image name="butterly_e" width="51" height="46"/>
         <image name="garden_closeup_1200" width="1200" height="455"/>
         <image name="grass_strands" width="319" height="329"/>
         <image name="grasshopper-1" width="133" height="140"/>

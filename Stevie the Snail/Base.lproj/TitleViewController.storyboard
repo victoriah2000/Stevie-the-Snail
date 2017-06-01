@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,9 +25,20 @@
                                 <rect key="frame" x="-1" y="0.0" width="1024" height="773"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-6c-F7c">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="565"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eq4-6c-F7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Af4-GX-mS2"/>
+                            <constraint firstItem="eq4-6c-F7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Xyk-DV-ZvE"/>
+                            <constraint firstItem="eq4-6c-F7c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lBH-TZ-94M"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="rainbowImageView" destination="eq4-6c-F7c" id="Uu6-gh-Jl6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,5 +47,6 @@
     </scenes>
     <resources>
         <image name="Launch_image2" width="1024" height="768"/>
+        <image name="rainbow" width="1129" height="565"/>
     </resources>
 </document>
