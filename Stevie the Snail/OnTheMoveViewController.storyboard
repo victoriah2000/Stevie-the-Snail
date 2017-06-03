@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky" translatesAutoresizingMaskIntoConstraints="NO" id="Jsq-JQ-Mgx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="Jsq-JQ-Mgx">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mosquito1" translatesAutoresizingMaskIntoConstraints="NO" id="YHK-c9-48v">
@@ -30,9 +30,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_dirt_002" translatesAutoresizingMaskIntoConstraints="NO" id="QIe-ET-3Zm">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="NW9-R3-eMh">
-                                <rect key="frame" x="824" y="100" width="105" height="103"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsG-s0-LTM">
                                 <rect key="frame" x="60" y="45" width="466" height="213"/>
@@ -46,18 +43,11 @@
                                 <rect key="frame" x="34" y="518" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="dsj-I2-tcK">
-                                <rect key="frame" x="559" y="313" width="105" height="103"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QIe-ET-3Zm" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="7Ky-y4-xhy"/>
                             <constraint firstItem="QIe-ET-3Zm" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="86Q-j5-4mO"/>
-                            <constraint firstItem="dsj-I2-tcK" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leading" constant="134" id="Bus-EW-M5K"/>
-                            <constraint firstAttribute="trailing" secondItem="NW9-R3-eMh" secondAttribute="trailing" constant="95" id="Jn2-oW-ggm"/>
-                            <constraint firstItem="dsj-I2-tcK" firstAttribute="top" secondItem="ctM-IO-aPv" secondAttribute="top" constant="202" id="bkC-Ke-HAf"/>
-                            <constraint firstItem="NW9-R3-eMh" firstAttribute="top" secondItem="ctM-IO-aPv" secondAttribute="top" constant="100" id="fa3-9P-J5H"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="hxd-CI-jKZ"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="lIB-3l-vpT"/>
                         </constraints>
@@ -71,8 +61,7 @@
     <resources>
         <image name="Background_dirt_002" width="1024" height="768"/>
         <image name="Stevie_v1_s7" width="500" height="500"/>
-        <image name="bee2" width="105" height="103"/>
-        <image name="bluesky" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024" height="768"/>
         <image name="mosquito1" width="500" height="500"/>
     </resources>
 </document>

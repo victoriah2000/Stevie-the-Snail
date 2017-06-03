@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,8 +37,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="or0-aS-GDk">
                                 <rect key="frame" x="500" y="0.0" width="600" height="189"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="QOw-hp-YCg">
-                                <rect key="frame" x="212" y="-135" width="774" height="601"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_strings" translatesAutoresizingMaskIntoConstraints="NO" id="QOw-hp-YCg">
+                                <rect key="frame" x="212" y="-210" width="600" height="676"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbU-tY-HAg">
                                 <rect key="frame" x="132" y="508" width="493.5" height="118"/>
@@ -54,8 +54,8 @@ with bad sounds from who knows where.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
                                 <rect key="frame" x="250" y="0.0" width="600" height="189"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
-                                <rect key="frame" x="775" y="600" width="150" height="124.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
+                                <rect key="frame" x="778" y="607.5" width="147" height="117"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
                                 <rect key="frame" x="-12.5" y="-140.5" width="1049" height="1049"/>
@@ -87,6 +87,9 @@ with bad sounds from who knows where.</string>
                     </view>
                     <connections>
                         <outlet property="clouds" destination="QOw-hp-YCg" id="QD5-VC-yKV"/>
+                        <outlet property="stars1" destination="Zc9-ID-fZm" id="9N3-M0-eEt"/>
+                        <outlet property="stars2" destination="or0-aS-GDk" id="K4m-s1-DiD"/>
+                        <outlet property="stars3" destination="tBB-5a-1FT" id="UgA-JL-I6H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GzN-nN-bgK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -96,7 +99,7 @@ with bad sounds from who knows where.</string>
     </scenes>
     <resources>
         <image name="Flare_1049" width="1049" height="1049"/>
-        <image name="clouds_700" width="774" height="601"/>
+        <image name="cloud_strings" width="600" height="676"/>
         <image name="dust" width="700" height="502"/>
         <image name="ground_night Image" width="1024" height="768"/>
         <image name="night_001" width="1024" height="768"/>

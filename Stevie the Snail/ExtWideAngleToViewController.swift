@@ -9,6 +9,7 @@
 import UIKit
 
 class ExtWideAngleToViewController: UIViewController {
+    
     @IBOutlet var beeFly: BeeAnimationView!
     
     override func viewDidLoad() {
@@ -21,12 +22,29 @@ class ExtWideAngleToViewController: UIViewController {
             self.fly()
         }
     }
-    
-    @IBOutlet var grasshopperJump: UIImageView!
-    @IBAction func sunButton(_ sender: UIButton) {
+
+
+    @IBAction func daisyFace(_ sender: UIButton) {
     }
+   
+    @IBOutlet var grasshopperJump: UIImageView!
+    @IBAction func sunButton(_ sender: UIButton)
+    
+    {
+    }
+ 
     
     @IBAction func tapSun(_ sender: UIButton) {
+        let animation = CABasicAnimation(keyPath: "transform.rotation.z")
+        animation.toValue = 2 * CGFloat.pi
+        animation.isCumulative = true
+        animation.duration = 0.5
+        sender.layer.add(animation, forKey: "spin")
+        
+    }
+    
+    
+    @IBAction func tapDaisy(_ sender: UIButton) {
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true

@@ -28,9 +28,60 @@
                                     <constraint firstAttribute="height" constant="768" id="6sH-VK-9Dh"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="rg7-pu-jEu">
-                                <rect key="frame" x="0.0" y="642" width="1024" height="129"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greengrass243_103" translatesAutoresizingMaskIntoConstraints="NO" id="x27-Qn-o1h">
+                                <rect key="frame" x="56" y="611" width="244" height="118"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flowerstem" translatesAutoresizingMaskIntoConstraints="NO" id="Eb8-4j-FkO">
+                                <rect key="frame" x="830" y="506" width="107" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greengrass243_103" translatesAutoresizingMaskIntoConstraints="NO" id="jbx-Ze-J3l">
+                                <rect key="frame" x="253" y="611" width="244" height="118"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greengrass243_103" translatesAutoresizingMaskIntoConstraints="NO" id="1Ff-PX-OqU">
+                                <rect key="frame" x="451" y="611" width="244" height="118"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTn-3f-95g" userLabel="daisyFace">
+                                <rect key="frame" x="764" y="396" width="151" height="145"/>
+                                <state key="normal" image="daisy_face_tilt"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="daisyFace:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="hBK-mr-H9B"/>
+                                    <action selector="tapDaisy:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="8HJ-HP-hMm"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="rg7-pu-jEu">
+                                <rect key="frame" x="0.0" y="642" width="1024" height="129"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garden_1108_359" translatesAutoresizingMaskIntoConstraints="NO" id="ije-as-Gs2">
+                                <rect key="frame" x="554" y="476" width="541" height="369"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bZ-LZ-EPT" userLabel="sunButton">
                                 <rect key="frame" x="726" y="0.0" width="282" height="280"/>
@@ -51,10 +102,10 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                                        <point key="value" x="3" y="3"/>
+                                        <point key="value" x="1" y="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="3"/>
+                                        <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -62,18 +113,6 @@
                                     <action selector="tapSun:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="jWZ-iu-bkY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="grasspatch_300_113" translatesAutoresizingMaskIntoConstraints="NO" id="oSB-Na-dMF">
-                                <rect key="frame" x="699" y="614" width="300" height="113"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="405" id="UbZ-Js-vMT"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="grasspatch_300_113" translatesAutoresizingMaskIntoConstraints="NO" id="Is3-kx-czu">
-                                <rect key="frame" x="768" y="658" width="300" height="113"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="405" id="ElB-wI-M0L"/>
-                                </constraints>
-                            </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grasshopper_small" translatesAutoresizingMaskIntoConstraints="NO" id="f5l-aT-xxx">
                                 <rect key="frame" x="425" y="660" width="72" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -95,43 +134,22 @@
                                     <outletCollection property="gestureRecognizers" destination="eFX-mo-u88" appends="YES" id="oK9-df-XjP"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun_001" translatesAutoresizingMaskIntoConstraints="NO" id="fMo-Ha-bzr">
-                                <rect key="frame" x="1032" y="70" width="416" height="291"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="416" id="QVx-e8-1Vl"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_b" translatesAutoresizingMaskIntoConstraints="NO" id="F8b-ts-Hec">
                                 <rect key="frame" x="200" y="50" width="43" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ladybug-" translatesAutoresizingMaskIntoConstraints="NO" id="pe2-A7-M3p">
-                                <rect key="frame" x="921" y="936" width="97" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-kj-Z6H">
-                                <rect key="frame" x="588" y="599.5" width="250" height="132"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowerstem" translatesAutoresizingMaskIntoConstraints="NO" id="Eb8-4j-FkO">
-                                <rect key="frame" x="905" y="677.5" width="103" height="177"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ladybug-" translatesAutoresizingMaskIntoConstraints="NO" id="pe2-A7-M3p">
+                                <rect key="frame" x="921" y="796" width="97" height="12"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="177" id="pqL-pO-bxT"/>
-                                    <constraint firstAttribute="width" constant="103" id="prR-d6-7Ho"/>
+                                    <constraint firstAttribute="height" constant="12" id="t3Q-uB-1hV"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dust" translatesAutoresizingMaskIntoConstraints="NO" id="7IG-I3-fQp">
                                 <rect key="frame" x="159" y="-8" width="687" height="447"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="flower_largedaisy" translatesAutoresizingMaskIntoConstraints="NO" id="f2e-gc-RT8">
-                                <rect key="frame" x="833" y="552" width="95" height="95"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="AfU-sx-gQc"/>
-                                    <constraint firstAttribute="width" constant="27" id="jts-06-1zz"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clouds_600_465" translatesAutoresizingMaskIntoConstraints="NO" id="nhb-hc-rdp">
-                                <rect key="frame" x="144" y="0.0" width="600" height="465"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud_strings" translatesAutoresizingMaskIntoConstraints="NO" id="nhb-hc-rdp">
+                                <rect key="frame" x="144" y="-225" width="600" height="675"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf0-Dr-aou">
@@ -147,46 +165,90 @@ and cat so free.</string>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appletree_678_538" translatesAutoresizingMaskIntoConstraints="NO" id="2Gq-lM-npj">
-                                <rect key="frame" x="-267" y="70" width="588" height="675"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="9cL-2s-WVU">
+                                <rect key="frame" x="84" y="657" width="33" height="30"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_look" translatesAutoresizingMaskIntoConstraints="NO" id="IeC-1m-7VI">
-                                <rect key="frame" x="-5" y="684" width="75" height="60"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appletree_678_538" translatesAutoresizingMaskIntoConstraints="NO" id="2Gq-lM-npj">
+                                <rect key="frame" x="-267" y="70" width="538" height="675"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-xJ-o3b">
+                                <rect key="frame" x="163" y="632" width="51" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="9P7-Pf-e0l"/>
+                                    <constraint firstAttribute="height" constant="47" id="vVw-RN-NrY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_look" translatesAutoresizingMaskIntoConstraints="NO" id="IeC-1m-7VI">
+                                <rect key="frame" x="20" y="692" width="83" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="yIL-xv-f5C"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="sE5-Av-gmr">
+                                <rect key="frame" x="325" y="619" width="315" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXe-nA-nID" customClass="BeeAnimationView" customModule="Stevie_the_Snail" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <rect key="frame" x="20" y="70" width="984" height="628"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="WA2-7A-6M2" firstAttribute="top" secondItem="eJD-xJ-o3b" secondAttribute="bottom" constant="89" id="1YX-K2-2i2"/>
                             <constraint firstItem="Rqz-R8-pqv" firstAttribute="centerX" secondItem="3G0-na-n8B" secondAttribute="centerX" id="3Gz-vP-mEI"/>
-                            <constraint firstItem="Is3-kx-czu" firstAttribute="bottom" secondItem="Rqz-R8-pqv" secondAttribute="bottom" id="8pZ-mH-6SY"/>
+                            <constraint firstItem="ije-as-Gs2" firstAttribute="width" secondItem="3G0-na-n8B" secondAttribute="width" constant="-483" id="3wi-pY-JRT"/>
+                            <constraint firstItem="ije-as-Gs2" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leadingMargin" constant="534" id="8zP-0Y-2CR"/>
+                            <constraint firstItem="IeC-1m-7VI" firstAttribute="top" secondItem="9cL-2s-WVU" secondAttribute="bottom" constant="5" id="901-Da-T93"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pe2-A7-M3p" secondAttribute="trailing" constant="-14" id="9f8-d7-ZIA"/>
                             <constraint firstItem="Hf0-Dr-aou" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leading" constant="342" id="9sk-xU-Pem"/>
-                            <constraint firstAttribute="bottom" secondItem="f2e-gc-RT8" secondAttribute="bottom" constant="210" id="EHD-QG-dfc"/>
-                            <constraint firstItem="Eb8-4j-FkO" firstAttribute="centerY" secondItem="PWS-kj-Z6H" secondAttribute="centerY" constant="100.25" id="EfD-9D-Ire"/>
-                            <constraint firstAttribute="trailing" secondItem="f2e-gc-RT8" secondAttribute="trailing" constant="103" id="It6-PY-Rhd"/>
+                            <constraint firstItem="jbx-Ze-J3l" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="591" id="BGh-Le-EnR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jbx-Ze-J3l" secondAttribute="trailing" constant="507" id="CAY-6K-ZNN"/>
+                            <constraint firstItem="x27-Qn-o1h" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="591" id="CEy-4N-ZFE"/>
+                            <constraint firstItem="WA2-7A-6M2" firstAttribute="top" secondItem="TTn-3f-95g" secondAttribute="bottom" constant="227" id="FGz-xq-ljN"/>
+                            <constraint firstItem="9cL-2s-WVU" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leadingMargin" constant="64" id="GSg-R5-BEz"/>
+                            <constraint firstItem="WA2-7A-6M2" firstAttribute="top" secondItem="IeC-1m-7VI" secondAttribute="bottom" constant="11" id="GyD-4l-yvG"/>
+                            <constraint firstItem="IeC-1m-7VI" firstAttribute="leading" secondItem="xXe-nA-nID" secondAttribute="leading" id="H0o-E1-bYG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Ff-PX-OqU" secondAttribute="trailing" constant="309" id="IDw-RB-94z"/>
                             <constraint firstItem="3bZ-LZ-EPT" firstAttribute="top" secondItem="Rqz-R8-pqv" secondAttribute="top" id="MTz-bf-PPy"/>
-                            <constraint firstItem="PWS-kj-Z6H" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leading" constant="588" id="Nku-RC-a4l"/>
                             <constraint firstItem="xXe-nA-nID" firstAttribute="centerY" secondItem="3G0-na-n8B" secondAttribute="centerY" id="OQT-di-C4d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TTn-3f-95g" secondAttribute="trailing" constant="89" id="PKO-VE-1dh"/>
+                            <constraint firstItem="xXe-nA-nID" firstAttribute="trailing" secondItem="3G0-na-n8B" secondAttribute="trailingMargin" id="QL7-MU-pM6"/>
                             <constraint firstItem="3bZ-LZ-EPT" firstAttribute="leading" secondItem="Hf0-Dr-aou" secondAttribute="trailing" constant="64" id="Ryc-dO-EBI"/>
-                            <constraint firstItem="Is3-kx-czu" firstAttribute="top" secondItem="f2e-gc-RT8" secondAttribute="bottom" constant="43" id="SgI-IU-igX"/>
-                            <constraint firstAttribute="trailing" secondItem="Eb8-4j-FkO" secondAttribute="trailing" constant="16" id="Uz4-VU-jJq"/>
+                            <constraint firstItem="ije-as-Gs2" firstAttribute="height" secondItem="3G0-na-n8B" secondAttribute="height" constant="-399" id="SLw-qF-XKh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rg7-pu-jEu" secondAttribute="trailing" constant="-20" id="T80-ha-ZZ4"/>
+                            <constraint firstItem="xXe-nA-nID" firstAttribute="top" secondItem="2Gq-lM-npj" secondAttribute="top" id="W4W-8A-hXB"/>
                             <constraint firstItem="Hf0-Dr-aou" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="top" constant="20" id="XJJ-7M-2Kq"/>
-                            <constraint firstItem="fMo-Ha-bzr" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="topMargin" constant="70" id="dOO-t7-byR"/>
-                            <constraint firstItem="fMo-Ha-bzr" firstAttribute="leading" secondItem="3bZ-LZ-EPT" secondAttribute="trailing" constant="24" id="gaY-Yw-EKy"/>
-                            <constraint firstItem="Is3-kx-czu" firstAttribute="trailing" secondItem="Rqz-R8-pqv" secondAttribute="trailing" id="hMP-qo-6de"/>
-                            <constraint firstItem="xXe-nA-nID" firstAttribute="height" secondItem="3G0-na-n8B" secondAttribute="height" id="hS1-05-Jzs"/>
-                            <constraint firstAttribute="bottom" secondItem="PWS-kj-Z6H" secondAttribute="bottom" constant="36.5" id="hc6-H2-Hs3"/>
+                            <constraint firstItem="pe2-A7-M3p" firstAttribute="top" secondItem="xXe-nA-nID" secondAttribute="bottom" constant="98" id="d52-28-Zb5"/>
+                            <constraint firstItem="rg7-pu-jEu" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="622" id="hXC-SR-RA9"/>
+                            <constraint firstItem="1Ff-PX-OqU" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="591" id="kH7-uW-GUH"/>
                             <constraint firstItem="xXe-nA-nID" firstAttribute="centerX" secondItem="3G0-na-n8B" secondAttribute="centerX" id="ogb-sv-bUz"/>
-                            <constraint firstItem="xXe-nA-nID" firstAttribute="width" secondItem="3G0-na-n8B" secondAttribute="width" id="sdG-GF-mu5"/>
+                            <constraint firstItem="eJD-xJ-o3b" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leading" constant="163" id="p4n-84-cwU"/>
+                            <constraint firstItem="x27-Qn-o1h" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leadingMargin" constant="36" id="qnF-Lf-hE6"/>
                             <constraint firstItem="Rqz-R8-pqv" firstAttribute="centerY" secondItem="3G0-na-n8B" secondAttribute="centerY" id="voI-Vr-LLA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2Gq-lM-npj" secondAttribute="trailing" constant="733" id="wlB-WE-Vcf"/>
+                            <constraint firstItem="ije-as-Gs2" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="456" id="xFk-QF-9nw"/>
+                            <constraint firstItem="WA2-7A-6M2" firstAttribute="top" secondItem="9cL-2s-WVU" secondAttribute="bottom" constant="81" id="xIY-ae-rEZ"/>
+                            <constraint firstItem="2Gq-lM-npj" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="50" id="z3V-S4-tJZ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="beeFly" destination="xXe-nA-nID" id="JAC-In-ahz"/>
+                        <outlet property="cloud_strings" destination="nhb-hc-rdp" id="IyY-XH-Pyh"/>
                         <outlet property="grasshopperJump" destination="f5l-aT-xxx" id="1sf-Xx-AHa"/>
                     </connections>
                 </viewController>
@@ -218,20 +280,22 @@ and cat so free.</string>
         </scene>
     </scenes>
     <resources>
+        <image name="apple" width="33" height="30"/>
         <image name="appletree_678_538" width="538" height="675"/>
         <image name="bluesky_1" width="1024" height="768"/>
         <image name="butterfly_b" width="34" height="30"/>
-        <image name="cat_250" width="250" height="132"/>
-        <image name="clouds_600_465" width="600" height="466"/>
+        <image name="cloud_strings" width="600" height="676"/>
+        <image name="daisy_face_tilt" width="151" height="145"/>
         <image name="dirt_1024_129" width="1024" height="129"/>
         <image name="dust" width="700" height="502"/>
-        <image name="flower_largedaisy" width="300" height="291"/>
         <image name="flowerstem" width="58" height="74"/>
+        <image name="garden_1108_359" width="503" height="360"/>
+        <image name="grass_strands" width="319" height="329"/>
         <image name="grasshopper_small" width="72" height="75"/>
-        <image name="grasspatch_300_113" width="300" height="114"/>
+        <image name="greengrass243_103" width="244" height="118"/>
+        <image name="josh" width="162" height="150"/>
         <image name="ladybug-" width="97" height="90"/>
         <image name="stevie_look" width="151" height="119"/>
-        <image name="sun_001" width="291" height="291"/>
         <image name="sun_328_338_" width="329" height="339"/>
     </resources>
 </document>

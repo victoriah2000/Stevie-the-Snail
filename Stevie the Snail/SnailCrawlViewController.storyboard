@@ -21,15 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky" translatesAutoresizingMaskIntoConstraints="NO" id="tKp-RV-6vt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="tKp-RV-6vt">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_dirt_001" translatesAutoresizingMaskIntoConstraints="NO" id="lqc-Zu-QCK">
-                                <rect key="frame" x="-1" y="0.0" width="1028" height="768"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="1028" id="jOs-lX-AYc"/>
-                                    <constraint firstAttribute="height" constant="768" id="tzt-dp-UT3"/>
-                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg1-60-pbW">
                                 <rect key="frame" x="375" y="0.0" width="450" height="200"/>
@@ -42,14 +35,6 @@ went whizzing right past!</string>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="D5f-OM-2Cf">
-                                <rect key="frame" x="856" y="190" width="76" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="GXe-gl-9Ge">
-                                <rect key="frame" x="721" y="284" width="89" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mosquito1" translatesAutoresizingMaskIntoConstraints="NO" id="29h-b2-eg0">
                                 <rect key="frame" x="-118" y="-89" width="360" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -61,6 +46,17 @@ went whizzing right past!</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="0xX-yx-cv9">
                                 <rect key="frame" x="64" y="502" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQC-83-YcN">
+                                <rect key="frame" x="439" y="320" width="50" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Background_dirt_001" translatesAutoresizingMaskIntoConstraints="NO" id="lqc-Zu-QCK">
+                                <rect key="frame" x="-4" y="0.0" width="1028" height="768"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1028" id="jOs-lX-AYc"/>
+                                    <constraint firstAttribute="height" constant="768" id="tzt-dp-UT3"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,8 +80,7 @@ went whizzing right past!</string>
     <resources>
         <image name="Background_dirt_001" width="1024" height="768"/>
         <image name="Stevie_v1_s7" width="500" height="500"/>
-        <image name="bee2" width="105" height="103"/>
-        <image name="bluesky" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024" height="768"/>
         <image name="ladybug" width="82" height="93"/>
         <image name="mosquito1" width="500" height="500"/>
     </resources>

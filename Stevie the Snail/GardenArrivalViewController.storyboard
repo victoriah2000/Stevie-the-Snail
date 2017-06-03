@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1GE-Gh-4XU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1GE-Gh-4XU">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -43,15 +43,10 @@
                                 <rect key="frame" x="47" y="508" width="186" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bee2" translatesAutoresizingMaskIntoConstraints="NO" id="hcN-gn-tqW">
-                                <rect key="frame" x="154" y="205" width="105" height="103"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bcs-Ha-ocI" firstAttribute="top" secondItem="kZi-co-YFf" secondAttribute="top" constant="396" id="DUy-br-4bP"/>
-                            <constraint firstItem="hcN-gn-tqW" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leading" constant="154" id="eID-lo-ywA"/>
-                            <constraint firstAttribute="bottom" secondItem="hcN-gn-tqW" secondAttribute="bottom" constant="460" id="gAh-vX-ipr"/>
                             <constraint firstItem="bcs-Ha-ocI" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leading" constant="394" id="k11-GJ-HDG"/>
                             <constraint firstItem="mQX-Ed-XXT" firstAttribute="centerX" secondItem="kZi-co-YFf" secondAttribute="centerX" id="n0p-98-Ygl"/>
                             <constraint firstItem="mQX-Ed-XXT" firstAttribute="centerY" secondItem="kZi-co-YFf" secondAttribute="centerY" id="x0c-cf-TiB"/>
@@ -68,6 +63,5 @@
         <image name="Background_gardenarrive_001a" width="1024" height="768"/>
         <image name="Background_gardenarrive_002" width="1024" height="768"/>
         <image name="Stevie_v1_s7" width="500" height="500"/>
-        <image name="bee2" width="105" height="103"/>
     </resources>
 </document>

@@ -22,9 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garden_closeup_1200" translatesAutoresizingMaskIntoConstraints="NO" id="CCX-Kl-56l">
                                 <rect key="frame" x="-84" y="325" width="1200" height="455"/>
@@ -54,14 +53,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-OD-r1f">
                                 <rect key="frame" x="434" y="552" width="319" height="329"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_c" translatesAutoresizingMaskIntoConstraints="NO" id="A35-SF-p9h">
+                                <rect key="frame" x="736" y="210" width="300" height="405"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_d" translatesAutoresizingMaskIntoConstraints="NO" id="0VL-SL-iO2">
+                                <rect key="frame" x="8" y="202" width="300" height="363"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_bigeyes" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-Y8-Hrz">
+                                <rect key="frame" x="115" y="230" width="500" height="403"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="A35-SF-p9h" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="716" id="5bO-Js-Mp8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0VL-SL-iO2" secondAttribute="trailing" constant="696" id="6uX-hN-gZv"/>
                             <constraint firstItem="VFW-OD-r1f" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="414" id="DFE-IP-hcq"/>
                             <constraint firstItem="VFW-OD-r1f" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="532" id="YJa-nj-Ldh"/>
                             <constraint firstItem="CCX-Kl-56l" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" constant="168.5" id="ebT-D2-sKZ"/>
+                            <constraint firstItem="qYo-VT-evd" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" id="elB-xJ-lBE"/>
+                            <constraint firstItem="0VL-SL-iO2" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="182" id="hgL-S5-PSG"/>
+                            <constraint firstItem="MqM-B0-tij" firstAttribute="top" secondItem="A35-SF-p9h" secondAttribute="bottom" constant="153" id="ibS-FY-EB3"/>
                             <constraint firstItem="CCX-Kl-56l" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" constant="4" id="kau-cc-jbD"/>
                             <constraint firstItem="JX0-g6-zTZ" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="621" id="ltu-L4-ScZ"/>
+                            <constraint firstItem="qYo-VT-evd" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" id="pgq-T0-XsD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JX0-g6-zTZ" secondAttribute="trailing" constant="331" id="rZp-ar-T23"/>
                         </constraints>
                         <connections>
@@ -96,5 +111,8 @@
         <image name="garden_closeup_1200" width="1200" height="455"/>
         <image name="grass_strands" width="319" height="329"/>
         <image name="grasshopper-1" width="133" height="140"/>
+        <image name="green_frond_c" width="300" height="405"/>
+        <image name="green_frond_d" width="300" height="363"/>
+        <image name="stevie_bigeyes" width="501" height="397"/>
     </resources>
 </document>

@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky" translatesAutoresizingMaskIntoConstraints="NO" id="Fsk-Ie-2Ud">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="Fsk-Ie-2Ud">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_final_002" translatesAutoresizingMaskIntoConstraints="NO" id="kd4-Ri-a1f">
@@ -68,7 +68,7 @@
     </scenes>
     <resources>
         <image name="Background_final_002" width="1024" height="768"/>
-        <image name="bluesky" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024" height="768"/>
         <image name="ladyorange" width="75" height="75"/>
         <image name="sun_328_338_" width="329" height="339"/>
     </resources>
