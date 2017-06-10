@@ -59,8 +59,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="daisyFace:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="hBK-mr-H9B"/>
-                                    <action selector="tapDaisy:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="8HJ-HP-hMm"/>
+                                    <action selector="daisyFace:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="xR4-bs-fbR"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="rg7-pu-jEu">
@@ -110,7 +109,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="sunButton:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="o3n-m8-ajB"/>
-                                    <action selector="tapSun:" destination="DCr-Nc-TFM" eventType="touchUpInside" id="jWZ-iu-bkY"/>
                                 </connections>
                             </button>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grasshopper_small" translatesAutoresizingMaskIntoConstraints="NO" id="f5l-aT-xxx">
@@ -248,7 +246,6 @@ and cat so free.</string>
                     </view>
                     <connections>
                         <outlet property="beeFly" destination="xXe-nA-nID" id="JAC-In-ahz"/>
-                        <outlet property="cloud_strings" destination="nhb-hc-rdp" id="IyY-XH-Pyh"/>
                         <outlet property="grasshopperJump" destination="f5l-aT-xxx" id="1sf-Xx-AHa"/>
                     </connections>
                 </viewController>
@@ -260,23 +257,6 @@ and cat so free.</string>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="163.4765625" y="101.5625"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="RGj-Kv-Mss">
-            <objects>
-                <viewController id="CWB-rs-6na" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dQE-yf-tOa"/>
-                        <viewControllerLayoutGuide type="bottom" id="e2I-TA-gUg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lWY-8y-RDu">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RSY-Zl-0WQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>

@@ -25,33 +25,22 @@ class ExtWideAngleToViewController: UIViewController {
 
 
     @IBAction func daisyFace(_ sender: UIButton) {
+        let animation = CABasicAnimation(keyPath: "transform.rotation.z")
+        animation.toValue = 2 * CGFloat.pi
+        animation.isCumulative = true
+        animation.duration = 0.5
+        sender.layer.add(animation, forKey: "spin")
     }
    
     @IBOutlet var grasshopperJump: UIImageView!
-    @IBAction func sunButton(_ sender: UIButton)
-    
-    {
-    }
- 
-    
-    @IBAction func tapSun(_ sender: UIButton) {
+    @IBAction func sunButton(_ sender: UIButton){
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true
         animation.duration = 0.5
         sender.layer.add(animation, forKey: "spin")
-        
     }
     
-    
-    @IBAction func tapDaisy(_ sender: UIButton) {
-        let animation = CABasicAnimation(keyPath: "transform.rotation.z")
-        animation.toValue = 2 * CGFloat.pi
-        animation.isCumulative = true
-        animation.duration = 0.5
-        sender.layer.add(animation, forKey: "spin")
-        
-    }
     
     @IBAction func tapGrasshopper(_ sender: Any) {
         UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseOut], animations: {
@@ -65,6 +54,7 @@ class ExtWideAngleToViewController: UIViewController {
         })
         
     }
+
+
+
 }
-
-
