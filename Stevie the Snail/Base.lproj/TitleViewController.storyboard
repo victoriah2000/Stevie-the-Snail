@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,19 +21,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Launch_image2" translatesAutoresizingMaskIntoConstraints="NO" id="kks-pK-PWB">
-                                <rect key="frame" x="-1" y="0.0" width="1024" height="773"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="cpx-zm-UP7">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-6c-F7c">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="565"/>
+                                <rect key="frame" x="0.0" y="15" width="1024" height="565"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_openingtitle" translatesAutoresizingMaskIntoConstraints="NO" id="A4z-aS-l1p">
+                                <rect key="frame" x="-135" y="329" width="1420" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_title" translatesAutoresizingMaskIntoConstraints="NO" id="0qO-CT-xFG">
+                                <rect key="frame" x="202" y="278" width="600" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="victoriaheric" translatesAutoresizingMaskIntoConstraints="NO" id="etJ-q4-6Xj">
+                                <rect key="frame" x="796" y="585" width="213" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goestothegarden" translatesAutoresizingMaskIntoConstraints="NO" id="fLc-sW-LSp">
+                                <rect key="frame" x="232" y="196" width="580" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_copy" translatesAutoresizingMaskIntoConstraints="NO" id="EWb-ll-f6P">
+                                <rect key="frame" x="390" y="-10" width="400" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="eq4-6c-F7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Af4-GX-mS2"/>
-                            <constraint firstItem="eq4-6c-F7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Xyk-DV-ZvE"/>
+                            <constraint firstItem="cpx-zm-UP7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vmg-RL-bzq"/>
+                            <constraint firstItem="eq4-6c-F7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-5" id="Xyk-DV-ZvE"/>
                             <constraint firstItem="eq4-6c-F7c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lBH-TZ-94M"/>
+                            <constraint firstItem="cpx-zm-UP7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wSa-QJ-pjN"/>
                         </constraints>
                     </view>
                     <connections>
@@ -46,7 +67,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Launch_image2" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024" height="768"/>
+        <image name="goestothegarden" width="482" height="99"/>
+        <image name="grass_openingtitle" width="1024" height="496"/>
         <image name="rainbow" width="1129" height="565"/>
+        <image name="stevie_title" width="624" height="492"/>
+        <image name="title_copy" width="451" height="294"/>
+        <image name="victoriaheric" width="281" height="163"/>
     </resources>
 </document>

@@ -25,7 +25,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_bigeyes" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-Y8-Hrz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_look" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-Y8-Hrz">
                                 <rect key="frame" x="115" y="230" width="500" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -113,6 +113,6 @@
         <image name="grasshopper-1" width="133" height="140"/>
         <image name="green_frond_c" width="300" height="405"/>
         <image name="green_frond_d" width="300" height="363"/>
-        <image name="stevie_bigeyes" width="501" height="397"/>
+        <image name="stevie_look" width="151" height="119"/>
     </resources>
 </document>
