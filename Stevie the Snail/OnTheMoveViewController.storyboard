@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hhw-c7-jIR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hhw-c7-jIR">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,9 +28,6 @@
                                 <rect key="frame" x="450" y="-50" width="360" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_dirt_002" translatesAutoresizingMaskIntoConstraints="NO" id="QIe-ET-3Zm">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsG-s0-LTM">
                                 <rect key="frame" x="60" y="45" width="466" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -39,15 +36,67 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
+                                <rect key="frame" x="825" y="618" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="AkK-lI-0gP">
+                                <rect key="frame" x="751" y="577" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="enp-5J-BAs">
+                                <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-hx-3ok">
-                                <rect key="frame" x="34" y="518" width="250" height="250"/>
+                                <rect key="frame" x="49" y="566" width="202" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flare_1024" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-4i-xqu">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ladybug" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-2h-JPc">
+                                <rect key="frame" x="838" y="648" width="97" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spider" translatesAutoresizingMaskIntoConstraints="NO" id="OFA-iV-sgx">
+                                <rect key="frame" x="716" y="639" width="52" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_magenta" translatesAutoresizingMaskIntoConstraints="NO" id="VYQ-WD-hLj">
+                                <rect key="frame" x="787" y="577" width="60" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="vjo-Fe-rv4">
+                                <rect key="frame" x="855" y="566" width="63" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="QIe-ET-3Zm" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="7Ky-y4-xhy"/>
-                            <constraint firstItem="QIe-ET-3Zm" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="86Q-j5-4mO"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="hxd-CI-jKZ"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="lIB-3l-vpT"/>
                         </constraints>
@@ -55,13 +104,20 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dR3-xF-Gu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-98" y="130"/>
+            <point key="canvasLocation" x="-98.4375" y="129.6875"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background_dirt_002" width="1024" height="768"/>
         <image name="Stevie_v1_s7" width="500" height="500"/>
         <image name="bluesky_1" width="1024" height="768"/>
+        <image name="cat_250" width="250" height="132"/>
+        <image name="dirt_1024_129" width="1024" height="129"/>
+        <image name="flare_1024" width="1024" height="1024"/>
+        <image name="flower_magenta" width="28" height="28"/>
+        <image name="flower_yellow" width="16" height="16"/>
+        <image name="grass_strands" width="319" height="329"/>
+        <image name="ladybug" width="82" height="93"/>
         <image name="mosquito1" width="500" height="500"/>
+        <image name="spider" width="134" height="117"/>
     </resources>
 </document>

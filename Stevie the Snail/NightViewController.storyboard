@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,8 +25,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night_001" translatesAutoresizingMaskIntoConstraints="NO" id="0YZ-Wj-kbb">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground_night Image" translatesAutoresizingMaskIntoConstraints="NO" id="Fy7-UY-e0E">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="7cI-L6-zvx">
+                                <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dust" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-Ae-xeA">
                                 <rect key="frame" x="150" y="-2" width="700" height="502"/>
@@ -41,7 +42,7 @@
                                 <rect key="frame" x="212" y="-210" width="600" height="676"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbU-tY-HAg">
-                                <rect key="frame" x="132" y="508" width="493.5" height="118"/>
+                                <rect key="frame" x="298" y="487" width="493.5" height="118"/>
                                 <string key="text">The sky grew black and full of star,
 this was the scariest moment by far.
 The night was dark and cold out there,
@@ -57,6 +58,18 @@ with bad sounds from who knows where.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
                                 <rect key="frame" x="778" y="607.5" width="147" height="117"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="wCT-gp-iu0">
+                                <rect key="frame" x="68" y="603" width="154" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="WyW-iO-eS9">
+                                <rect key="frame" x="90" y="652" width="75" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_daisy" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-w8-cAs">
+                                <rect key="frame" x="174" y="620" width="50" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
                                 <rect key="frame" x="-12.5" y="-140.5" width="1049" height="1049"/>
                             </imageView>
@@ -69,18 +82,16 @@ with bad sounds from who knows where.</string>
                             <constraint firstItem="Zc9-ID-fZm" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="-20" id="CYp-u0-AvT"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="FZ7-zC-KxQ"/>
                             <constraint firstItem="or0-aS-GDk" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="480" id="L5a-9b-Wmh"/>
-                            <constraint firstItem="Fy7-UY-e0E" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="Mds-Tg-lwx"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="or0-aS-GDk" secondAttribute="bottom" constant="579" id="NpO-gX-TS4"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="T4Q-P7-BZ0" secondAttribute="bottom" constant="43.5" id="Shs-4p-qNT"/>
                             <constraint firstItem="OVm-un-UqT" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Uz1-gp-S7P"/>
-                            <constraint firstItem="Fy7-UY-e0E" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Xul-Zt-pAr"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="tBB-5a-1FT" secondAttribute="bottom" constant="579" id="dxP-B1-h9f"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="4gI-Ae-xeA" secondAttribute="bottom" constant="268" id="fbB-WM-vUF"/>
-                            <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="112" id="m0E-pc-mgk"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="278" id="m0E-pc-mgk"/>
                             <constraint firstItem="4gI-Ae-xeA" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="130" id="nhr-Wg-LnG"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="sIY-wd-PAi"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="Zc9-ID-fZm" secondAttribute="bottom" constant="579" id="sc4-sh-HrF"/>
-                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="142" id="tVz-jm-QMg"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="163" id="tVz-jm-QMg"/>
                             <constraint firstItem="QOw-hp-YCg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="192" id="tWZ-cF-a0c"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tBB-5a-1FT" secondAttribute="trailing" constant="154" id="uP5-ri-0cQ"/>
                         </constraints>
@@ -100,8 +111,11 @@ with bad sounds from who knows where.</string>
     <resources>
         <image name="Flare_1049" width="1049" height="1049"/>
         <image name="cloud_strings" width="600" height="676"/>
+        <image name="dirt_1024_129" width="1024" height="129"/>
         <image name="dust" width="700" height="502"/>
-        <image name="ground_night Image" width="1024" height="768"/>
+        <image name="flower_daisy" width="29" height="29"/>
+        <image name="grass_strands" width="319" height="329"/>
+        <image name="josh" width="162" height="150"/>
         <image name="night_001" width="1024" height="768"/>
         <image name="stars2_600" width="600" height="189"/>
         <image name="stevie_sad_150" width="147" height="117"/>

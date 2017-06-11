@@ -25,9 +25,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-VT-evd">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_look" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-Y8-Hrz">
-                                <rect key="frame" x="115" y="230" width="500" height="403"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_smile" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-Y8-Hrz">
+                                <rect key="frame" x="136" y="264" width="377" height="297"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garden_closeup_1200" translatesAutoresizingMaskIntoConstraints="NO" id="CCX-Kl-56l">
                                 <rect key="frame" x="-84" y="325" width="1200" height="455"/>
@@ -41,11 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_d" translatesAutoresizingMaskIntoConstraints="NO" id="bOW-qm-e5e">
-                                <rect key="frame" x="115" y="135" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="Y99-JP-gXL">
-                                <rect key="frame" x="736" y="189" width="75" height="75"/>
+                                <rect key="frame" x="823" y="64" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grasshopper-1" translatesAutoresizingMaskIntoConstraints="NO" id="JX0-g6-zTZ">
@@ -63,12 +58,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_d" translatesAutoresizingMaskIntoConstraints="NO" id="0VL-SL-iO2">
                                 <rect key="frame" x="8" y="202" width="300" height="363"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="Y99-JP-gXL">
+                                <rect key="frame" x="121" y="64" width="75" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="A35-SF-p9h" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="716" id="5bO-Js-Mp8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0VL-SL-iO2" secondAttribute="trailing" constant="696" id="6uX-hN-gZv"/>
                             <constraint firstItem="VFW-OD-r1f" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="414" id="DFE-IP-hcq"/>
+                            <constraint firstItem="OP9-Y8-Hrz" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="244" id="FsH-P9-DTQ"/>
                             <constraint firstItem="VFW-OD-r1f" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="532" id="YJa-nj-Ldh"/>
                             <constraint firstItem="CCX-Kl-56l" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" constant="168.5" id="ebT-D2-sKZ"/>
                             <constraint firstItem="qYo-VT-evd" firstAttribute="centerX" secondItem="u70-wv-mph" secondAttribute="centerX" id="elB-xJ-lBE"/>
@@ -78,6 +78,7 @@
                             <constraint firstItem="JX0-g6-zTZ" firstAttribute="top" secondItem="5ut-a8-ZBr" secondAttribute="bottom" constant="621" id="ltu-L4-ScZ"/>
                             <constraint firstItem="qYo-VT-evd" firstAttribute="centerY" secondItem="u70-wv-mph" secondAttribute="centerY" id="pgq-T0-XsD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JX0-g6-zTZ" secondAttribute="trailing" constant="331" id="rZp-ar-T23"/>
+                            <constraint firstItem="OP9-Y8-Hrz" firstAttribute="leading" secondItem="u70-wv-mph" secondAttribute="leadingMargin" constant="116" id="sWw-MQ-X3V"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Ucz-rg-jnT" appends="YES" id="7EE-1w-c9X"/>
@@ -101,7 +102,7 @@
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="159" y="132"/>
+            <point key="canvasLocation" x="158.7890625" y="131.25"/>
         </scene>
     </scenes>
     <resources>
@@ -113,6 +114,6 @@
         <image name="grasshopper-1" width="133" height="140"/>
         <image name="green_frond_c" width="300" height="405"/>
         <image name="green_frond_d" width="300" height="363"/>
-        <image name="stevie_look" width="151" height="119"/>
+        <image name="stevie_smile" width="377" height="297"/>
     </resources>
 </document>

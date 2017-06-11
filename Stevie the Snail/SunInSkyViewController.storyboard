@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,9 +24,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="fcF-YB-ena">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="ezT-tx-Gh6">
+                                <rect key="frame" x="400" y="75" width="600" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="string_200_27" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
+                                <rect key="frame" x="491" y="354" width="57" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-N6-7XF" userLabel="sunButton">
-                                <rect key="frame" x="367" y="205" width="329" height="339"/>
+                                <rect key="frame" x="367" y="50" width="329" height="339"/>
                                 <state key="normal" image="sun_328_338_"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="tapSun:" destination="3gE-KI-Mq7" eventType="touchUpInside" id="txL-r9-9az"/>
                                 </connections>
@@ -39,16 +58,50 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_morning_001" translatesAutoresizingMaskIntoConstraints="NO" id="8iZ-C1-m6t">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="MQn-08-VWg">
+                                <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Steve_morning" translatesAutoresizingMaskIntoConstraints="NO" id="UN8-Iy-Nyg">
+                                <rect key="frame" x="778" y="608.5" width="147" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spider-1" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-pB-9gC">
+                                <rect key="frame" x="489" y="540" width="52" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="fp9-r6-Agh">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-yM-jkA">
+                                <rect key="frame" x="68" y="603" width="154" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="pOd-sO-kAU">
+                                <rect key="frame" x="90" y="652" width="75" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_daisy" translatesAutoresizingMaskIntoConstraints="NO" id="CRh-Un-0Vg">
+                                <rect key="frame" x="174" y="620" width="50" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8iZ-C1-m6t" firstAttribute="centerY" secondItem="bkK-pS-GMy" secondAttribute="centerY" id="94o-UF-wTM"/>
-                            <constraint firstItem="8iZ-C1-m6t" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="HBa-cb-VDG"/>
                             <constraint firstAttribute="trailing" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="328" id="IZD-io-SCk"/>
-                            <constraint firstItem="WpT-N6-7XF" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="205" id="RYl-0X-xhD"/>
+                            <constraint firstItem="WpT-N6-7XF" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="50" id="RYl-0X-xhD"/>
                             <constraint firstItem="fcF-YB-ena" firstAttribute="centerY" secondItem="bkK-pS-GMy" secondAttribute="centerY" id="aCN-CK-cnC"/>
                             <constraint firstItem="fcF-YB-ena" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="vHQ-jR-0CA"/>
                         </constraints>
@@ -56,12 +109,20 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KoQ-Ux-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="122" y="152"/>
+            <point key="canvasLocation" x="121.87499999999999" y="151.5625"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Background_morning_001" width="1024" height="768"/>
+        <image name="Flare_1049" width="1049" height="1049"/>
+        <image name="Steve_morning" width="203" height="165"/>
         <image name="bluesky_1" width="1024" height="768"/>
+        <image name="dirt_1024_129" width="1024" height="129"/>
+        <image name="flower_daisy" width="29" height="29"/>
+        <image name="grass_strands" width="319" height="329"/>
+        <image name="josh" width="162" height="150"/>
+        <image name="spider-1" width="134" height="117"/>
+        <image name="stars2_600" width="600" height="189"/>
+        <image name="string_200_27" width="28" height="200"/>
         <image name="sun_328_338_" width="329" height="339"/>
     </resources>
 </document>

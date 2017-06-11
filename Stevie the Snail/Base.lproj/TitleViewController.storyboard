@@ -39,12 +39,12 @@
                                 <rect key="frame" x="796" y="585" width="213" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goestothegarden" translatesAutoresizingMaskIntoConstraints="NO" id="fLc-sW-LSp">
-                                <rect key="frame" x="232" y="196" width="580" height="196"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_copy" translatesAutoresizingMaskIntoConstraints="NO" id="EWb-ll-f6P">
+                                <rect key="frame" x="402" y="9" width="400" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_copy" translatesAutoresizingMaskIntoConstraints="NO" id="EWb-ll-f6P">
-                                <rect key="frame" x="390" y="-10" width="400" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goestothegarden" translatesAutoresizingMaskIntoConstraints="NO" id="fLc-sW-LSp">
+                                <rect key="frame" x="320" y="216" width="400" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
