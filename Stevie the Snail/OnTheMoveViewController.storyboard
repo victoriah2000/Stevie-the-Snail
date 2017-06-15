@@ -24,6 +24,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="Jsq-JQ-Mgx">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
+                                <rect key="frame" x="825" y="585" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="mTl-gC-EUB">
+                                <rect key="frame" x="-75" y="619" width="1173" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mosquito1" translatesAutoresizingMaskIntoConstraints="NO" id="YHK-c9-48v">
                                 <rect key="frame" x="450" y="-50" width="360" height="318"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -36,10 +44,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
-                                <rect key="frame" x="825" y="618" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="AkK-lI-0gP">
                                 <rect key="frame" x="751" y="577" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -116,6 +120,7 @@
         <image name="flower_magenta" width="28" height="28"/>
         <image name="flower_yellow" width="16" height="16"/>
         <image name="grass_strands" width="319" height="329"/>
+        <image name="greengrass_1173_105" width="1174" height="120"/>
         <image name="ladybug" width="82" height="93"/>
         <image name="mosquito1" width="500" height="500"/>
         <image name="spider" width="134" height="117"/>

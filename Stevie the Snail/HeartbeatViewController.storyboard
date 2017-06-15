@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TaF-zM-9hF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TaF-zM-9hF">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,14 +22,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_sad_001-1" translatesAutoresizingMaskIntoConstraints="NO" id="OV7-Yx-q0O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="JzK-Qg-OrR">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqw-Pq-9uM">
-                                <rect key="frame" x="418" y="53" width="265" height="164"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tree_closeup" translatesAutoresizingMaskIntoConstraints="NO" id="xwU-3N-wu4">
+                                <rect key="frame" x="-2" y="0.0" width="1028" height="768"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="3" y="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple_closeup" translatesAutoresizingMaskIntoConstraints="NO" id="0mV-C8-N4m">
+                                <rect key="frame" x="78" y="-33" width="925" height="889"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="3" y="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_worry_735_592" translatesAutoresizingMaskIntoConstraints="NO" id="lh5-Z7-SSJ">
+                                <rect key="frame" x="189" y="198" width="735" height="584"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="265" id="5PR-TR-KTr"/>
-                                    <constraint firstAttribute="height" constant="164" id="kOz-49-FJ4"/>
+                                    <constraint firstAttribute="width" constant="735" id="8Fj-23-vDu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="2" y="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqw-Pq-9uM">
+                                <rect key="frame" x="295" y="232" width="265" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="Jhc-oX-Net"/>
                                 </constraints>
                                 <string key="text">Snails are slow. 
 Snails are not smart. 
@@ -38,22 +83,44 @@ hurt Stevie's heart.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart_1" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-js-zQ2">
-                                <rect key="frame" x="593" y="653" width="113" height="95"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart_1" translatesAutoresizingMaskIntoConstraints="NO" id="1K3-js-zQ2">
+                                <rect key="frame" x="581" y="582" width="113" height="95"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="113" id="afJ-qd-Zhc"/>
-                                    <constraint firstAttribute="height" constant="95" id="n0D-lQ-dgc"/>
+                                    <constraint firstAttribute="width" constant="113" id="7Sh-NG-VNL"/>
+                                    <constraint firstAttribute="height" constant="95" id="wbF-hz-iWe"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="2" y="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="1K3-js-zQ2" secondAttribute="bottom" constant="-11" id="AFp-Fx-WJv"/>
-                            <constraint firstItem="OV7-Yx-q0O" firstAttribute="centerY" secondItem="6yC-79-fZn" secondAttribute="centerY" id="FaD-c8-cWD"/>
-                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="top" secondItem="6yC-79-fZn" secondAttribute="top" constant="53" id="JjQ-Mv-Lcx"/>
-                            <constraint firstItem="1K3-js-zQ2" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leading" constant="589" id="UCb-8o-tGZ"/>
-                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leading" constant="418" id="VZT-b6-36e"/>
-                            <constraint firstItem="OV7-Yx-q0O" firstAttribute="centerX" secondItem="6yC-79-fZn" secondAttribute="centerX" id="mnO-Rc-TSy"/>
+                            <constraint firstItem="zwt-Cd-oPe" firstAttribute="top" secondItem="xqw-Pq-9uM" secondAttribute="bottom" constant="372" id="1tj-LQ-CVs"/>
+                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="top" secondItem="xbb-h9-cPQ" secondAttribute="bottom" constant="212" id="5xy-pa-m3Z"/>
+                            <constraint firstItem="xwU-3N-wu4" firstAttribute="centerX" secondItem="6yC-79-fZn" secondAttribute="centerX" id="7o7-mh-KNY"/>
+                            <constraint firstItem="zwt-Cd-oPe" firstAttribute="top" secondItem="xwU-3N-wu4" secondAttribute="bottom" id="8Yx-Gq-s8K"/>
+                            <constraint firstItem="xwU-3N-wu4" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leadingMargin" constant="-22" id="9XF-3g-i5L"/>
+                            <constraint firstItem="0mV-C8-N4m" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leadingMargin" constant="58" id="ABL-r2-adZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lh5-Z7-SSJ" secondAttribute="trailing" constant="80" id="Bdl-cz-k7h"/>
+                            <constraint firstItem="zwt-Cd-oPe" firstAttribute="top" secondItem="xwU-3N-wu4" secondAttribute="bottom" id="CdU-Of-PXd"/>
+                            <constraint firstItem="xwU-3N-wu4" firstAttribute="centerY" secondItem="6yC-79-fZn" secondAttribute="centerY" id="Mum-k7-Ovo"/>
+                            <constraint firstItem="zwt-Cd-oPe" firstAttribute="top" secondItem="1K3-js-zQ2" secondAttribute="bottom" constant="91" id="Svk-0S-sP1"/>
+                            <constraint firstAttribute="trailing" secondItem="1K3-js-zQ2" secondAttribute="trailing" constant="330" id="Sxq-Fx-VqV"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="lh5-Z7-SSJ" secondAttribute="bottom" constant="-14" id="Tea-9T-2MR"/>
+                            <constraint firstItem="JzK-Qg-OrR" firstAttribute="centerX" secondItem="xwU-3N-wu4" secondAttribute="centerX" id="VwD-gj-Flc"/>
+                            <constraint firstItem="JzK-Qg-OrR" firstAttribute="top" secondItem="xwU-3N-wu4" secondAttribute="top" id="b2U-SB-Fjp"/>
+                            <constraint firstItem="lh5-Z7-SSJ" firstAttribute="top" secondItem="xbb-h9-cPQ" secondAttribute="bottom" constant="178" id="dTg-a5-ugJ"/>
+                            <constraint firstItem="xqw-Pq-9uM" firstAttribute="leading" secondItem="6yC-79-fZn" secondAttribute="leading" constant="295" id="tAb-zE-0c4"/>
+                            <constraint firstItem="0mV-C8-N4m" firstAttribute="top" secondItem="6yC-79-fZn" secondAttribute="topMargin" constant="-33" id="xpb-wC-4MJ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -66,7 +133,10 @@ hurt Stevie's heart.</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Background_sad_001-1" width="1024" height="768"/>
+        <image name="apple_closeup" width="925" height="889"/>
+        <image name="bluesky_1" width="1024" height="768"/>
         <image name="heart_1" width="219" height="187"/>
+        <image name="stevie_worry_735_592" width="736" height="583"/>
+        <image name="tree_closeup" width="1028" height="768"/>
     </resources>
 </document>

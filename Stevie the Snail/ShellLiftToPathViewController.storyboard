@@ -21,26 +21,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background_try_004" translatesAutoresizingMaskIntoConstraints="NO" id="CYJ-s3-C0J">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="CYJ-s3-C0J">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHa-BQ-boj">
-                                <rect key="frame" x="49" y="25" width="500" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="extremeclose_grass" translatesAutoresizingMaskIntoConstraints="NO" id="Tcc-d3-bZh">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="etremeclose_dirt" translatesAutoresizingMaskIntoConstraints="NO" id="7ye-K5-YhO">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="extremeclose_tree" translatesAutoresizingMaskIntoConstraints="NO" id="OCG-3y-wIH">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="extremeclose_400_331" translatesAutoresizingMaskIntoConstraints="NO" id="Sdy-aC-zRy">
+                                <rect key="frame" x="339" y="401" width="400" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHa-BQ-boj">
+                                <rect key="frame" x="141" y="193" width="500" height="200"/>
                                 <string key="text">Stevie needed this push.                                   He came out of his shell and lifted his tush, stepped onto the path with a plunk,            and started to wiggle the junk in his trunk.</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="stevie_push1" translatesAutoresizingMaskIntoConstraints="NO" id="Spg-MD-g8e">
-                                <rect key="frame" x="561" y="348" width="400" height="400"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LHa-BQ-boj" firstAttribute="height" secondItem="QXD-ct-Jl4" secondAttribute="height" constant="-568" id="1zt-ZQ-5JT"/>
                             <constraint firstItem="LHa-BQ-boj" firstAttribute="width" secondItem="QXD-ct-Jl4" secondAttribute="width" constant="-524" id="7LG-TH-bh7"/>
                             <constraint firstItem="LHa-BQ-boj" firstAttribute="leading" secondItem="QXD-ct-Jl4" secondAttribute="leading" constant="49" id="CBT-t6-DqD"/>
-                            <constraint firstItem="Spg-MD-g8e" firstAttribute="height" secondItem="QXD-ct-Jl4" secondAttribute="height" id="JLc-hW-03M"/>
                             <constraint firstItem="CYJ-s3-C0J" firstAttribute="centerX" secondItem="QXD-ct-Jl4" secondAttribute="centerX" id="Zgf-CD-XC9"/>
                             <constraint firstItem="CYJ-s3-C0J" firstAttribute="centerY" secondItem="QXD-ct-Jl4" secondAttribute="centerY" id="dvn-AM-l11"/>
                             <constraint firstAttribute="bottom" secondItem="LHa-BQ-boj" secondAttribute="bottom" constant="543" id="xk4-ZI-TQR"/>
@@ -53,7 +95,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background_try_004" width="1024" height="768"/>
-        <image name="stevie_push1" width="600" height="600"/>
+        <image name="bluesky_1" width="1024" height="768"/>
+        <image name="etremeclose_dirt" width="1028" height="768"/>
+        <image name="extremeclose_400_331" width="400" height="327"/>
+        <image name="extremeclose_grass" width="1028" height="768"/>
+        <image name="extremeclose_tree" width="1028" height="768"/>
     </resources>
 </document>

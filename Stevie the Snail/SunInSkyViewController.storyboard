@@ -24,12 +24,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="fcF-YB-ena">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="BvO-bX-hm8">
+                                <rect key="frame" x="-75" y="619" width="1173" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="ezT-tx-Gh6">
                                 <rect key="frame" x="400" y="75" width="600" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="string_200_27" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
-                                <rect key="frame" x="491" y="354" width="57" height="200"/>
+                                <rect key="frame" x="750" y="250" width="57" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="il9-wc-VEy">
+                                <rect key="frame" x="400" y="-262" width="700" height="556"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-N6-7XF" userLabel="sunButton">
@@ -67,7 +86,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spider-1" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-pB-9gC">
-                                <rect key="frame" x="489" y="540" width="52" height="50"/>
+                                <rect key="frame" x="750" y="441" width="52" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
@@ -116,9 +135,11 @@
         <image name="Flare_1049" width="1049" height="1049"/>
         <image name="Steve_morning" width="203" height="165"/>
         <image name="bluesky_1" width="1024" height="768"/>
+        <image name="clouds_700" width="774" height="601"/>
         <image name="dirt_1024_129" width="1024" height="129"/>
         <image name="flower_daisy" width="29" height="29"/>
         <image name="grass_strands" width="319" height="329"/>
+        <image name="greengrass_1173_105" width="1174" height="120"/>
         <image name="josh" width="162" height="150"/>
         <image name="spider-1" width="134" height="117"/>
         <image name="stars2_600" width="600" height="189"/>

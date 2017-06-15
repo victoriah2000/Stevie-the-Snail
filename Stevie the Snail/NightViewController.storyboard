@@ -25,6 +25,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night_001" translatesAutoresizingMaskIntoConstraints="NO" id="0YZ-Wj-kbb">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="NUl-M2-08q">
+                                <rect key="frame" x="-75" y="619" width="1173" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="7cI-L6-zvx">
                                 <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -70,8 +74,23 @@ with bad sounds from who knows where.</string>
                                 <rect key="frame" x="174" y="620" width="50" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
-                                <rect key="frame" x="-12.5" y="-140.5" width="1049" height="1049"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_smileystar_50_51" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
+                                <rect key="frame" x="150" y="197" width="50" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
+                                <rect key="frame" x="-13" y="-22" width="1049" height="790"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -115,8 +134,10 @@ with bad sounds from who knows where.</string>
         <image name="dust" width="700" height="502"/>
         <image name="flower_daisy" width="29" height="29"/>
         <image name="grass_strands" width="319" height="329"/>
+        <image name="greengrass_1173_105" width="1174" height="120"/>
         <image name="josh" width="162" height="150"/>
         <image name="night_001" width="1024" height="768"/>
+        <image name="small_smileystar_50_51" width="50" height="52"/>
         <image name="stars2_600" width="600" height="189"/>
         <image name="stevie_sad_150" width="147" height="117"/>
     </resources>
