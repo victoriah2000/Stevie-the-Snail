@@ -25,7 +25,7 @@ extension AVPlayer {
         play()
     }
     func playLoop() {
-        play()
+        playFromStart()
         NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
             self.seek(to: kCMTimeZero)
             self.play()

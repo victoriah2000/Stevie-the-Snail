@@ -35,8 +35,14 @@ class MainBookNavigatorViewController: UIViewController {
 
     var currentIndex = 0
     var currentViewController: UIViewController!
+    var currentPlayer = AVPlayer()
     var nightviewSound = AVPlayer(name:  "night_owl", extension: "mp3")!
-
+    var chap1Music = AVPlayer(name:  "chapter2", extension: "mp3")!
+    var chap2Music = AVPlayer(name:  "chapter1", extension: "mp3")!
+    var musicSate = MusicState.intro
+    enum MusicState {
+        case intro, main, night
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         currentViewController = UIStoryboard(name: pages[0], bundle: nil).instantiateInitialViewController()!
@@ -44,6 +50,7 @@ class MainBookNavigatorViewController: UIViewController {
         currentViewController.willMove(toParentViewController: self)
         addChildViewController(currentViewController)
         currentViewController.view.constrainToSuperView()
+        chap1Music.playLoop()
     }
 
 
@@ -57,12 +64,39 @@ class MainBookNavigatorViewController: UIViewController {
     }
 
     func transition(to identifier: String) {
-        if identifier == String(describing: NightViewController.self) {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                self.nightviewSound.playLoop()
+        let newMusicSate: MusicState
+        switch identifier {
+        case String(describing: TitleViewController.self):
+            newMusicSate = .intro
+        case String(describing: NightViewController.self):
+            newMusicSate = .night
+        case String(describing: SunInSkyViewController.self):
+            newMusicSate = .intro
+        default:
+            newMusicSate = .main
+        }
+        if newMusicSate != musicSate {
+            musicSate = newMusicSate
+            switch musicSate {
+            case .intro:
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                    self.chap1Music.playLoop()
+                    self.chap2Music.pause()
+                    self.nightviewSound.pause()
+                }
+            case .main:
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                    self.chap1Music.pause()
+                    self.chap2Music.playLoop()
+                    self.nightviewSound.pause()
+                }
+            case .night:
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                    self.chap1Music.pause()
+                    self.chap2Music.pause()
+                    self.nightviewSound.playLoop()
+                }
             }
-        } else {
-            nightviewSound.endLoop()
         }
         let newViewcontroller = UIStoryboard(name: identifier, bundle: nil).instantiateInitialViewController()!
         newViewcontroller.view.frame = currentViewController.view.frame
