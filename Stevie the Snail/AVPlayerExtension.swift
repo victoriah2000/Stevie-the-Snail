@@ -24,13 +24,15 @@ extension AVPlayer {
         seek(to: CMTimeMake(0, 1))
         play()
     }
-    func loop() {
+    func playLoop() {
+        play()
         NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
             self.seek(to: kCMTimeZero)
             self.play()
         }
     }
     func endLoop() {
+        pause()
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
     }
 }

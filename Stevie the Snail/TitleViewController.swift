@@ -13,15 +13,12 @@ class TitleViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let animation = CABasicAnimation(keyPath: "transform")
-        let translation = CATransform3DTranslate(CATransform3DIdentity, 0, rainbowImageView.bounds.size.height / 2, 0)
-        let rotation = CATransform3DRotate(translation, -CGFloat.pi, 0, 0, 1)
-        animation.fromValue = CATransform3DTranslate(rotation, 0, -rainbowImageView.bounds.size.height / 2, 0)
-        
-        animation.toValue = CATransform3DIdentity
-        animation.isCumulative = true
-        animation.duration = 5
-        rainbowImageView.layer.add(animation, forKey: "spin")
+        rainbowImageView.layer.anchorPoint = CGPoint(x: 0.5, y: 1)
+        rainbowImageView.frame.origin.y += rainbowImageView.bounds.size.height / 2
+        rainbowImageView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+        UIView.animate(withDuration: 3) {
+            self.rainbowImageView.transform = .identity
+        }
     }
     
 }

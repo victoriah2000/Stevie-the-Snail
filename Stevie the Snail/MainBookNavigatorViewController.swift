@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MainBookNavigatorViewController: UIViewController {
     @IBOutlet weak var backButton: UIButton!
@@ -34,6 +35,7 @@ class MainBookNavigatorViewController: UIViewController {
 
     var currentIndex = 0
     var currentViewController: UIViewController!
+    var nightviewSound = AVPlayer(name:  "night_owl", extension: "mp3")!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,6 +57,13 @@ class MainBookNavigatorViewController: UIViewController {
     }
 
     func transition(to identifier: String) {
+        if identifier == String(describing: NightViewController.self) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                self.nightviewSound.playLoop()
+            }
+        } else {
+            nightviewSound.endLoop()
+        }
         let newViewcontroller = UIStoryboard(name: identifier, bundle: nil).instantiateInitialViewController()!
         newViewcontroller.view.frame = currentViewController.view.frame
         currentViewController.willMove(toParentViewController: nil)
