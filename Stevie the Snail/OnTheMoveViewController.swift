@@ -10,4 +10,18 @@ import UIKit
 
 class OnTheMoveViewController: UIViewController {
 
+    @IBOutlet var insectFly: InsectFlyView!
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        mosquitobuzz()
+    }
+    
+    func mosquitobuzz() {
+        insectFly.addMosquitoBuzzAnimation() { _ in
+            self.mosquitobuzz()
+        }
+    
+}
+
 }

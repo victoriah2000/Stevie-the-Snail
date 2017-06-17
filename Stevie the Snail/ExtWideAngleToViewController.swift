@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ExtWideAngleToViewController: UIViewController {
     
     @IBOutlet var beeFly: BeeAnimationView!
+    var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
+    var hopSound = AVPlayer(name:  "hop", extension: "mp3")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +37,7 @@ class ExtWideAngleToViewController: UIViewController {
    
     @IBOutlet var grasshopperJump: UIImageView!
     @IBAction func sunButton(_ sender: UIButton){
+        sunSound.playFromStart()
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true
@@ -43,6 +47,8 @@ class ExtWideAngleToViewController: UIViewController {
     
     
     @IBAction func tapGrasshopper(_ sender: Any) {
+        hopSound.playFromStart()
+        
         UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseOut], animations: {
             self.grasshopperJump.transform = CGAffineTransform(translationX: 0, y: -3*self.grasshopperJump.bounds.size.height)
         }, completion: { _ in

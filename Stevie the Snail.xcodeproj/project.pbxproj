@@ -29,6 +29,19 @@
 		03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */; };
 		03CE7AE61EC79F9A00F0173F /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */; };
 		03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE71EC79FE400F0173F /* Main.storyboard */; };
+		B20FFE8A1EF49AC500DF5916 /* insect_fly.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE881EF49AC500DF5916 /* insect_fly.xcassets */; };
+		B20FFE8B1EF49AC500DF5916 /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FFE891EF49AC500DF5916 /* InsectFlyView.swift */; };
+		B20FFE8D1EF5A3DC00DF5916 /* AVPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */; };
+		B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */; };
+		B20FFE9A1EF5A71500DF5916 /* chapter1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE901EF5A71500DF5916 /* chapter1.mp3 */; };
+		B20FFE9B1EF5A71500DF5916 /* chapter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE911EF5A71500DF5916 /* chapter2.mp3 */; };
+		B20FFE9C1EF5A71500DF5916 /* heartbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */; };
+		B20FFE9D1EF5A71500DF5916 /* hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE931EF5A71500DF5916 /* hop.mp3 */; };
+		B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE941EF5A71500DF5916 /* meow.mp3 */; };
+		B20FFE9F1EF5A71500DF5916 /* night_owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE951EF5A71500DF5916 /* night_owl.mp3 */; };
+		B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE961EF5A71500DF5916 /* orange.mp3 */; };
+		B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */; };
+		B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */; };
 		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
 		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
@@ -94,6 +107,19 @@
 		03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TitlesAndCreditsViewController.storyboard; sourceTree = "<group>"; };
 		03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		03CE7AE71EC79FE400F0173F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B20FFE881EF49AC500DF5916 /* insect_fly.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = insect_fly.xcassets; sourceTree = "<group>"; };
+		B20FFE891EF49AC500DF5916 /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsectFlyView.swift; sourceTree = "<group>"; };
+		B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerExtension.swift; sourceTree = "<group>"; };
+		B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzingbees.mp3; sourceTree = "<group>"; };
+		B20FFE901EF5A71500DF5916 /* chapter1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chapter1.mp3; sourceTree = "<group>"; };
+		B20FFE911EF5A71500DF5916 /* chapter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chapter2.mp3; sourceTree = "<group>"; };
+		B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartbeat.mp3; sourceTree = "<group>"; };
+		B20FFE931EF5A71500DF5916 /* hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hop.mp3; sourceTree = "<group>"; };
+		B20FFE941EF5A71500DF5916 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
+		B20FFE951EF5A71500DF5916 /* night_owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night_owl.mp3; sourceTree = "<group>"; };
+		B20FFE961EF5A71500DF5916 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
+		B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slugcrawl.mp3; sourceTree = "<group>"; };
+		B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunflourish.mp3; sourceTree = "<group>"; };
 		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
 		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -150,6 +176,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20FFE8E1EF5A6C800DF5916 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */,
+				B20FFE901EF5A71500DF5916 /* chapter1.mp3 */,
+				B20FFE911EF5A71500DF5916 /* chapter2.mp3 */,
+				B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */,
+				B20FFE931EF5A71500DF5916 /* hop.mp3 */,
+				B20FFE941EF5A71500DF5916 /* meow.mp3 */,
+				B20FFE951EF5A71500DF5916 /* night_owl.mp3 */,
+				B20FFE961EF5A71500DF5916 /* orange.mp3 */,
+				B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */,
+				B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 		B2FD3AA71E4444E500EA21EE = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +216,9 @@
 		B2FD3AB21E4444E600EA21EE /* Stevie the Snail */ = {
 			isa = PBXGroup;
 			children = (
+				B20FFE8E1EF5A6C800DF5916 /* audio */,
+				B20FFE881EF49AC500DF5916 /* insect_fly.xcassets */,
+				B20FFE891EF49AC500DF5916 /* InsectFlyView.swift */,
 				B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */,
 				B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */,
 				B2FD3B291E44540100EA21EE /* Assets.xcassets */,
@@ -217,6 +263,7 @@
 				B2FD3B251E444D7D00EA21EE /* TitlesAndCreditsViewController.swift */,
 				03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */,
 				B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */,
+				B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */,
 			);
 			path = "Stevie the Snail";
 			sourceTree = "<group>";
@@ -352,14 +399,24 @@
 				B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */,
 				03CE7ACC1EC793A600F0173F /* GardenCloseUpViewController.storyboard in Resources */,
 				03CE7AD61EC795A100F0173F /* SnailCrawlViewController.storyboard in Resources */,
+				B20FFE9C1EF5A71500DF5916 /* heartbeat.mp3 in Resources */,
+				B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */,
+				B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */,
 				B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */,
+				B20FFE9B1EF5A71500DF5916 /* chapter2.mp3 in Resources */,
 				B2FD3B2A1E44540100EA21EE /* Assets.xcassets in Resources */,
+				B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */,
 				03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */,
 				03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */,
 				03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */,
+				B20FFE9F1EF5A71500DF5916 /* night_owl.mp3 in Resources */,
 				B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */,
+				B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */,
+				B20FFE9A1EF5A71500DF5916 /* chapter1.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
+				B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
+				B20FFE8A1EF49AC500DF5916 /* insect_fly.xcassets in Resources */,
 				03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */,
 				03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */,
 				03CE7AC61EC78F4C00F0173F /* AppleShotViewController.storyboard in Resources */,
@@ -368,6 +425,7 @@
 				03CE7ACE1EC7943D00F0173F /* HeartbeatViewController.storyboard in Resources */,
 				03CE7ADA1EC7967800F0173F /* OnTheMoveViewController.storyboard in Resources */,
 				03CE7ACA1EC7932400F0173F /* ExtWideAngleToViewController.storyboard in Resources */,
+				B20FFE9D1EF5A71500DF5916 /* hop.mp3 in Resources */,
 				03CE7AE21EC7980200F0173F /* TheEndViewController.storyboard in Resources */,
 				03CE7ADC1EC796AE00F0173F /* GardenArrivalViewController.storyboard in Resources */,
 			);
@@ -407,9 +465,11 @@
 				B2FD3AEB1E44467F00EA21EE /* ExtWideAngleToViewController.swift in Sources */,
 				B2FD3B171E444C6B00EA21EE /* GardenArrivalViewController.swift in Sources */,
 				B2FD3AE31E44464100EA21EE /* AppleShotViewController.swift in Sources */,
+				B20FFE8D1EF5A3DC00DF5916 /* AVPlayerExtension.swift in Sources */,
 				B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */,
 				B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */,
 				B2FD3B271E444D7D00EA21EE /* TitlesAndCreditsViewController.swift in Sources */,
+				B20FFE8B1EF49AC500DF5916 /* InsectFlyView.swift in Sources */,
 				03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */,
 				B2FD3B231E444D6500EA21EE /* TheEndViewController.swift in Sources */,
 				B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */,

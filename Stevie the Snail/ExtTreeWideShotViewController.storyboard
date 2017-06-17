@@ -152,21 +152,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_orange" translatesAutoresizingMaskIntoConstraints="NO" id="Pu1-zj-WgG">
-                                <rect key="frame" x="81" y="700" width="26" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                                        <point key="value" x="1" y="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBc-EK-Rsf">
                                 <rect key="frame" x="76" y="547" width="400" height="59"/>
                                 <string key="text">He would look over
@@ -340,6 +325,9 @@ at the green garden and see </string>
                             <constraint firstAttribute="bottom" secondItem="KBc-EK-Rsf" secondAttribute="bottom" constant="162" id="wY2-nE-xIk"/>
                         </constraints>
                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FDI-UZ-gVE" appends="YES" id="DWy-DW-1UB"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="backgroundView" destination="OjR-J1-32W" id="FT3-c1-Gsu"/>
@@ -357,8 +345,7 @@ at the green garden and see </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Db5-cG-KSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer cancelsTouchesInView="NO" allowableMovement="10" minimumPressDuration="0.0001" id="FDI-UZ-gVE">
                     <connections>
-                        <action selector="longPress:" destination="ZUg-zB-SnN" id="qq4-Oj-wLt"/>
-                        <outlet property="delegate" destination="CoH-mr-qng" id="63V-Hb-94z"/>
+                        <action selector="longPress:" destination="ZUg-zB-SnN" id="wMB-rj-E0N"/>
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
@@ -378,7 +365,6 @@ at the green garden and see </string>
         <image name="dust" width="700" height="502"/>
         <image name="flower_daisy" width="29" height="29"/>
         <image name="flower_green" width="9" height="10"/>
-        <image name="flower_orange" width="22" height="22"/>
         <image name="flower_pink" width="20" height="20"/>
         <image name="grass_strands" width="319" height="329"/>
         <image name="greengrass_1173_105" width="1174" height="120"/>

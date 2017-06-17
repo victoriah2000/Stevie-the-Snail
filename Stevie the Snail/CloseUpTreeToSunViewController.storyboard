@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,8 +41,11 @@
                                 <rect key="frame" x="419" y="-426" width="700" height="663"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYa-G3-Hel">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYa-G3-Hel">
                                 <rect key="frame" x="794" y="-1" width="229" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="tGN-eL-SCe"/>
+                                </constraints>
                                 <state key="normal" image="sun_328_338_"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
@@ -58,8 +62,8 @@
                                     <action selector="tapSun:" destination="4Cp-3I-Oju" eventType="touchUpInside" id="i4a-Fr-PGe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-a7-LP9">
-                                <rect key="frame" x="400" y="150" width="290" height="300"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-a7-LP9">
+                                <rect key="frame" x="450" y="180" width="290" height="300"/>
                                 <string key="text">Stevie would cry 
 at the sun in the sky, 
 "Why can't I go, why?' 
@@ -106,21 +110,22 @@ One day the sun said,
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_closetosun" translatesAutoresizingMaskIntoConstraints="NO" id="v4v-Vc-Jij">
-                                <rect key="frame" x="564" y="475" width="268.5" height="222.5"/>
+                                <rect key="frame" x="371" y="472" width="269" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="PYa-G3-Hel" secondAttribute="trailing" constant="-19" id="1NF-gp-RBi"/>
                             <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerY" secondItem="x5b-K8-tQO" secondAttribute="centerY" id="7RB-5k-Vw3"/>
-                            <constraint firstAttribute="trailing" secondItem="PYa-G3-Hel" secondAttribute="trailing" id="Cjv-GQ-YP6"/>
-                            <constraint firstItem="PYa-G3-Hel" firstAttribute="top" secondItem="x5b-K8-tQO" secondAttribute="top" constant="20" id="FR2-ZV-4bJ"/>
+                            <constraint firstItem="PYa-G3-Hel" firstAttribute="leading" secondItem="M9f-a7-LP9" secondAttribute="trailing" constant="54" id="EWD-Ag-TDX"/>
                             <constraint firstItem="M9f-a7-LP9" firstAttribute="height" secondItem="x5b-K8-tQO" secondAttribute="height" constant="-468" id="Jw3-Xj-NPk"/>
                             <constraint firstItem="M9f-a7-LP9" firstAttribute="width" secondItem="x5b-K8-tQO" secondAttribute="width" constant="-734" id="MrI-fu-5mU"/>
                             <constraint firstItem="M9f-a7-LP9" firstAttribute="leading" secondItem="x5b-K8-tQO" secondAttribute="leading" constant="450" id="XL2-qk-val"/>
                             <constraint firstAttribute="bottom" secondItem="M9f-a7-LP9" secondAttribute="bottom" constant="288" id="ncF-sz-VNp"/>
                             <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerX" secondItem="x5b-K8-tQO" secondAttribute="centerX" id="o7r-jF-nel"/>
+                            <constraint firstItem="PYa-G3-Hel" firstAttribute="top" secondItem="x5b-K8-tQO" secondAttribute="topMargin" constant="-1" id="sMB-zB-7kU"/>
                         </constraints>
                     </view>
                     <connections>
