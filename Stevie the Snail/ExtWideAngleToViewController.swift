@@ -11,6 +11,8 @@ import AVFoundation
 
 class ExtWideAngleToViewController: UIViewController {
     
+    @IBOutlet var frontGrass: UIImageView!
+    
     @IBOutlet var beeFly: BeeAnimationView!
     var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
     var hopSound = AVPlayer(name:  "hop", extension: "mp3")!
@@ -18,6 +20,7 @@ class ExtWideAngleToViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fly()
+        frontGrass.addMotionDisplacement (xAxisAmount: 100, yAxisAmount: 0)
     }
     
     func fly() {

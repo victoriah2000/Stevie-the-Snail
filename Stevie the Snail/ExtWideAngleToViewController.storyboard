@@ -305,6 +305,7 @@ and cat so free.</string>
                     </view>
                     <connections>
                         <outlet property="beeFly" destination="xXe-nA-nID" id="JAC-In-ahz"/>
+                        <outlet property="frontGrass" destination="hay-Bs-Ukf" id="qG0-Hl-0by"/>
                         <outlet property="grasshopperJump" destination="f5l-aT-xxx" id="1sf-Xx-AHa"/>
                     </connections>
                 </viewController>
