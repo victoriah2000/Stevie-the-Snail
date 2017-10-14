@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DCr-Nc-TFM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DCr-Nc-TFM">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Ext Wide Angle To View Controller-->
         <scene sceneID="qvv-nf-x8p">
@@ -204,13 +209,6 @@ and cat so free.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-xJ-o3b">
-                                <rect key="frame" x="372" y="632" width="51" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="51" id="3VG-0Z-k8K"/>
-                                    <constraint firstAttribute="height" constant="47" id="x6c-3X-PpB"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple_closeup" translatesAutoresizingMaskIntoConstraints="NO" id="IB8-UY-uPk">
                                 <rect key="frame" x="26" y="682" width="72" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -261,13 +259,21 @@ and cat so free.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXe-nA-nID" customClass="BeeAnimationView" customModule="Stevie_the_Snail" customModuleProvider="target">
-                                <rect key="frame" x="10" y="70" width="984" height="628"/>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXe-nA-nID" customClass="BeeAnimationView" customModule="Stevie_the_Snail" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="984" height="628"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="uOl-N0-YYU">
                                 <rect key="frame" x="-125" y="700" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="eJD-xJ-o3b">
+                                <rect key="frame" x="372" y="632" width="51" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="9WH-cU-cU5" appends="YES" id="LBQ-lm-1HK"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -289,8 +295,6 @@ and cat so free.</string>
                             <constraint firstAttribute="trailingMargin" secondItem="rg7-pu-jEu" secondAttribute="trailing" constant="-20" id="T80-ha-ZZ4"/>
                             <constraint firstItem="xXe-nA-nID" firstAttribute="top" secondItem="2Gq-lM-npj" secondAttribute="top" id="W4W-8A-hXB"/>
                             <constraint firstItem="Hf0-Dr-aou" firstAttribute="top" secondItem="3G0-na-n8B" secondAttribute="top" constant="20" id="XJJ-7M-2Kq"/>
-                            <constraint firstItem="eJD-xJ-o3b" firstAttribute="leading" secondItem="3G0-na-n8B" secondAttribute="leadingMargin" constant="352" id="XrV-f5-2Jz"/>
-                            <constraint firstItem="WA2-7A-6M2" firstAttribute="top" secondItem="eJD-xJ-o3b" secondAttribute="bottom" constant="89" id="a0B-Nn-13b"/>
                             <constraint firstItem="pe2-A7-M3p" firstAttribute="top" secondItem="xXe-nA-nID" secondAttribute="bottom" constant="98" id="d52-28-Zb5"/>
                             <constraint firstItem="rg7-pu-jEu" firstAttribute="top" secondItem="iML-u5-xgk" secondAttribute="bottom" constant="622" id="hXC-SR-RA9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TTn-3f-95g" secondAttribute="trailing" constant="42" id="igm-hf-Wmy"/>
@@ -304,6 +308,7 @@ and cat so free.</string>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Josh" destination="eJD-xJ-o3b" id="Kz4-8N-zZC"/>
                         <outlet property="beeFly" destination="xXe-nA-nID" id="JAC-In-ahz"/>
                         <outlet property="frontGrass" destination="hay-Bs-Ukf" id="qG0-Hl-0by"/>
                         <outlet property="grasshopperJump" destination="f5l-aT-xxx" id="1sf-Xx-AHa"/>
@@ -313,6 +318,11 @@ and cat so free.</string>
                 <tapGestureRecognizer id="eFX-mo-u88">
                     <connections>
                         <action selector="tapGrasshopper:" destination="DCr-Nc-TFM" id="hvm-9A-uyw"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="9WH-cU-cU5">
+                    <connections>
+                        <action selector="tapJosh:" destination="DCr-Nc-TFM" id="RUF-fF-xuL"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

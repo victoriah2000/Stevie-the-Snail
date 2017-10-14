@@ -44,6 +44,7 @@
 		B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */; };
 		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
 		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
+		B22187671F520B3100297A6A /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = B22187661F520B3100297A6A /* Boing.wav */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
 		B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */; };
@@ -122,6 +123,7 @@
 		B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunflourish.mp3; sourceTree = "<group>"; };
 		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
 		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
+		B22187661F520B3100297A6A /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
 		B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stevie the Snail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +181,7 @@
 		B20FFE8E1EF5A6C800DF5916 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				B22187661F520B3100297A6A /* Boing.wav */,
 				B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */,
 				B20FFE901EF5A71500DF5916 /* chapter1.mp3 */,
 				B20FFE911EF5A71500DF5916 /* chapter2.mp3 */,
@@ -411,6 +414,7 @@
 				03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */,
 				B20FFE9F1EF5A71500DF5916 /* night_owl.mp3 in Resources */,
 				B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */,
+				B22187671F520B3100297A6A /* Boing.wav in Resources */,
 				B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */,
 				B20FFE9A1EF5A71500DF5916 /* chapter1.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
@@ -629,11 +633,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 249REVVXPG;
 				INFOPLIST_FILE = "Stevie the Snail/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -643,11 +648,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 249REVVXPG;
 				INFOPLIST_FILE = "Stevie the Snail/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

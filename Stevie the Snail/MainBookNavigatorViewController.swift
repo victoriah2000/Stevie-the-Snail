@@ -30,7 +30,7 @@ class MainBookNavigatorViewController: UIViewController {
         String(describing: GardnCloseUp2ViewController.self),
         String(describing: FinaleViewController.self),
         String(describing: TheEndViewController.self),
-        String(describing: TitlesAndCreditsViewController.self),
+        //String(describing: TitlesAndCreditsViewController.self),
         ]
 
     var currentIndex = 0
@@ -45,6 +45,8 @@ class MainBookNavigatorViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        let widthScale = UIScreen.main.bounds.size.width / 1024
+        view.transform = CGAffineTransform(scaleX: widthScale, y: widthScale)
         currentViewController = UIStoryboard(name: pages[0], bundle: nil).instantiateInitialViewController()!
         view.insertSubview(currentViewController.view, at: 0)
         currentViewController.willMove(toParentViewController: self)

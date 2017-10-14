@@ -9,5 +9,14 @@
 import UIKit
 
 class AppleShotViewController: UIViewController {
-    @IBOutlet var backgroundImageView: UIView!
+    @IBOutlet var backgroundImageView: UIImageView!
+    @IBOutlet var appleBackground: UIImageView!
+    @IBOutlet var stevie: UIImageView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        backgroundImageView.addMotionDisplacement(xAxisAmount: 0, yAxisAmount: 0)
+    appleBackground.addMotionDisplacement(xAxisAmount: 75, yAxisAmount: 75)
+        stevie.addMotionDisplacement(xAxisAmount: 10, yAxisAmount: 10)
+
+}
 }

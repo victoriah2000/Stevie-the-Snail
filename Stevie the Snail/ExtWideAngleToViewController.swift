@@ -11,6 +11,27 @@ import AVFoundation
 
 class ExtWideAngleToViewController: UIViewController {
     
+    
+    @IBOutlet weak var Josh: UIImageView!
+    var joshSound = AVPlayer(name: "Boing", extension: "wav")!
+    
+    @IBAction func tapJosh(_ sender: Any) {
+        joshSound.playFromStart()
+        UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+            self.Josh.transform = CGAffineTransform(rotationAngle: 5)
+        }, completion: { _ in
+            UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+                self.Josh.transform = CGAffineTransform(rotationAngle: -5)
+            }, completion: { _ in
+                UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+                    self.Josh.transform = CGAffineTransform.identity
+                }, completion: nil)
+           
+            
+            })
+        })
+    }
+    
     @IBOutlet var frontGrass: UIImageView!
     
     @IBOutlet var beeFly: BeeAnimationView!
