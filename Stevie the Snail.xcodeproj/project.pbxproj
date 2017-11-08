@@ -33,12 +33,12 @@
 		B20FFE8B1EF49AC500DF5916 /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FFE891EF49AC500DF5916 /* InsectFlyView.swift */; };
 		B20FFE8D1EF5A3DC00DF5916 /* AVPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */; };
 		B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */; };
-		B20FFE9A1EF5A71500DF5916 /* chapter1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE901EF5A71500DF5916 /* chapter1.mp3 */; };
-		B20FFE9B1EF5A71500DF5916 /* chapter2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE911EF5A71500DF5916 /* chapter2.mp3 */; };
+		B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE901EF5A71500DF5916 /* main.mp3 */; };
+		B20FFE9B1EF5A71500DF5916 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE911EF5A71500DF5916 /* intro.mp3 */; };
 		B20FFE9C1EF5A71500DF5916 /* heartbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */; };
 		B20FFE9D1EF5A71500DF5916 /* hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE931EF5A71500DF5916 /* hop.mp3 */; };
 		B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE941EF5A71500DF5916 /* meow.mp3 */; };
-		B20FFE9F1EF5A71500DF5916 /* night_owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE951EF5A71500DF5916 /* night_owl.mp3 */; };
+		B20FFE9F1EF5A71500DF5916 /* night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE951EF5A71500DF5916 /* night.mp3 */; };
 		B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE961EF5A71500DF5916 /* orange.mp3 */; };
 		B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */; };
 		B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */; };
@@ -112,12 +112,12 @@
 		B20FFE891EF49AC500DF5916 /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsectFlyView.swift; sourceTree = "<group>"; };
 		B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerExtension.swift; sourceTree = "<group>"; };
 		B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzingbees.mp3; sourceTree = "<group>"; };
-		B20FFE901EF5A71500DF5916 /* chapter1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chapter1.mp3; sourceTree = "<group>"; };
-		B20FFE911EF5A71500DF5916 /* chapter2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chapter2.mp3; sourceTree = "<group>"; };
+		B20FFE901EF5A71500DF5916 /* main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main.mp3; sourceTree = "<group>"; };
+		B20FFE911EF5A71500DF5916 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
 		B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartbeat.mp3; sourceTree = "<group>"; };
 		B20FFE931EF5A71500DF5916 /* hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hop.mp3; sourceTree = "<group>"; };
 		B20FFE941EF5A71500DF5916 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
-		B20FFE951EF5A71500DF5916 /* night_owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night_owl.mp3; sourceTree = "<group>"; };
+		B20FFE951EF5A71500DF5916 /* night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night.mp3; sourceTree = "<group>"; };
 		B20FFE961EF5A71500DF5916 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
 		B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slugcrawl.mp3; sourceTree = "<group>"; };
 		B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunflourish.mp3; sourceTree = "<group>"; };
@@ -183,12 +183,12 @@
 			children = (
 				B22187661F520B3100297A6A /* Boing.wav */,
 				B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */,
-				B20FFE901EF5A71500DF5916 /* chapter1.mp3 */,
-				B20FFE911EF5A71500DF5916 /* chapter2.mp3 */,
+				B20FFE901EF5A71500DF5916 /* main.mp3 */,
+				B20FFE911EF5A71500DF5916 /* intro.mp3 */,
 				B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */,
 				B20FFE931EF5A71500DF5916 /* hop.mp3 */,
 				B20FFE941EF5A71500DF5916 /* meow.mp3 */,
-				B20FFE951EF5A71500DF5916 /* night_owl.mp3 */,
+				B20FFE951EF5A71500DF5916 /* night.mp3 */,
 				B20FFE961EF5A71500DF5916 /* orange.mp3 */,
 				B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */,
 				B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */,
@@ -352,23 +352,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Victoria Heric";
 				TargetAttributes = {
 					B2FD3AAF1E4444E600EA21EE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 249REVVXPG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					B2FD3AC31E4444E600EA21EE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 249REVVXPG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B2FD3AAF1E4444E600EA21EE;
 					};
 					B2FD3ACE1E4444E600EA21EE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 249REVVXPG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B2FD3AAF1E4444E600EA21EE;
 					};
@@ -406,17 +409,17 @@
 				B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */,
 				B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */,
 				B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */,
-				B20FFE9B1EF5A71500DF5916 /* chapter2.mp3 in Resources */,
+				B20FFE9B1EF5A71500DF5916 /* intro.mp3 in Resources */,
 				B2FD3B2A1E44540100EA21EE /* Assets.xcassets in Resources */,
 				B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */,
 				03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */,
 				03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */,
 				03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */,
-				B20FFE9F1EF5A71500DF5916 /* night_owl.mp3 in Resources */,
+				B20FFE9F1EF5A71500DF5916 /* night.mp3 in Resources */,
 				B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */,
 				B22187671F520B3100297A6A /* Boing.wav in Resources */,
 				B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */,
-				B20FFE9A1EF5A71500DF5916 /* chapter1.mp3 in Resources */,
+				B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
 				B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
@@ -543,7 +546,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -551,7 +556,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -574,12 +583,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -593,7 +604,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -601,7 +614,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -618,12 +635,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -637,7 +657,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -652,7 +673,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-Snail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -667,7 +689,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stevie the Snail.app/Stevie the Snail";
 			};
 			name = Debug;
@@ -682,7 +705,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stevie the Snail.app/Stevie the Snail";
 			};
 			name = Release;
@@ -696,7 +720,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Stevie the Snail";
 			};
 			name = Debug;
@@ -710,7 +735,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.midsummerbooks.Stevie-the-SnailUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Stevie the Snail";
 			};
 			name = Release;
