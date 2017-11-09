@@ -7,9 +7,31 @@
 //
 
 import UIKit
+import AVFoundation
 
 class NightViewController: UIViewController {
-
+    //mark josh rock and animation
+    @IBOutlet weak var Josh: UIButton!
+    var joshSound = AVPlayer(name: "Boing", extension: "wav")!
+    
+    @IBAction func tapJosh(_ sender: UIButton) {
+        
+        joshSound.playFromStart()
+        UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+            self.Josh.transform = CGAffineTransform(rotationAngle: 5)
+        }, completion: { _ in
+            UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+                self.Josh.transform = CGAffineTransform(rotationAngle: -5)
+            }, completion: { _ in
+                UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
+                    self.Josh.transform = CGAffineTransform.identity
+                }, completion: nil)
+               
+                
+            })
+        })
+    }
+    
     @IBOutlet var clouds: UIImageView!
     @IBOutlet var stars1: UIImageView!
     @IBOutlet var stars2: UIImageView!

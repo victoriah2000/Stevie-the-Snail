@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AVFoundation
 
 class CloseUpTreeToSunViewController: UIViewController {
 
     @IBOutlet var sunButton: UIButton!
     
+    //Mark Sounds
+    
+    var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
+    
     @IBAction func tapSun(_ sender: Any) {
+        sunSound.playFromStart()
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true

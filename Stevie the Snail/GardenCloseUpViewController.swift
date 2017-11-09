@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import AVFoundation
 
 class GardenCloseUpViewController: UIViewController {
 
     @IBOutlet var ButterflyEffect: [UIImageView]!
     @IBOutlet var grasshopperJump: UIImageView!
+    
+    //MARK sounds
+     var hopSound = AVPlayer(name:  "hop", extension: "mp3")!
 
     
     // MARK: Variables
@@ -76,6 +80,7 @@ class GardenCloseUpViewController: UIViewController {
         
     }
     @IBAction func tapGrasshopper(_ sender: Any) {
+        hopSound.playFromStart()
         UIView.animate(withDuration: 0.125, delay: 0, options: [.curveEaseOut], animations: {
             self.grasshopperJump.transform = CGAffineTransform(translationX: 0, y: -3*self.grasshopperJump.bounds.size.height)
         }, completion: { _ in

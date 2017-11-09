@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FinaleViewController: UIViewController {
     
-    @IBAction func sunButton(_ sender: Any) {
-    }
+//Mark Sounds
+    var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
+    var orangeSound = AVPlayer(name: "orange", extension: "mp3")!
 
-    @IBAction func tapSun(_ sender: UIButton) {
+    @IBAction func sunButton(_ sender: UIButton) {
+        sunSound.playFromStart()
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true
@@ -40,6 +43,9 @@ class FinaleViewController: UIViewController {
         Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { _ in
             self.collision.addItem(self.orange)
             self.gravity.addItem(self.orange)
+        }
+        Timer.scheduledTimer(withTimeInterval: 1 + 0.75, repeats: false) {_ in
+            self.orangeSound.playFromStart()
         }
     }
   

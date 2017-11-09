@@ -36,10 +36,10 @@ class MainBookNavigatorViewController: UIViewController {
     var currentIndex = 0
     var currentViewController: UIViewController!
     var currentPlayer = AVPlayer()
-    var nightviewSound = AVPlayer(name:  "night_owl", extension: "mp3")!
-    var chap1Music = AVPlayer(name:  "chapter2", extension: "mp3")!
-    var chap2Music = AVPlayer(name:  "chapter1", extension: "mp3")!
-    var musicSate = MusicState.intro
+    var night = AVPlayer(name:  "night", extension: "mp3")!
+    var intro = AVPlayer(name:  "intro", extension: "mp3")!
+    var main = AVPlayer(name:  "main", extension: "mp3")!
+    var musicState = MusicState.intro
     enum MusicState {
         case intro, main, night
     }
@@ -52,7 +52,7 @@ class MainBookNavigatorViewController: UIViewController {
         currentViewController.willMove(toParentViewController: self)
         addChildViewController(currentViewController)
         currentViewController.view.constrainToSuperView()
-        chap1Music.playLoop()
+        main.playLoop()
     }
 
 
@@ -66,37 +66,37 @@ class MainBookNavigatorViewController: UIViewController {
     }
 
     func transition(to identifier: String) {
-        let newMusicSate: MusicState
+        let newMusicState: MusicState
         switch identifier {
         case String(describing: TitleViewController.self):
-            newMusicSate = .intro
+            newMusicState = .intro
         case String(describing: NightViewController.self):
-            newMusicSate = .night
+            newMusicState = .night
         case String(describing: SunInSkyViewController.self):
-            newMusicSate = .intro
+            newMusicState = .intro
         default:
-            newMusicSate = .main
+            newMusicState = .main
         }
-        if newMusicSate != musicSate {
-            musicSate = newMusicSate
-            switch musicSate {
+        if newMusicState != musicState {
+            musicState = newMusicState
+            switch musicState {
             case .intro:
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                    self.chap1Music.playLoop()
-                    self.chap2Music.pause()
-                    self.nightviewSound.pause()
+                    self.intro.playLoop()
+                    self.main.pause()
+                    self.night.pause()
                 }
             case .main:
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                    self.chap1Music.pause()
-                    self.chap2Music.playLoop()
-                    self.nightviewSound.pause()
+                    self.intro.pause()
+                    self.main.playLoop()
+                    self.night.pause()
                 }
             case .night:
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-                    self.chap1Music.pause()
-                    self.chap2Music.pause()
-                    self.nightviewSound.playLoop()
+                    self.intro.pause()
+                    self.main.pause()
+                    self.night.playLoop()
                 }
             }
         }

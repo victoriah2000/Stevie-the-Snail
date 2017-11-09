@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Sun In Sky View Controller-->
         <scene sceneID="ABv-NB-uMt">
@@ -108,10 +113,14 @@
                                 <rect key="frame" x="68" y="603" width="154" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="josh" translatesAutoresizingMaskIntoConstraints="NO" id="pOd-sO-kAU">
-                                <rect key="frame" x="90" y="652" width="75" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIZ-at-4QR" userLabel="josh">
+                                <rect key="frame" x="81" y="649" width="75" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="josh"/>
+                                <connections>
+                                    <action selector="tapJosh:" destination="3gE-KI-Mq7" eventType="touchUpInside" id="e18-gX-PF0"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_daisy" translatesAutoresizingMaskIntoConstraints="NO" id="CRh-Un-0Vg">
                                 <rect key="frame" x="174" y="620" width="50" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -136,6 +145,9 @@
                             <constraint firstItem="fcF-YB-ena" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="vHQ-jR-0CA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Josh" destination="vIZ-at-4QR" id="le6-Vn-vjo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KoQ-Ux-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

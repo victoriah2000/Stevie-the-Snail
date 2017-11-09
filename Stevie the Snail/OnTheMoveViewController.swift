@@ -9,7 +9,7 @@
 import UIKit
 
 class OnTheMoveViewController: UIViewController {
-
+//mark animaton
     @IBOutlet var insectFly: InsectFlyView!
    
     override func viewDidLoad() {

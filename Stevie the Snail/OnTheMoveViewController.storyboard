@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hhw-c7-jIR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hhw-c7-jIR">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--On The Move View Controller-->
         <scene sceneID="ySA-PH-hQ7">
@@ -24,13 +30,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="Jsq-JQ-Mgx">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
                                 <rect key="frame" x="825" y="585" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="mTl-gC-EUB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="mTl-gC-EUB">
                                 <rect key="frame" x="-75" y="619" width="1173" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mosquito1" translatesAutoresizingMaskIntoConstraints="NO" id="YHK-c9-48v">
                                 <rect key="frame" x="450" y="-50" width="360" height="318"/>
@@ -48,21 +52,24 @@
                                 <rect key="frame" x="751" y="577" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="enp-5J-BAs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="enp-5J-BAs">
                                 <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-hx-3ok">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-hx-3ok">
                                 <rect key="frame" x="49" y="566" width="202" height="202"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="5wa-Bt-Bq5"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flare_1024" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-4i-xqu">
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flare_1024" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-4i-xqu">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ladybug" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-2h-JPc">
-                                <rect key="frame" x="838" y="648" width="97" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="ladybug" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-2h-JPc">
+                                <rect key="frame" x="838" y="397" width="97" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="LSI-Dj-Yzf"/>
+                                    <constraint firstAttribute="height" constant="103" id="evR-9f-2xI"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                         <point key="value" x="1" y="1"/>
@@ -75,9 +82,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spider" translatesAutoresizingMaskIntoConstraints="NO" id="OFA-iV-sgx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider" translatesAutoresizingMaskIntoConstraints="NO" id="OFA-iV-sgx">
                                 <rect key="frame" x="716" y="639" width="52" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Krn-Iw-C6S"/>
+                                    <constraint firstAttribute="width" constant="52" id="LGc-qy-RDy"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -90,24 +100,47 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_magenta" translatesAutoresizingMaskIntoConstraints="NO" id="VYQ-WD-hLj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="flower_magenta" translatesAutoresizingMaskIntoConstraints="NO" id="VYQ-WD-hLj">
                                 <rect key="frame" x="787" y="577" width="60" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="vjo-Fe-rv4">
-                                <rect key="frame" x="855" y="566" width="63" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower_yellow" translatesAutoresizingMaskIntoConstraints="NO" id="vjo-Fe-rv4">
+                                <rect key="frame" x="855" y="268" width="63" height="110"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2i-8v-OsX" userLabel="insect_fly" customClass="InsectFlyView" customModule="Stevie_the_Snail" customModuleProvider="target">
-                                <rect key="frame" x="158" y="-17" width="1024" height="768"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2i-8v-OsX" userLabel="insect_fly" customClass="InsectFlyView" customModule="Stevie_the_Snail" customModuleProvider="target">
+                                <rect key="frame" x="158" y="-17" width="1024" height="517"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="OFA-iV-sgx" secondAttribute="bottom" constant="79" id="0Ar-EA-JYy"/>
+                            <constraint firstItem="vjo-Fe-rv4" firstAttribute="top" secondItem="5Rg-hx-3ok" secondAttribute="top" id="5Qj-hW-g9K"/>
+                            <constraint firstItem="e2i-8v-OsX" firstAttribute="bottom" secondItem="SSf-2h-JPc" secondAttribute="bottom" id="5Sn-as-9j3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SSf-2h-JPc" secondAttribute="trailing" constant="69" id="BtZ-wB-FeJ"/>
+                            <constraint firstItem="KGO-4i-xqu" firstAttribute="leading" secondItem="Jsq-JQ-Mgx" secondAttribute="leading" id="CP2-On-5UQ"/>
+                            <constraint firstItem="SSf-2h-JPc" firstAttribute="top" secondItem="vjo-Fe-rv4" secondAttribute="bottom" constant="19" id="EKx-S6-10l"/>
+                            <constraint firstItem="sHf-uD-DA2" firstAttribute="leading" secondItem="OFA-iV-sgx" secondAttribute="trailing" constant="57" id="GKR-pV-oFO"/>
                             <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="e2i-8v-OsX" secondAttribute="bottom" constant="268" id="GfA-9O-KLw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vjo-Fe-rv4" secondAttribute="trailing" constant="86" id="Gjb-zB-LeE"/>
+                            <constraint firstItem="vjo-Fe-rv4" firstAttribute="leading" secondItem="VYQ-WD-hLj" secondAttribute="trailing" constant="8" symbolic="YES" id="IjP-7l-l5l"/>
+                            <constraint firstItem="KGO-4i-xqu" firstAttribute="top" secondItem="Jsq-JQ-Mgx" secondAttribute="top" id="KNm-bW-RwL"/>
+                            <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="sHf-uD-DA2" secondAttribute="bottom" constant="55" id="KOL-Pl-13o"/>
+                            <constraint firstItem="SSf-2h-JPc" firstAttribute="leading" secondItem="OFA-iV-sgx" secondAttribute="trailing" constant="70" id="KPX-JW-Lx3"/>
+                            <constraint firstItem="5Rg-hx-3ok" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leadingMargin" constant="29" id="PcD-5Z-dsy"/>
+                            <constraint firstItem="KGO-4i-xqu" firstAttribute="centerX" secondItem="mTl-gC-EUB" secondAttribute="centerX" id="Rex-wi-3Xx"/>
+                            <constraint firstItem="KGO-4i-xqu" firstAttribute="leading" secondItem="enp-5J-BAs" secondAttribute="leading" id="Rl9-Jf-8fw"/>
+                            <constraint firstAttribute="trailing" secondItem="e2i-8v-OsX" secondAttribute="trailing" constant="-158" id="S8e-eo-ifl"/>
+                            <constraint firstItem="e2i-8v-OsX" firstAttribute="top" secondItem="ctM-IO-aPv" secondAttribute="topMargin" constant="-37" id="TYf-W8-NJ2"/>
+                            <constraint firstItem="5Rg-hx-3ok" firstAttribute="bottom" secondItem="hie-J7-Ugg" secondAttribute="top" id="XJS-bb-d1c"/>
+                            <constraint firstItem="KGO-4i-xqu" firstAttribute="bottom" secondItem="Jsq-JQ-Mgx" secondAttribute="bottom" id="YnF-hf-9HY"/>
+                            <constraint firstItem="sHf-uD-DA2" firstAttribute="top" secondItem="e2i-8v-OsX" secondAttribute="bottom" constant="85" id="abE-Pa-foO"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="hxd-CI-jKZ"/>
+                            <constraint firstItem="e2i-8v-OsX" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leading" constant="158" id="jA5-yx-17v"/>
+                            <constraint firstItem="SSf-2h-JPc" firstAttribute="centerX" secondItem="vjo-Fe-rv4" secondAttribute="centerX" id="kbN-m1-s5V"/>
                             <constraint firstItem="Jsq-JQ-Mgx" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="lIB-3l-vpT"/>
+                            <constraint firstItem="SSf-2h-JPc" firstAttribute="top" secondItem="VYQ-WD-hLj" secondAttribute="bottom" constant="14" id="u37-1B-wWM"/>
+                            <constraint firstItem="vjo-Fe-rv4" firstAttribute="top" secondItem="e2i-8v-OsX" secondAttribute="bottom" constant="66" id="wxB-tD-45p"/>
+                            <constraint firstItem="5Rg-hx-3ok" firstAttribute="bottom" secondItem="KGO-4i-xqu" secondAttribute="bottom" id="yCg-Td-ega"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sHf-uD-DA2" secondAttribute="trailing" constant="-61" id="yYS-7i-0KW"/>
                         </constraints>
                     </view>
                     <connections>
