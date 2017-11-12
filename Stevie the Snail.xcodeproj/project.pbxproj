@@ -47,6 +47,7 @@
 		B22187671F520B3100297A6A /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = B22187661F520B3100297A6A /* Boing.wav */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
+		B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E48E71FB7931200D8157D /* SceneKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */; };
 		B2FD3AB61E4444E600EA21EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB51E4444E600EA21EE /* ViewController.swift */; };
 		B2FD3AB91E4444E600EA21EE /* TitleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FD3AB71E4444E600EA21EE /* TitleViewController.storyboard */; };
@@ -126,6 +127,7 @@
 		B22187661F520B3100297A6A /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
+		B29E48E71FB7931200D8157D /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stevie the Snail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2FD3AB51E4444E600EA21EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +199,14 @@
 			name = audio;
 			sourceTree = "<group>";
 		};
+		B29E48E61FB7931100D8157D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29E48E71FB7931200D8157D /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2FD3AA71E4444E500EA21EE = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +214,7 @@
 				B2FD3AC71E4444E600EA21EE /* Stevie the SnailTests */,
 				B2FD3AD21E4444E600EA21EE /* Stevie the SnailUITests */,
 				B2FD3AB11E4444E600EA21EE /* Products */,
+				B29E48E61FB7931100D8157D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

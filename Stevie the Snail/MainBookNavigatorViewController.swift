@@ -52,7 +52,7 @@ class MainBookNavigatorViewController: UIViewController {
         currentViewController.willMove(toParentViewController: self)
         addChildViewController(currentViewController)
         currentViewController.view.constrainToSuperView()
-        main.playLoop()
+        intro.playLoop()
     }
 
 
@@ -73,6 +73,18 @@ class MainBookNavigatorViewController: UIViewController {
         case String(describing: NightViewController.self):
             newMusicState = .night
         case String(describing: SunInSkyViewController.self):
+            newMusicState = .intro
+        case String(describing: OnTheMoveViewController.self):
+            newMusicState = .intro
+        case String(describing: GardenArrivalViewController.self):
+            newMusicState = .intro
+        case String(describing: GardnCloseUp2ViewController.self):
+            newMusicState = .intro
+        case String(describing: FinaleViewController.self):
+            newMusicState = .intro
+        case String(describing: TheEndViewController.self):
+            newMusicState = .intro
+        case String(describing: TitlesAndCreditsViewController.self):
             newMusicState = .intro
         default:
             newMusicState = .main

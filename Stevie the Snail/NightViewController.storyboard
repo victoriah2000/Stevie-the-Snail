@@ -378,6 +378,21 @@ with bad sounds from who knows where.</string>
                         <outlet property="stars1" destination="Zc9-ID-fZm" id="9N3-M0-eEt"/>
                         <outlet property="stars2" destination="or0-aS-GDk" id="K4m-s1-DiD"/>
                         <outlet property="stars3" destination="tBB-5a-1FT" id="UgA-JL-I6H"/>
+                        <outletCollection property="stars" destination="pqi-vy-hse" collectionClass="NSMutableArray" id="1MG-VJ-gbi"/>
+                        <outletCollection property="stars" destination="t2S-q2-VT8" collectionClass="NSMutableArray" id="gcq-ej-1SP"/>
+                        <outletCollection property="stars" destination="hqK-U2-TwI" collectionClass="NSMutableArray" id="TGv-ad-0kC"/>
+                        <outletCollection property="stars" destination="Vh8-ni-4o1" collectionClass="NSMutableArray" id="Yos-3S-DOq"/>
+                        <outletCollection property="stars" destination="4dS-wU-oAD" collectionClass="NSMutableArray" id="MaY-bz-vPD"/>
+                        <outletCollection property="stars" destination="OnO-4P-eGQ" collectionClass="NSMutableArray" id="8hL-mo-s0d"/>
+                        <outletCollection property="stars" destination="AS4-Rt-Nfv" collectionClass="NSMutableArray" id="XKT-jO-fje"/>
+                        <outletCollection property="stars" destination="aZf-BU-t8O" collectionClass="NSMutableArray" id="PxZ-Fc-QME"/>
+                        <outletCollection property="stars" destination="600-xd-R84" collectionClass="NSMutableArray" id="ytK-yL-ZFQ"/>
+                        <outletCollection property="stars" destination="CDH-MD-ni2" collectionClass="NSMutableArray" id="Hp6-cw-KmY"/>
+                        <outletCollection property="stars" destination="pqi-vy-hse" collectionClass="NSMutableArray" id="jZJ-oY-VY0"/>
+                        <outletCollection property="stars" destination="n8Q-Hu-hWI" collectionClass="NSMutableArray" id="iV5-H7-t35"/>
+                        <outletCollection property="stars" destination="600-xd-R84" collectionClass="NSMutableArray" id="1tw-ZQ-V8o"/>
+                        <outletCollection property="stars" destination="ki4-Sd-82v" collectionClass="NSMutableArray" id="d3V-hO-4gQ"/>
+                        <outletCollection property="stars" destination="YWp-Ll-8BM" collectionClass="NSMutableArray" id="OhI-jr-SDb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GzN-nN-bgK" userLabel="First Responder" sceneMemberID="firstResponder"/>
