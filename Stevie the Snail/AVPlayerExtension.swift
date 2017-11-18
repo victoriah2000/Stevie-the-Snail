@@ -27,7 +27,7 @@ extension AVPlayer {
     func playLoop() {
         print("🎃 PLAY LOOP");
         playFromStart() 
-        NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: currentItem, queue: nil) { notification in
             print("🐌 RESTART");
             
             if self.timeControlStatus == .playing {
