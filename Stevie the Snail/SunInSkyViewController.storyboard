@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3gE-KI-Mq7">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -44,17 +46,42 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="ezT-tx-Gh6">
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="ezT-tx-Gh6">
                                 <rect key="frame" x="400" y="75" width="600" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="fUo-j0-PEu"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="string_200_27" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
-                                <rect key="frame" x="750" y="250" width="57" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="web_5_200" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
+                                <rect key="frame" x="771" y="150" width="5" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="ACk-IT-lG6"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="il9-wc-VEy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider_web" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-pB-9gC">
+                                <rect key="frame" x="750" y="300" width="52" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="oND-Dc-uIJ"/>
+                                    <constraint firstAttribute="width" constant="52" id="sPs-b9-eG5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="il9-wc-VEy">
                                 <rect key="frame" x="400" y="-262" width="700" height="556"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="556" id="KF3-gt-w9q"/>
+                                    <constraint firstAttribute="width" constant="700" id="mLc-eh-Ciw"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-N6-7XF" userLabel="sunButton">
                                 <rect key="frame" x="367" y="50" width="329" height="339"/>
@@ -74,9 +101,11 @@
                                     <action selector="tapSun:" destination="3gE-KI-Mq7" eventType="touchUpInside" id="txL-r9-9az"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQz-n7-6a9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="345" translatesAutoresizingMaskIntoConstraints="NO" id="EQz-n7-6a9">
                                 <rect key="frame" x="45" y="43" width="345" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="1zT-97-J3Q"/>
+                                </constraints>
                                 <string key="text">In the moring,                                                 the sun was back in the sky,                     saying, "Go! Give it a try!"</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -86,24 +115,12 @@
                                 <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Steve_morning" translatesAutoresizingMaskIntoConstraints="NO" id="UN8-Iy-Nyg">
-                                <rect key="frame" x="778" y="608.5" width="147" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spider-1" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-pB-9gC">
-                                <rect key="frame" x="750" y="441" width="52" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                                        <point key="value" x="1" y="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve_morning" translatesAutoresizingMaskIntoConstraints="NO" id="UN8-Iy-Nyg">
+                                <rect key="frame" x="782" y="609" width="147" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="Kv1-vp-S8V"/>
+                                    <constraint firstAttribute="width" constant="147" id="wfm-XE-ct9"/>
+                                </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="fp9-r6-Agh">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
@@ -136,17 +153,39 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="yet-e7-cAq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EQz-n7-6a9" secondAttribute="trailing" constant="634" id="4wD-7r-uPV"/>
                             <constraint firstAttribute="trailing" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="328" id="IZD-io-SCk"/>
+                            <constraint firstItem="OJi-pB-9gC" firstAttribute="leading" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="54" id="Lel-4o-syC"/>
+                            <constraint firstItem="loA-hR-Icg" firstAttribute="width" secondItem="bkK-pS-GMy" secondAttribute="height" multiplier="5:768" id="LsE-pu-9Ez"/>
+                            <constraint firstItem="il9-wc-VEy" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="-262" id="Oq4-Qg-9k2"/>
                             <constraint firstItem="WpT-N6-7XF" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="50" id="RYl-0X-xhD"/>
+                            <constraint firstItem="wly-ig-VRM" firstAttribute="top" secondItem="EQz-n7-6a9" secondAttribute="bottom" constant="602" id="Ruh-DY-PX5"/>
+                            <constraint firstItem="loA-hR-Icg" firstAttribute="top" secondItem="YXL-Hx-Sks" secondAttribute="bottom" constant="130" id="Z6C-PR-9eB"/>
+                            <constraint firstItem="OJi-pB-9gC" firstAttribute="bottom" secondItem="loA-hR-Icg" secondAttribute="bottom" id="ZFP-ZE-GTU"/>
                             <constraint firstItem="fcF-YB-ena" firstAttribute="centerY" secondItem="bkK-pS-GMy" secondAttribute="centerY" id="aCN-CK-cnC"/>
+                            <constraint firstItem="EQz-n7-6a9" firstAttribute="leading" secondItem="bkK-pS-GMy" secondAttribute="leading" constant="45" id="aSV-yq-bHi"/>
+                            <constraint firstItem="EQz-n7-6a9" firstAttribute="top" secondItem="YXL-Hx-Sks" secondAttribute="bottom" constant="23" id="dEe-7p-eKF"/>
+                            <constraint firstItem="EQz-n7-6a9" firstAttribute="leading" secondItem="bkK-pS-GMy" secondAttribute="leadingMargin" constant="25" id="fNg-m8-GWy"/>
+                            <constraint firstItem="ezT-tx-Gh6" firstAttribute="leading" secondItem="EQz-n7-6a9" secondAttribute="trailing" constant="10" id="kH6-FA-JkX"/>
+                            <constraint firstItem="loA-hR-Icg" firstAttribute="leading" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="75" id="nlN-WQ-W21"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UN8-Iy-Nyg" secondAttribute="trailing" constant="75" id="rs8-Xb-JGG"/>
                             <constraint firstItem="fcF-YB-ena" firstAttribute="centerX" secondItem="bkK-pS-GMy" secondAttribute="centerX" id="vHQ-jR-0CA"/>
+                            <constraint firstItem="ezT-tx-Gh6" firstAttribute="leading" secondItem="il9-wc-VEy" secondAttribute="leading" id="vvg-Ba-RFJ"/>
+                            <constraint firstItem="ezT-tx-Gh6" firstAttribute="top" secondItem="YXL-Hx-Sks" secondAttribute="bottom" constant="55" id="wvC-ae-XSG"/>
+                            <constraint firstItem="wly-ig-VRM" firstAttribute="top" secondItem="UN8-Iy-Nyg" secondAttribute="bottom" constant="42" id="xQO-qb-nCX"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="Josh" destination="vIZ-at-4QR" id="le6-Vn-vjo"/>
+                        <outlet property="spider" destination="OJi-pB-9gC" id="57o-Qy-lfV"/>
+                        <outlet property="web" destination="loA-hR-Icg" id="BWa-1w-lHt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KoQ-Ux-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -164,9 +203,9 @@
         <image name="grass_strands" width="319" height="329"/>
         <image name="greengrass_1173_105" width="1174" height="120"/>
         <image name="josh" width="162" height="150"/>
-        <image name="spider-1" width="134" height="117"/>
+        <image name="spider_web" width="134" height="138"/>
         <image name="stars2_600" width="600" height="189"/>
-        <image name="string_200_27" width="28" height="200"/>
         <image name="sun_328_338_" width="329" height="339"/>
+        <image name="web_5_200" width="5" height="1922"/>
     </resources>
 </document>

@@ -59,7 +59,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7b-T2-GSM">
-                                <rect key="frame" x="108" y="447" width="355.5" height="145"/>
+                                <rect key="frame" x="108" y="447" width="356" height="145"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="145" id="oQe-fh-AFR"/>
                                 </constraints>
@@ -192,28 +192,18 @@ under a new tree.</string>
                                     <constraint firstAttribute="height" constant="82" id="V36-5Q-Hfn"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_d" translatesAutoresizingMaskIntoConstraints="NO" id="4pt-7j-HR4">
-                                <rect key="frame" x="294" y="600" width="53" height="51"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="53" id="HG4-7P-FHl"/>
-                                </constraints>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="RTG-3u-t14">
+                                <rect key="frame" x="500" y="209" width="47" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="RTG-3u-t14">
-                                <rect key="frame" x="424" y="143" width="44" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="0ro-aY-cnt"/>
-                                    <constraint firstAttribute="width" constant="44" id="G6d-NN-1kD"/>
-                                </constraints>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="G2H-t8-bTy">
+                                <rect key="frame" x="307" y="391" width="61" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="G2H-t8-bTy">
-                                <rect key="frame" x="326" y="391" width="42" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="VM1-UC-aLC"/>
-                                    <constraint firstAttribute="height" constant="48" id="tnc-7O-gqR"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_g" translatesAutoresizingMaskIntoConstraints="NO" id="zrv-8M-YdR">
-                                <rect key="frame" x="404" y="87" width="70" height="48"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_g" translatesAutoresizingMaskIntoConstraints="NO" id="zrv-8M-YdR">
+                                <rect key="frame" x="404" y="87" width="70" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_magenta" translatesAutoresizingMaskIntoConstraints="NO" id="wdF-Hq-Imw">
                                 <rect key="frame" x="157" y="701" width="54" height="48"/>
@@ -230,13 +220,26 @@ under a new tree.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_d" translatesAutoresizingMaskIntoConstraints="NO" id="4pt-7j-HR4">
+                                <rect key="frame" x="514" y="310" width="165" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="Aam-kF-7rN" secondAttribute="bottom" constant="366" id="0VF-O9-5aU"/>
-                            <constraint firstItem="pTb-rM-hnf" firstAttribute="leading" secondItem="RTG-3u-t14" secondAttribute="trailing" constant="8" symbolic="YES" id="2dH-m1-NYC"/>
                             <constraint firstAttribute="trailing" secondItem="dzy-bJ-ZzV" secondAttribute="trailing" constant="168" id="3ep-W1-HbE"/>
-                            <constraint firstItem="RTG-3u-t14" firstAttribute="top" secondItem="LcV-Qg-Dww" secondAttribute="top" constant="143" id="3hm-lx-0ga"/>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="o85-kH-tcL" secondAttribute="bottom" constant="593" id="63a-Dn-ay3"/>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="hW9-qu-Lj0" secondAttribute="bottom" constant="41" id="6a4-Hz-S58"/>
                             <constraint firstItem="Dt1-Pa-ERv" firstAttribute="top" secondItem="i7b-T2-GSM" secondAttribute="bottom" constant="72" id="8ii-kE-jic"/>
@@ -249,25 +252,17 @@ under a new tree.</string>
                             <constraint firstItem="dzy-bJ-ZzV" firstAttribute="top" secondItem="i7b-T2-GSM" secondAttribute="bottom" constant="56" id="Lfn-d3-5SL"/>
                             <constraint firstItem="Fsk-Ie-2Ud" firstAttribute="centerX" secondItem="LcV-Qg-Dww" secondAttribute="centerX" id="MZ3-eD-aao"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hW9-qu-Lj0" secondAttribute="trailing" constant="49" id="NAZ-Ps-aHk"/>
-                            <constraint firstItem="zrv-8M-YdR" firstAttribute="leading" secondItem="LcV-Qg-Dww" secondAttribute="leadingMargin" constant="384" id="PDW-wI-uwv"/>
-                            <constraint firstItem="G2H-t8-bTy" firstAttribute="top" secondItem="PWR-f7-OLY" secondAttribute="top" id="R7A-R6-v9e"/>
                             <constraint firstItem="wxG-j6-3cs" firstAttribute="leading" secondItem="LcV-Qg-Dww" secondAttribute="leading" constant="157" id="REG-xg-faW"/>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="Dt1-Pa-ERv" secondAttribute="bottom" constant="48" id="V8a-SN-Vnv"/>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="PWR-f7-OLY" secondAttribute="bottom" constant="302" id="Vp1-Fn-ygf"/>
                             <constraint firstItem="4pt-o8-vOo" firstAttribute="top" secondItem="hW9-qu-Lj0" secondAttribute="top" id="Xaq-zl-pcY"/>
                             <constraint firstItem="ItP-Tc-L2q" firstAttribute="top" secondItem="Dan-Vb-8aV" secondAttribute="bottom" constant="639" id="YUf-iT-J56"/>
                             <constraint firstItem="Fsk-Ie-2Ud" firstAttribute="centerY" secondItem="LcV-Qg-Dww" secondAttribute="centerY" id="Yfu-oL-dgi"/>
-                            <constraint firstItem="sKf-uo-Aba" firstAttribute="centerY" secondItem="zrv-8M-YdR" secondAttribute="centerY" id="ZDi-zP-gEi"/>
-                            <constraint firstItem="4pt-7j-HR4" firstAttribute="top" secondItem="i7b-T2-GSM" secondAttribute="bottom" constant="8" symbolic="YES" id="bX8-HM-HH3"/>
                             <constraint firstItem="FIk-ok-5tz" firstAttribute="top" secondItem="dzy-bJ-ZzV" secondAttribute="bottom" constant="59" id="bvN-qc-RIs"/>
                             <constraint firstItem="hW9-qu-Lj0" firstAttribute="leading" secondItem="dzy-bJ-ZzV" secondAttribute="trailing" constant="48" id="ebl-6y-1Gz"/>
-                            <constraint firstItem="zrv-8M-YdR" firstAttribute="top" secondItem="Dan-Vb-8aV" secondAttribute="bottom" constant="67" id="eez-sj-uMR"/>
-                            <constraint firstItem="G2H-t8-bTy" firstAttribute="trailing" secondItem="Aam-kF-7rN" secondAttribute="trailing" id="eqx-5K-I6E"/>
                             <constraint firstItem="dzy-bJ-ZzV" firstAttribute="leading" secondItem="Ry7-ul-ql7" secondAttribute="trailing" constant="10" id="gT9-43-1Hb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4pt-o8-vOo" secondAttribute="trailing" constant="-94" id="glF-3c-Qgd"/>
-                            <constraint firstItem="4pt-7j-HR4" firstAttribute="leading" secondItem="LcV-Qg-Dww" secondAttribute="leading" constant="294" id="i7D-Eg-GwF"/>
                             <constraint firstItem="o85-kH-tcL" firstAttribute="leading" secondItem="LcV-Qg-Dww" secondAttribute="leadingMargin" constant="116" id="iUI-pv-LzC"/>
-                            <constraint firstItem="RTG-3u-t14" firstAttribute="top" secondItem="zrv-8M-YdR" secondAttribute="bottom" constant="8" symbolic="YES" id="jSD-3i-Aq0"/>
                             <constraint firstAttribute="bottomMargin" secondItem="4pt-o8-vOo" secondAttribute="bottom" constant="-28" id="kaL-Uj-dfx"/>
                             <constraint firstItem="sKf-uo-Aba" firstAttribute="top" secondItem="Fsk-Ie-2Ud" secondAttribute="top" id="nsM-rN-Qta"/>
                             <constraint firstItem="Aam-kF-7rN" firstAttribute="leading" secondItem="LcV-Qg-Dww" secondAttribute="leadingMargin" constant="19" id="pL1-MA-3h3"/>
@@ -275,15 +270,26 @@ under a new tree.</string>
                             <constraint firstAttribute="trailingMargin" secondItem="ItP-Tc-L2q" secondAttribute="trailing" constant="143" id="rev-UQ-EIJ"/>
                             <constraint firstAttribute="bottom" secondItem="i7b-T2-GSM" secondAttribute="bottom" constant="176" id="sBd-qs-Evp"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Ry7-ul-ql7" secondAttribute="bottom" constant="-15" id="sJY-Gy-FTs"/>
-                            <constraint firstItem="ItP-Tc-L2q" firstAttribute="top" secondItem="4pt-7j-HR4" secondAttribute="bottom" constant="8" symbolic="YES" id="sXc-pG-MsW"/>
                             <constraint firstItem="pTb-rM-hnf" firstAttribute="top" secondItem="Dan-Vb-8aV" secondAttribute="bottom" constant="8" id="zFd-gP-GhG"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="whW-5n-2Iu" appends="YES" id="kjm-iI-ByV"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="orange" destination="PWR-f7-OLY" id="FDQ-a3-9rT"/>
+                        <outletCollection property="butterflyEffect" destination="RTG-3u-t14" collectionClass="NSMutableArray" id="emK-2M-U2g"/>
+                        <outletCollection property="butterflyEffect" destination="4pt-7j-HR4" collectionClass="NSMutableArray" id="3Nt-Mj-9QL"/>
+                        <outletCollection property="butterflyEffect" destination="G2H-t8-bTy" collectionClass="NSMutableArray" id="hRF-oV-3sE"/>
+                        <outletCollection property="butterflyEffect" destination="zrv-8M-YdR" collectionClass="NSMutableArray" id="3Nq-fz-mEE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZ9-bV-n5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer cancelsTouchesInView="NO" allowableMovement="10" minimumPressDuration="0.0001" id="whW-5n-2Iu">
+                    <connections>
+                        <action selector="longPress:" destination="lpY-pa-Hzu" id="80O-t0-axt"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="177.5390625" y="132.8125"/>
         </scene>

@@ -10,7 +10,9 @@ import UIKit
 import AVFoundation
 
 class SunInSkyViewController: UIViewController {
-    
+    @IBOutlet var spider: UIView! = UIView()
+    @IBOutlet weak var web: UIView! = UIView()
+    //var web = UIView()
     
     @IBOutlet weak var Josh: UIButton!
      var joshSound = AVPlayer(name: "Boing", extension: "wav")!
@@ -41,6 +43,15 @@ class SunInSkyViewController: UIViewController {
         animation.isCumulative = true
         animation.duration = 0.5
         sender.layer.add(animation, forKey: "spin")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        UIView.animate(withDuration: 4, delay: 0, usingSpringWithDamping: 0.25, initialSpringVelocity: 1, options: .curveLinear, animations: {
+            self.spider.transform = CGAffineTransform(translationX: 0, y: 200)
+            self.web.frame.size.height += 200
+        }, completion: nil)
+        
     }
 
 }

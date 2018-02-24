@@ -14,6 +14,7 @@ class ExtWideAngleToViewController: UIViewController {
     
     @IBOutlet weak var Josh: UIImageView!
     var joshSound = AVPlayer(name: "Boing", extension: "wav")!
+    var daisySound = AVPlayer(name: "twinkle", extension: "mp3")!
     
     @IBAction func tapJosh(_ sender: Any) {
         joshSound.playFromStart()
@@ -52,6 +53,7 @@ class ExtWideAngleToViewController: UIViewController {
 
 
     @IBAction func daisyFace(_ sender: UIButton) {
+        daisySound.playFromStart()
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true

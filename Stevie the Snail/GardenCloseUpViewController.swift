@@ -50,6 +50,7 @@ class GardenCloseUpViewController: UIViewController {
     
     deinit {
     }
+    //MARK:Grasshopper
     
     @IBAction func longPress(_ recognizer: UILongPressGestureRecognizer) {
         guard !grasshopperJump.bounds.contains( recognizer.location(in: grasshopperJump))else {

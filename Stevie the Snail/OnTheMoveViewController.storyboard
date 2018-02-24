@@ -39,12 +39,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat_250" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-uD-DA2">
                                 <rect key="frame" x="815" y="581" width="250" height="132"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsG-s0-LTM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="466" translatesAutoresizingMaskIntoConstraints="NO" id="qsG-s0-LTM">
                                 <rect key="frame" x="60" y="45" width="466" height="213"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="213" id="7Sb-Hm-WZf"/>
+                                    <constraint firstAttribute="height" constant="213" id="E16-QN-ij1"/>
                                 </constraints>
-                                <string key="text">Stevie was on the move.                           Going to the garden                                      was a thing he had to prove.                               To make it all the way                                  was not about being fast or smart.                 It was about going at your own pace,         and the courage to start. </string>
+                                <string key="text">Stevie was on the move.                           Going to the garden                                      was a thing he had to prove.                               To make it all the way                                  was not about being fast or smart.It was about going at your own pace, and the courage to start. </string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -67,23 +67,6 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flare_1024" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-4i-xqu">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="ladybug" translatesAutoresizingMaskIntoConstraints="NO" id="SSf-2h-JPc">
-                                <rect key="frame" x="785" y="581" width="97" height="103"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="DIa-eL-lkE"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                                        <point key="value" x="1" y="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider" translatesAutoresizingMaskIntoConstraints="NO" id="OFA-iV-sgx">
                                 <rect key="frame" x="706" y="639" width="52" height="50"/>
@@ -118,49 +101,59 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2i-8v-OsX" userLabel="insect_fly" customClass="InsectFlyView" customModule="Stevie_the_Snail" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsr-47-8DP" userLabel="ladybug">
+                                <rect key="frame" x="807" y="599" width="43" height="60"/>
+                                <state key="normal" image="ladybug_small_60_42.75"/>
+                                <connections>
+                                    <action selector="tapladyBug:" destination="hhw-c7-jIR" eventType="touchUpInside" id="U1A-4d-XVr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="KGO-4i-xqu" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="1Np-Rr-2Uc"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="trailing" secondItem="Jsq-JQ-Mgx" secondAttribute="trailing" id="1g7-Mn-iWF"/>
-                            <constraint firstItem="SSf-2h-JPc" firstAttribute="leading" secondItem="OFA-iV-sgx" secondAttribute="trailing" constant="27" id="2Vl-4L-e8C"/>
                             <constraint firstItem="KGO-4i-xqu" firstAttribute="centerY" secondItem="ctM-IO-aPv" secondAttribute="centerY" id="34F-9X-l1n"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="leading" secondItem="enp-5J-BAs" secondAttribute="leading" id="4mM-mv-SGn"/>
                             <constraint firstItem="VYQ-WD-hLj" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leading" constant="350" id="4zn-Qn-u2t"/>
                             <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="mTl-gC-EUB" secondAttribute="bottom" constant="88" id="56I-re-B4P"/>
                             <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="sHf-uD-DA2" secondAttribute="bottom" constant="55" id="5vi-b6-xzi"/>
-                            <constraint firstItem="qsG-s0-LTM" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leadingMargin" constant="40" id="7Mq-bz-PD4"/>
                             <constraint firstItem="vjo-Fe-rv4" firstAttribute="top" secondItem="Duu-lR-sIg" secondAttribute="bottom" constant="538" id="8Tu-K8-0pd"/>
-                            <constraint firstItem="SSf-2h-JPc" firstAttribute="leading" secondItem="vjo-Fe-rv4" secondAttribute="trailing" constant="8" symbolic="YES" id="8tT-YU-QUT"/>
+                            <constraint firstAttribute="trailing" secondItem="qsG-s0-LTM" secondAttribute="trailing" constant="498" id="8sR-4K-Jbq"/>
+                            <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="qsG-s0-LTM" secondAttribute="bottom" constant="510" id="9hG-VW-Zhi"/>
                             <constraint firstItem="5Rg-hx-3ok" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leadingMargin" constant="29" id="DUe-zY-Vs9"/>
                             <constraint firstItem="OFA-iV-sgx" firstAttribute="top" secondItem="vjo-Fe-rv4" secondAttribute="bottom" constant="26" id="FVd-jU-Xbo"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leading" id="GK8-ZQ-UEG"/>
+                            <constraint firstItem="qsG-s0-LTM" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leading" constant="60" id="GXc-vj-Fjc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sHf-uD-DA2" secondAttribute="trailing" constant="-61" id="GaP-yL-mLb"/>
-                            <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="SSf-2h-JPc" secondAttribute="bottom" constant="84" id="Grs-th-j5G"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="bottom" secondItem="5Rg-hx-3ok" secondAttribute="bottom" id="H9R-6I-ua7"/>
+                            <constraint firstItem="qsG-s0-LTM" firstAttribute="top" secondItem="Duu-lR-sIg" secondAttribute="bottom" constant="25" id="JRl-hr-lHT"/>
                             <constraint firstItem="mTl-gC-EUB" firstAttribute="centerX" secondItem="ctM-IO-aPv" secondAttribute="centerX" id="L6d-e0-iE7"/>
                             <constraint firstItem="AkK-lI-0gP" firstAttribute="top" secondItem="Duu-lR-sIg" secondAttribute="bottom" constant="557" id="MeD-i5-9JJ"/>
-                            <constraint firstItem="qsG-s0-LTM" firstAttribute="top" secondItem="Duu-lR-sIg" secondAttribute="bottom" constant="25" id="Q7y-U8-HRM"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="bottom" secondItem="enp-5J-BAs" secondAttribute="bottom" id="Sdk-vE-ap4"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="top" secondItem="KGO-4i-xqu" secondAttribute="top" id="Sho-Ax-LP6"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="bottom" secondItem="KGO-4i-xqu" secondAttribute="bottom" id="Stl-Wz-i0X"/>
+                            <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="wsr-47-8DP" secondAttribute="bottom" constant="109" id="TeR-1O-AjX"/>
                             <constraint firstItem="5Rg-hx-3ok" firstAttribute="top" secondItem="VYQ-WD-hLj" secondAttribute="top" id="U84-zq-5mH"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="top" secondItem="Jsq-JQ-Mgx" secondAttribute="top" id="Vu3-aa-KAh"/>
                             <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="OFA-iV-sgx" secondAttribute="bottom" constant="79" id="X4i-FK-9j3"/>
                             <constraint firstItem="sHf-uD-DA2" firstAttribute="leading" secondItem="vjo-Fe-rv4" secondAttribute="trailing" constant="38" id="XEH-VV-I9h"/>
-                            <constraint firstItem="SSf-2h-JPc" firstAttribute="top" secondItem="sHf-uD-DA2" secondAttribute="top" id="Xhl-4G-lpX"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="leading" secondItem="KGO-4i-xqu" secondAttribute="leading" id="ab9-Pw-fp2"/>
+                            <constraint firstItem="qsG-s0-LTM" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leadingMargin" constant="40" id="caL-An-AVA"/>
                             <constraint firstItem="mTl-gC-EUB" firstAttribute="leading" secondItem="ctM-IO-aPv" secondAttribute="leadingMargin" constant="-95" id="cum-Ha-NdG"/>
+                            <constraint firstItem="wsr-47-8DP" firstAttribute="leading" secondItem="OFA-iV-sgx" secondAttribute="trailing" constant="49" id="dSk-wT-E0o"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="centerX" secondItem="mTl-gC-EUB" secondAttribute="centerX" id="dcZ-iV-ziu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AkK-lI-0gP" secondAttribute="trailing" constant="13" id="g86-qP-3Lg"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="bottom" secondItem="hie-J7-Ugg" secondAttribute="top" id="iGq-W1-V4d"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="top" secondItem="ctM-IO-aPv" secondAttribute="top" id="ipJ-LU-h2c"/>
                             <constraint firstItem="hie-J7-Ugg" firstAttribute="top" secondItem="AkK-lI-0gP" secondAttribute="bottom" constant="63" id="jhN-cS-4XM"/>
                             <constraint firstItem="e2i-8v-OsX" firstAttribute="leading" secondItem="Jsq-JQ-Mgx" secondAttribute="leading" id="kFY-gV-c6k"/>
+                            <constraint firstAttribute="trailing" secondItem="OFA-iV-sgx" secondAttribute="trailing" constant="266" id="rJa-WT-qw5"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="insectFly" destination="e2i-8v-OsX" id="ekz-Uv-xCC"/>
+                        <outlet property="ladyBug" destination="wsr-47-8DP" id="IOs-ok-j8E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dR3-xF-Gu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -178,7 +171,7 @@
         <image name="flower_yellow" width="16" height="16"/>
         <image name="grass_strands" width="319" height="329"/>
         <image name="greengrass_1173_105" width="1174" height="120"/>
-        <image name="ladybug" width="82" height="93"/>
+        <image name="ladybug_small_60_42.75" width="43" height="60"/>
         <image name="spider" width="134" height="117"/>
     </resources>
 </document>

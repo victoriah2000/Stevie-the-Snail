@@ -9,90 +9,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Stevie the Snail/FinaleViewController.swift"
-            timestampString = "532145304.20112"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2"
-            endingLineNumber = "2"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stevie_the_Snail.FinaleViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Stevie_the_Snail.FinaleViewController"
-                  moduleName = "Stevie the Snail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victoriaheric/Documents/Apps/test_book/Stevie/Stevie%20the%20Snail/Stevie%20the%20Snail/FinaleViewController.swift"
-                  timestampString = "511568055.884504"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "169">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stevie_the_Snail.FinaleViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Stevie_the_Snail.FinaleViewController"
-                  moduleName = "Stevie the Snail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victoriaheric/Documents/Apps/test_book/Stevie/Stevie%20the%20Snail/Stevie%20the%20Snail/FinaleViewController.swift"
-                  timestampString = "511568055.88781"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "23">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stevie_the_Snail.FinaleViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Stevie_the_Snail.FinaleViewController&gt;"
-                  moduleName = "Stevie the Snail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victoriaheric/Documents/Apps/test_book/Stevie/Stevie%20the%20Snail/Stevie%20the%20Snail/FinaleViewController.swift"
-                  timestampString = "511568055.891009"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stevie_the_Snail.FinaleViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Stevie_the_Snail.FinaleViewController&gt;"
-                  moduleName = "Stevie the Snail"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victoriaheric/Documents/Apps/test_book/Stevie/Stevie%20the%20Snail/Stevie%20the%20Snail/FinaleViewController.swift"
-                  timestampString = "511568055.894712"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "87">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtWideAngleToViewController.swift"
-            timestampString = "532723871.985186"
+            timestampString = "534148778.439445"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91">
+            startingLineNumber = "93"
+            endingLineNumber = "93">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -102,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777525.996781"
+            timestampString = "533330474.226902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87">
+            startingLineNumber = "72"
+            endingLineNumber = "72">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -116,11 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777525.996781"
+            timestampString = "533330474.229138"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88">
+            startingLineNumber = "72"
+            endingLineNumber = "72">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -130,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777525.996781"
+            timestampString = "533330474.229299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99">
+            startingLineNumber = "72"
+            endingLineNumber = "72">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +66,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777525.996781"
+            timestampString = "533330474.22944"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -160,7 +82,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777525.996781"
+            timestampString = "533330474.229662"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -176,7 +98,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Stevie the Snail/ExtTreeWideShotViewController.swift"
-            timestampString = "516777242.837077"
+            timestampString = "533330474.22986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "6"
