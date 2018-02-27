@@ -42,12 +42,12 @@
 		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
 		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
 		B22187671F520B3100297A6A /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = B22187661F520B3100297A6A /* Boing.wav */; };
-		B2263B131FBE3913004C374E /* insect_fly.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2263B121FBE3913004C374E /* insect_fly.xcassets */; };
-		B2263B151FBE3952004C374E /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2263B141FBE3952004C374E /* InsectFlyView.swift */; };
 		B2263B171FC13D96004C374E /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2263B161FC13D96004C374E /* twinkle.mp3 */; };
-		B2263B221FCE08F1004C374E /* whizz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2263B201FCE08F0004C374E /* whizz.xcassets */; };
 		B2263B231FCE08F1004C374E /* WhizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2263B211FCE08F1004C374E /* WhizzView.swift */; };
 		B2263B251FCE0BA0004C374E /* SnailCrawlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */; };
+		B2339F51204526E8003B5B30 /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2339F50204526E8003B5B30 /* InsectFlyView.swift */; };
+		B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F52204526FD003B5B30 /* insect_fly.xcassets */; };
+		B2339F552045272C003B5B30 /* whizz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F542045272C003B5B30 /* whizz.xcassets */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
 		B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E48E71FB7931200D8157D /* SceneKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -125,12 +125,12 @@
 		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
 		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
 		B22187661F520B3100297A6A /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
-		B2263B121FBE3913004C374E /* insect_fly.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = insect_fly.xcassets; path = ../insect_fly.xcassets; sourceTree = "<group>"; };
-		B2263B141FBE3952004C374E /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsectFlyView.swift; path = ../InsectFlyView.swift; sourceTree = "<group>"; };
 		B2263B161FC13D96004C374E /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = twinkle.mp3; path = ../../../../AudioLibrary/twinkle.mp3; sourceTree = "<group>"; };
-		B2263B201FCE08F0004C374E /* whizz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = whizz.xcassets; sourceTree = "<group>"; };
 		B2263B211FCE08F1004C374E /* WhizzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhizzView.swift; sourceTree = "<group>"; };
 		B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SnailCrawlViewController.storyboard; sourceTree = "<group>"; };
+		B2339F50204526E8003B5B30 /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsectFlyView.swift; sourceTree = "<group>"; };
+		B2339F52204526FD003B5B30 /* insect_fly.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = insect_fly.xcassets; sourceTree = "<group>"; };
+		B2339F542045272C003B5B30 /* whizz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = whizz.xcassets; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
 		B29E48E71FB7931200D8157D /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
@@ -238,8 +238,8 @@
 		B2FD3AB21E4444E600EA21EE /* Stevie the Snail */ = {
 			isa = PBXGroup;
 			children = (
-				B2263B141FBE3952004C374E /* InsectFlyView.swift */,
-				B2263B121FBE3913004C374E /* insect_fly.xcassets */,
+				B2339F50204526E8003B5B30 /* InsectFlyView.swift */,
+				B2339F52204526FD003B5B30 /* insect_fly.xcassets */,
 				B20FFE8E1EF5A6C800DF5916 /* audio */,
 				B2FD3B291E44540100EA21EE /* Assets.xcassets */,
 				B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */,
@@ -264,7 +264,7 @@
 				03CE7ACD1EC7943D00F0173F /* HeartbeatViewController.storyboard */,
 				B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */,
 				03CE7ACF1EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard */,
-				B2263B201FCE08F0004C374E /* whizz.xcassets */,
+				B2339F542045272C003B5B30 /* whizz.xcassets */,
 				B2263B211FCE08F1004C374E /* WhizzView.swift */,
 				03CE7ABB1EC77EEB00F0173F /* ShellLiftToPathViewController.swift */,
 				03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */,
@@ -434,7 +434,6 @@
 				B2FD3B2A1E44540100EA21EE /* Assets.xcassets in Resources */,
 				B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */,
 				03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */,
-				B2263B131FBE3913004C374E /* insect_fly.xcassets in Resources */,
 				03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */,
 				03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */,
 				B20FFE9F1EF5A71500DF5916 /* night.mp3 in Resources */,
@@ -444,8 +443,9 @@
 				B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
 				B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */,
-				B2263B221FCE08F1004C374E /* whizz.xcassets in Resources */,
 				B2263B171FC13D96004C374E /* twinkle.mp3 in Resources */,
+				B2339F552045272C003B5B30 /* whizz.xcassets in Resources */,
+				B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
 				03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */,
 				03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */,
@@ -498,10 +498,10 @@
 				B2FD3AE31E44464100EA21EE /* AppleShotViewController.swift in Sources */,
 				B20FFE8D1EF5A3DC00DF5916 /* AVPlayerExtension.swift in Sources */,
 				B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */,
+				B2339F51204526E8003B5B30 /* InsectFlyView.swift in Sources */,
 				B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */,
 				B2FD3B271E444D7D00EA21EE /* TitlesAndCreditsViewController.swift in Sources */,
 				03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */,
-				B2263B151FBE3952004C374E /* InsectFlyView.swift in Sources */,
 				B2FD3B231E444D6500EA21EE /* TheEndViewController.swift in Sources */,
 				B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */,
 				B2FD3B0D1E44489500EA21EE /* SunInSkyViewController.swift in Sources */,
