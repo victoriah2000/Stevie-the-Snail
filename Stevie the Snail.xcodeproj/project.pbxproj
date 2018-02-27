@@ -42,12 +42,12 @@
 		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
 		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
 		B22187671F520B3100297A6A /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = B22187661F520B3100297A6A /* Boing.wav */; };
-		B2263B171FC13D96004C374E /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2263B161FC13D96004C374E /* twinkle.mp3 */; };
 		B2263B231FCE08F1004C374E /* WhizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2263B211FCE08F1004C374E /* WhizzView.swift */; };
 		B2263B251FCE0BA0004C374E /* SnailCrawlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */; };
 		B2339F51204526E8003B5B30 /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2339F50204526E8003B5B30 /* InsectFlyView.swift */; };
 		B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F52204526FD003B5B30 /* insect_fly.xcassets */; };
 		B2339F552045272C003B5B30 /* whizz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F542045272C003B5B30 /* whizz.xcassets */; };
+		B241685F20454B3D008438EC /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B241685E20454B3D008438EC /* twinkle.mp3 */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
 		B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E48E71FB7931200D8157D /* SceneKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -125,12 +125,12 @@
 		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
 		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
 		B22187661F520B3100297A6A /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
-		B2263B161FC13D96004C374E /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = twinkle.mp3; path = ../../../../AudioLibrary/twinkle.mp3; sourceTree = "<group>"; };
 		B2263B211FCE08F1004C374E /* WhizzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhizzView.swift; sourceTree = "<group>"; };
 		B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SnailCrawlViewController.storyboard; sourceTree = "<group>"; };
 		B2339F50204526E8003B5B30 /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsectFlyView.swift; sourceTree = "<group>"; };
 		B2339F52204526FD003B5B30 /* insect_fly.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = insect_fly.xcassets; sourceTree = "<group>"; };
 		B2339F542045272C003B5B30 /* whizz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = whizz.xcassets; sourceTree = "<group>"; };
+		B241685E20454B3D008438EC /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twinkle.mp3; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
 		B29E48E71FB7931200D8157D /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
@@ -190,7 +190,7 @@
 		B20FFE8E1EF5A6C800DF5916 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				B2263B161FC13D96004C374E /* twinkle.mp3 */,
+				B241685E20454B3D008438EC /* twinkle.mp3 */,
 				B22187661F520B3100297A6A /* Boing.wav */,
 				B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */,
 				B20FFE901EF5A71500DF5916 /* main.mp3 */,
@@ -442,8 +442,8 @@
 				B20FFEA21EF5A71500DF5916 /* sunflourish.mp3 in Resources */,
 				B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
+				B241685F20454B3D008438EC /* twinkle.mp3 in Resources */,
 				B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */,
-				B2263B171FC13D96004C374E /* twinkle.mp3 in Resources */,
 				B2339F552045272C003B5B30 /* whizz.xcassets in Resources */,
 				B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
