@@ -129,7 +129,9 @@ class BeeAnimationView : UIView, CAAnimationDelegate {
 			representativeAnimation.duration = 5.000
 			representativeAnimation.delegate = self
 			self.layer.add(representativeAnimation, forKey: "Fly")
-			self.animationCompletions[layer.animation(forKey: "Fly")!] = complete
+            if let animation = layer.animation(forKey: "Fly") {
+                self.animationCompletions[animation] = complete
+            }
 		}
 
 		let asset10TranslationXAnimation = CAKeyframeAnimation(keyPath: "transform.translation.x")

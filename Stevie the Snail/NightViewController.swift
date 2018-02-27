@@ -26,23 +26,16 @@ class NightViewController: UIViewController {
     private var pushBehavior: UIPushBehavior!
     // MARK: - Constants
     private let motionManager = CMMotionManager()
-    let stringLengths: [CGFloat] = [75, 100, 150, 120, 80]
+    let stringLength = CGFloat(400)
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        let attachements = stars.map { (star: UIImageView) ->  UIAttachmentBehavior in
-            let anchor = star.center
-            let behavior = UIAttachmentBehavior(item: star, attachedToAnchor: anchor)
-            behavior.length = 150
-            behavior.frictionTorque = 10
-            return behavior
-        }
-        strings = zip(stars, stringLengths).map { (star,stringLength) -> UIView in
+        strings = stars.map { star -> UIView in
             let string = UIView()
             string.translatesAutoresizingMaskIntoConstraints = false
-            self.view.insertSubview(string, at: 0)
-            string.backgroundColor = .lightGray
-            string.widthAnchor.constraint(equalToConstant: 3).isActive = true
+            self.view.insertSubview(string, belowSubview: star)
+            string.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+            string.widthAnchor.constraint(equalToConstant:1).isActive = true
             string.heightAnchor.constraint(equalToConstant: stringLength).isActive = true
             string.centerXAnchor.constraint(equalTo: star.centerXAnchor).isActive = true
             string.bottomAnchor.constraint(equalTo: star.centerYAnchor).isActive = true
@@ -50,9 +43,6 @@ class NightViewController: UIViewController {
         }
         animator = UIDynamicAnimator(referenceView: view)
         view.layoutIfNeeded()
-        attachements.forEach { self.animator.addBehavior($0) }
-        gravity = UIGravityBehavior(items: stars)
-        animator.addBehavior(gravity)
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tap))
         view.addGestureRecognizer(tapGesture)
         
@@ -66,7 +56,7 @@ class NightViewController: UIViewController {
         var attachments: [UIDynamicBehavior] = [UIAttachmentBehavior(item: view, attachedToAnchor: view.center)]
         zip(stars, strings).forEach { (star, string) in
             let anchor = CGPoint(x: string.center.x, y: string.frame.origin.y)
-            let stringAttachment = UIAttachmentBehavior(item: string, offsetFromCenter: UIOffset(horizontal: 0, vertical: -string.frame.size.height / 2 - star.frame.size.height / 2), attachedToAnchor: anchor)
+            let stringAttachment = UIAttachmentBehavior(item: string, offsetFromCenter: UIOffset(horizontal: 0, vertical: -stringLength / 2), attachedToAnchor: anchor)
             let starAttachment =  UIAttachmentBehavior.pinAttachment(with: star, attachedTo: string, attachmentAnchor: star.center)
             starAttachment.frictionTorque = 100
             attachments.append(stringAttachment)
