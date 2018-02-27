@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -52,12 +51,20 @@
                                     <constraint firstAttribute="height" constant="200" id="fUo-j0-PEu"/>
                                 </constraints>
                             </imageView>
-                            <imageView contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="web_5_200" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="web_5_200" translatesAutoresizingMaskIntoConstraints="NO" id="loA-hR-Icg">
                                 <rect key="frame" x="771" y="150" width="5" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="ACk-IT-lG6"/>
+                                    <constraint firstAttribute="height" constant="200" id="ACk-IT-lG6"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMg-Fj-8DK">
+                                <rect key="frame" x="770" y="150" width="3" height="200"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.80784313730000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="0Wv-y2-FhC"/>
+                                    <constraint firstAttribute="width" constant="3" id="JGw-Ct-lXE"/>
+                                </constraints>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spider_web" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-pB-9gC">
                                 <rect key="frame" x="750" y="300" width="52" height="50"/>
                                 <constraints>
@@ -163,7 +170,7 @@
                             <constraint firstAttribute="trailing" secondItem="EQz-n7-6a9" secondAttribute="trailing" constant="634" id="4wD-7r-uPV"/>
                             <constraint firstAttribute="trailing" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="328" id="IZD-io-SCk"/>
                             <constraint firstItem="OJi-pB-9gC" firstAttribute="leading" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="54" id="Lel-4o-syC"/>
-                            <constraint firstItem="loA-hR-Icg" firstAttribute="width" secondItem="bkK-pS-GMy" secondAttribute="height" multiplier="5:768" id="LsE-pu-9Ez"/>
+                            <constraint firstItem="IMg-Fj-8DK" firstAttribute="leading" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="74" id="OAh-6F-5FP"/>
                             <constraint firstItem="il9-wc-VEy" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="-262" id="Oq4-Qg-9k2"/>
                             <constraint firstItem="WpT-N6-7XF" firstAttribute="top" secondItem="bkK-pS-GMy" secondAttribute="top" constant="50" id="RYl-0X-xhD"/>
                             <constraint firstItem="wly-ig-VRM" firstAttribute="top" secondItem="EQz-n7-6a9" secondAttribute="bottom" constant="602" id="Ruh-DY-PX5"/>
@@ -173,6 +180,7 @@
                             <constraint firstItem="EQz-n7-6a9" firstAttribute="leading" secondItem="bkK-pS-GMy" secondAttribute="leading" constant="45" id="aSV-yq-bHi"/>
                             <constraint firstItem="EQz-n7-6a9" firstAttribute="top" secondItem="YXL-Hx-Sks" secondAttribute="bottom" constant="23" id="dEe-7p-eKF"/>
                             <constraint firstItem="EQz-n7-6a9" firstAttribute="leading" secondItem="bkK-pS-GMy" secondAttribute="leadingMargin" constant="25" id="fNg-m8-GWy"/>
+                            <constraint firstItem="IMg-Fj-8DK" firstAttribute="top" secondItem="YXL-Hx-Sks" secondAttribute="bottom" constant="130" id="jNu-uh-zgw"/>
                             <constraint firstItem="ezT-tx-Gh6" firstAttribute="leading" secondItem="EQz-n7-6a9" secondAttribute="trailing" constant="10" id="kH6-FA-JkX"/>
                             <constraint firstItem="loA-hR-Icg" firstAttribute="leading" secondItem="WpT-N6-7XF" secondAttribute="trailing" constant="75" id="nlN-WQ-W21"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UN8-Iy-Nyg" secondAttribute="trailing" constant="75" id="rs8-Xb-JGG"/>
@@ -185,7 +193,7 @@
                     <connections>
                         <outlet property="Josh" destination="vIZ-at-4QR" id="le6-Vn-vjo"/>
                         <outlet property="spider" destination="OJi-pB-9gC" id="57o-Qy-lfV"/>
-                        <outlet property="web" destination="loA-hR-Icg" id="BWa-1w-lHt"/>
+                        <outlet property="web" destination="IMg-Fj-8DK" id="H1q-Zg-b1t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KoQ-Ux-ie2" userLabel="First Responder" sceneMemberID="firstResponder"/>

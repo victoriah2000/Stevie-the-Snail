@@ -11,13 +11,13 @@ import AVFoundation
 
 class SunInSkyViewController: UIViewController {
     @IBOutlet var spider: UIView! = UIView()
-    @IBOutlet weak var web: UIView! = UIView()
-    //var web = UIView()
-    
+
+    @IBOutlet weak var web: UIView!
+
     @IBOutlet weak var Josh: UIButton!
      var joshSound = AVPlayer(name: "Boing", extension: "wav")!
      var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
-    
+    var animator: UIViewPropertyAnimator!
     @IBAction func tapJosh(_ sender: UIButton) {
         joshSound.playFromStart()
         UIView.animate(withDuration: 0.2, delay: 0, options: [.curveEaseOut], animations: {
@@ -44,14 +44,46 @@ class SunInSkyViewController: UIViewController {
         animation.duration = 0.5
         sender.layer.add(animation, forKey: "spin")
     }
-    
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        spider.isUserInteractionEnabled = true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapSpider))
+        spider.addGestureRecognizer(tap)
+    }
+
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        UIView.animate(withDuration: 4, delay: 0, usingSpringWithDamping: 0.25, initialSpringVelocity: 1, options: .curveLinear, animations: {
+        view.layoutIfNeeded()
+        animateSpiderDrop()
+    }
+    
+    private func animateSpiderDrop() {
+        animator = UIViewPropertyAnimator(duration: 5, dampingRatio: 0.3) {
             self.spider.transform = CGAffineTransform(translationX: 0, y: 200)
-            self.web.frame.size.height += 200
-        }, completion: nil)
-        
+            self.web.transform = CGAffineTransform(translationX: 0, y: 100).scaledBy(x: 1, y: 2)
+        }
+        animator.isUserInteractionEnabled = true
+        animator.startAnimation()
+    }
+
+    @objc private func tapSpider(_ recognizer: UITapGestureRecognizer) {
+        guard animator != nil else {
+            return
+        }
+        animator.stopAnimation(true)
+        animator.finishAnimation(at: .current)
+        animator = UIViewPropertyAnimator(duration: 1, curve: .easeOut) {
+            self.spider.transform = .identity
+            self.web.transform = .identity
+        }
+        animator.addCompletion { _ in
+            Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { _ in
+                self.animateSpiderDrop()
+            }
+        }
+        animator.isUserInteractionEnabled = false
+        animator.startAnimation()
     }
 
 }
