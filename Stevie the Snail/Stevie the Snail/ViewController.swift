@@ -1,5 +1,5 @@
 //
-//  TitlesAndCreditsViewController.swift
+//  ViewController.swift
 //  Stevie the Snail
 //
 //  Created by Victoria Heric on 2/2/17.
@@ -8,6 +8,9 @@
 
 import UIKit
 
-class TitlesAndCreditsViewController: UIViewController {
+class ViewController: UIViewController {
+
+    
 
 }
+

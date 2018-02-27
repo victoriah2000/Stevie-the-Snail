@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Cp-3I-Oju">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Close Up Tree To Sun View Controller-->
+        <scene sceneID="DEh-H0-P84">
+            <objects>
+                <viewController id="4Cp-3I-Oju" customClass="CloseUpTreeToSunViewController" customModule="Stevie_the_Snail" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gul-B5-ZAf"/>
+                        <viewControllerLayoutGuide type="bottom" id="zNb-e9-OkI"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="x5b-K8-tQO">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="fF0-cN-ZZy">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="7Nf-HT-8sM">
+                                <rect key="frame" x="-59" y="424" width="1173" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clouds_700" translatesAutoresizingMaskIntoConstraints="NO" id="YkH-ph-Adg">
+                                <rect key="frame" x="419" y="-426" width="700" height="663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYa-G3-Hel">
+                                <rect key="frame" x="794" y="-1" width="229" height="239"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="239" id="tGN-eL-SCe"/>
+                                </constraints>
+                                <state key="normal" image="sun_328_338_"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapSun:" destination="4Cp-3I-Oju" eventType="touchUpInside" id="i4a-Fr-PGe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-a7-LP9">
+                                <rect key="frame" x="450" y="180" width="290" height="300"/>
+                                <string key="text">Stevie would cry 
+at the sun in the sky, 
+"Why can't I go, why?' 
+One day the sun said, 
+"Go! Give it a try!"</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ground_closeup_2" translatesAutoresizingMaskIntoConstraints="NO" id="0es-wd-OEw">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple_closeup" translatesAutoresizingMaskIntoConstraints="NO" id="JIy-Ce-GTG">
+                                <rect key="frame" x="244" y="441" width="119" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree_closeup-1" translatesAutoresizingMaskIntoConstraints="NO" id="PZO-ye-Bnd">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="halfapple" translatesAutoresizingMaskIntoConstraints="NO" id="H8y-h9-cgg">
+                                <rect key="frame" x="-59" y="-20" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stevie_closetosun" translatesAutoresizingMaskIntoConstraints="NO" id="v4v-Vc-Jij">
+                                <rect key="frame" x="371" y="472" width="269" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="PYa-G3-Hel" secondAttribute="trailing" constant="-19" id="1NF-gp-RBi"/>
+                            <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerY" secondItem="x5b-K8-tQO" secondAttribute="centerY" id="7RB-5k-Vw3"/>
+                            <constraint firstItem="PYa-G3-Hel" firstAttribute="leading" secondItem="M9f-a7-LP9" secondAttribute="trailing" constant="54" id="EWD-Ag-TDX"/>
+                            <constraint firstItem="M9f-a7-LP9" firstAttribute="height" secondItem="x5b-K8-tQO" secondAttribute="height" constant="-468" id="Jw3-Xj-NPk"/>
+                            <constraint firstItem="M9f-a7-LP9" firstAttribute="width" secondItem="x5b-K8-tQO" secondAttribute="width" constant="-734" id="MrI-fu-5mU"/>
+                            <constraint firstItem="M9f-a7-LP9" firstAttribute="leading" secondItem="x5b-K8-tQO" secondAttribute="leading" constant="450" id="XL2-qk-val"/>
+                            <constraint firstAttribute="bottom" secondItem="M9f-a7-LP9" secondAttribute="bottom" constant="288" id="ncF-sz-VNp"/>
+                            <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerX" secondItem="x5b-K8-tQO" secondAttribute="centerX" id="o7r-jF-nel"/>
+                            <constraint firstItem="PYa-G3-Hel" firstAttribute="top" secondItem="x5b-K8-tQO" secondAttribute="topMargin" constant="-1" id="sMB-zB-7kU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sunButton" destination="PYa-G3-Hel" id="UqI-ZJ-k3y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgT-ub-fP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.42968749999999" y="127.34375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple_closeup" width="925" height="889"/>
+        <image name="bluesky_1" width="1024" height="768"/>
+        <image name="clouds_700" width="774" height="601"/>
+        <image name="greengrass_1173_105" width="1174" height="120"/>
+        <image name="ground_closeup_2" width="1028" height="768"/>
+        <image name="halfapple" width="1028" height="768"/>
+        <image name="stevie_closetosun" width="269" height="219"/>
+        <image name="sun_328_338_" width="329" height="339"/>
+        <image name="tree_closeup-1" width="1028" height="768"/>
+    </resources>
+</document>
