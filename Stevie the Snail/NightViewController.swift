@@ -26,7 +26,7 @@ class NightViewController: UIViewController {
     private var pushBehavior: UIPushBehavior!
     // MARK: - Constants
     private let motionManager = CMMotionManager()
-    let stringLength = CGFloat(400)
+    let stringLength = CGFloat(500)
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class NightViewController: UIViewController {
             let string = UIView()
             string.translatesAutoresizingMaskIntoConstraints = false
             self.view.insertSubview(string, belowSubview: star)
-            string.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
+            string.backgroundColor = UIColor.yellow.withAlphaComponent(0.5)
             string.widthAnchor.constraint(equalToConstant:1).isActive = true
             string.heightAnchor.constraint(equalToConstant: stringLength).isActive = true
             string.centerXAnchor.constraint(equalTo: star.centerXAnchor).isActive = true
