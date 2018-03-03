@@ -26,7 +26,8 @@ class NightViewController: UIViewController {
     private var pushBehavior: UIPushBehavior!
     // MARK: - Constants
     private let motionManager = CMMotionManager()
-    let stringLength = CGFloat(500)
+    private let stringLength = CGFloat(500)
+    private let initialStarWobbleMagnitude = CGFloat(0.01)
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +69,14 @@ class NightViewController: UIViewController {
         animator.addBehavior(gravity)
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tap))
         view.addGestureRecognizer(tapGesture)
+        let initialPush = stars.map { star -> UIPushBehavior in
+            let direction = CGVector(dx: 1, dy: 0)
+            let pushBehavior = UIPushBehavior(items: [star], mode: .instantaneous)
+            pushBehavior.pushDirection = direction
+            pushBehavior.magnitude = (CGFloat(arc4random_uniform(10)) - 5) * initialStarWobbleMagnitude
+            return pushBehavior
+        }
+        initialPush.forEach { self.animator.addBehavior($0) }
     }
     
     @objc private func tap(sender: UITapGestureRecognizer) {
