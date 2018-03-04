@@ -35,7 +35,7 @@ class NightViewController: UIViewController {
             let string = UIView()
             string.translatesAutoresizingMaskIntoConstraints = false
             self.view.insertSubview(string, belowSubview: star)
-            string.backgroundColor = UIColor.yellow.withAlphaComponent(0.5)
+            string.backgroundColor = #colorLiteral(red: 1, green: 0.8, blue: 0.2, alpha: 1)
             string.widthAnchor.constraint(equalToConstant:1).isActive = true
             string.heightAnchor.constraint(equalToConstant: stringLength).isActive = true
             string.centerXAnchor.constraint(equalTo: star.centerXAnchor).isActive = true

@@ -14,31 +14,33 @@ class SnailCrawlViewController:  UIViewController  {
     @IBOutlet weak var stevieImageView: UIImageView!
     @IBOutlet var whizzBy: WhizzView!
     private var beeSound = AVPlayer(name:  "buzzingbees", extension:"mp3")!
+    private var slugCrawl = AVPlayer(name: "slugcrawl", extension: "mp3")!
     private var stevieAnimator: UIViewPropertyAnimator!
     private let stevieInitialX: CGFloat = 170
     private lazy var stevieDistance: CGFloat = {
-        return self.view.bounds.width - self.stevieImageView.bounds.width / 2 - stevieImageView.center.x
+        return view.bounds.width
     }()
-    private let stevieAnimationTime: TimeInterval = 15
-
+    private let stevieAnimationTime: TimeInterval = 40
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         beeSound.playLoop()
+        slugCrawl.playLoop()
         Fly()
-        stevieAnimator = UIViewPropertyAnimator(duration: stevieAnimationTime, curve: .easeInOut) {
+        stevieAnimator = UIViewPropertyAnimator(duration: stevieAnimationTime, curve: .easeIn) {
             self.stevieImageView.center.x = self.stevieInitialX + self.stevieDistance
         }
         stevieAnimator.isUserInteractionEnabled = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-            //Need to clear the page turning animation
-            self.stevieAnimator.startAnimation()
-        }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+                //Need to clear the page turning animation
+                self.stevieAnimator.startAnimation()
+                }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewDidAppear(animated)
         beeSound.endLoop()
+        slugCrawl.endLoop()
     }
 
     @IBAction func pan(_ recognizer: UIPanGestureRecognizer) {

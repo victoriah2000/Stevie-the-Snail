@@ -89,15 +89,6 @@ went whizzing right past!</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="0xX-yx-cv9">
-                                <rect key="frame" x="69" y="562" width="202" height="202"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="202" id="NgS-A6-1d6"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="7YI-EQ-nee" appends="YES" id="Ihi-Gn-tG5"/>
-                                </connections>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower_orange" translatesAutoresizingMaskIntoConstraints="NO" id="xzz-Ib-YS0">
                                 <rect key="frame" x="850" y="639" width="51" height="48"/>
                                 <constraints>
@@ -115,6 +106,15 @@ went whizzing right past!</string>
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="0xX-yx-cv9">
+                                <rect key="frame" x="69" y="562" width="202" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="NgS-A6-1d6"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7YI-EQ-nee" appends="YES" id="Ihi-Gn-tG5"/>
+                                </connections>
                             </imageView>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H7F-0Z-L5H" customClass="WhizzView" customModule="Stevie_the_Snail" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
