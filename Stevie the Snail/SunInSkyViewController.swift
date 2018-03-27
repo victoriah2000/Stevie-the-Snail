@@ -17,6 +17,7 @@ class SunInSkyViewController: UIViewController {
     @IBOutlet weak var Josh: UIButton!
      var joshSound = AVPlayer(name: "Boing", extension: "wav")!
      var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
+     var spiderSound = AVPlayer(name: "spider", extension: "wav")!
     var animator: UIViewPropertyAnimator!
     @IBAction func tapJosh(_ sender: UIButton) {
         joshSound.playFromStart()
@@ -50,12 +51,14 @@ class SunInSkyViewController: UIViewController {
         spider.isUserInteractionEnabled = true
         let tap = UITapGestureRecognizer(target: self, action: #selector(tapSpider))
         spider.addGestureRecognizer(tap)
+        
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         view.layoutIfNeeded()
         animateSpiderDrop()
+        spiderSound.playFromStart()
     }
     
     private func animateSpiderDrop() {
@@ -84,6 +87,7 @@ class SunInSkyViewController: UIViewController {
         }
         animator.isUserInteractionEnabled = false
         animator.startAnimation()
+        spiderSound.playFromStart()
     }
 
 }

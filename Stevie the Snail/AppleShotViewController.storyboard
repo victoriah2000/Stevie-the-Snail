@@ -63,12 +63,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stevie was a snail        who lived under an apple tree." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEy-qp-1GH">
-                                <rect key="frame" x="189" y="321" width="366" height="59"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_apple_735_584" translatesAutoresizingMaskIntoConstraints="NO" id="u4T-Gg-hld">
                                 <rect key="frame" x="189" y="198" width="737" height="575"/>
                                 <userDefinedRuntimeAttributes>
@@ -83,16 +77,28 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEy-qp-1GH">
+                                <rect key="frame" x="244" y="272" width="366" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="366" id="i0W-vt-km7"/>
+                                </constraints>
+                                <string key="text">Stevie was a snail
+who lived under 
+an apple tree.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bK8-NX-cyK" firstAttribute="centerY" secondItem="HeT-Zb-wfh" secondAttribute="centerY" id="DWM-1r-47k"/>
-                            <constraint firstItem="oEy-qp-1GH" firstAttribute="top" secondItem="cHA-J7-VsI" secondAttribute="bottom" constant="301" id="LQp-hT-SWn"/>
+                            <constraint firstItem="oEy-qp-1GH" firstAttribute="leading" secondItem="HeT-Zb-wfh" secondAttribute="leading" constant="244" id="EKK-ZT-G5A"/>
                             <constraint firstItem="u4T-Gg-hld" firstAttribute="leading" secondItem="HeT-Zb-wfh" secondAttribute="leadingMargin" constant="169" id="Vfj-VK-yyf"/>
+                            <constraint firstItem="oEy-qp-1GH" firstAttribute="top" secondItem="cHA-J7-VsI" secondAttribute="bottom" constant="252" id="cdd-nX-hq6"/>
+                            <constraint firstItem="lUh-nI-OZX" firstAttribute="top" secondItem="oEy-qp-1GH" secondAttribute="bottom" constant="346" id="hMB-BQ-SeM"/>
                             <constraint firstItem="bK8-NX-cyK" firstAttribute="centerX" secondItem="HeT-Zb-wfh" secondAttribute="centerX" id="jBN-XP-y7O"/>
-                            <constraint firstItem="oEy-qp-1GH" firstAttribute="leading" secondItem="u4T-Gg-hld" secondAttribute="leading" id="p8N-Pa-Geq"/>
                             <constraint firstItem="u4T-Gg-hld" firstAttribute="top" secondItem="cHA-J7-VsI" secondAttribute="bottom" constant="178" id="xRy-WC-XE5"/>
-                            <constraint firstItem="oEy-qp-1GH" firstAttribute="leading" secondItem="HeT-Zb-wfh" secondAttribute="leading" constant="189" id="znp-A8-CxZ"/>
                         </constraints>
                     </view>
                     <connections>

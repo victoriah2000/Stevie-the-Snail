@@ -51,12 +51,12 @@
                                     <constraint firstAttribute="width" constant="813" id="aMD-pc-Afe"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg1-60-pbW">
-                                <rect key="frame" x="375" y="0.0" width="450" height="200"/>
-                                <string key="text">Stevie was on the move.
-Slowly he found his groove.                     
-The bugs that were so tiny and fast,
-went whizzing right past!</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg1-60-pbW">
+                                <rect key="frame" x="173" y="32" width="700" height="300"/>
+                                <string key="text">Stevie was gliding, he was on the move.
+Slowly but surely, he was finding his groove.                     
+Stevie watched the bugs so tiny and fast,
+He couldn't believe how they went whizzing right past!</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -125,7 +125,7 @@ went whizzing right past!</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kg1-60-pbW" firstAttribute="leading" secondItem="KSF-Qg-kXt" secondAttribute="leading" constant="375" id="164-eI-hzW"/>
+                            <constraint firstItem="kg1-60-pbW" firstAttribute="leading" secondItem="KSF-Qg-kXt" secondAttribute="leading" constant="173" id="164-eI-hzW"/>
                             <constraint firstItem="xzz-Ib-YS0" firstAttribute="trailing" secondItem="8EV-dk-6Rf" secondAttribute="trailing" id="2rB-VR-088"/>
                             <constraint firstItem="H7F-0Z-L5H" firstAttribute="bottom" secondItem="YRs-De-mCZ" secondAttribute="bottom" id="6Ua-R3-PKa"/>
                             <constraint firstItem="dz0-8b-YJ9" firstAttribute="top" secondItem="40a-Zb-dzg" secondAttribute="top" id="8FH-sH-rP2"/>
@@ -137,14 +137,14 @@ went whizzing right past!</string>
                             <constraint firstItem="H7F-0Z-L5H" firstAttribute="leading" secondItem="YRs-De-mCZ" secondAttribute="leading" id="CRr-Cw-CRO"/>
                             <constraint firstItem="kES-Eg-VpX" firstAttribute="trailing" secondItem="YRs-De-mCZ" secondAttribute="trailing" id="CUa-i9-AzV"/>
                             <constraint firstItem="H7F-0Z-L5H" firstAttribute="trailing" secondItem="YRs-De-mCZ" secondAttribute="trailing" id="EnY-it-qLk"/>
-                            <constraint firstItem="kg1-60-pbW" firstAttribute="width" secondItem="KSF-Qg-kXt" secondAttribute="width" constant="-574" id="F1H-lP-pQc"/>
+                            <constraint firstItem="kg1-60-pbW" firstAttribute="width" secondItem="KSF-Qg-kXt" secondAttribute="width" constant="-324" id="F1H-lP-pQc"/>
                             <constraint firstItem="H7F-0Z-L5H" firstAttribute="leading" secondItem="kES-Eg-VpX" secondAttribute="leading" id="HFk-I1-8yI"/>
                             <constraint firstItem="H7F-0Z-L5H" firstAttribute="top" secondItem="YRs-De-mCZ" secondAttribute="top" id="ISc-ka-pm6"/>
                             <constraint firstItem="0xX-yx-cv9" firstAttribute="leading" secondItem="KSF-Qg-kXt" secondAttribute="leadingMargin" constant="49" id="Ji8-ih-qoJ"/>
-                            <constraint firstItem="kg1-60-pbW" firstAttribute="top" secondItem="KSF-Qg-kXt" secondAttribute="top" id="JyM-Zs-Qzo"/>
+                            <constraint firstItem="kg1-60-pbW" firstAttribute="top" secondItem="KSF-Qg-kXt" secondAttribute="top" constant="32" id="JyM-Zs-Qzo"/>
                             <constraint firstItem="40a-Zb-dzg" firstAttribute="bottom" secondItem="8EV-dk-6Rf" secondAttribute="bottom" id="OJV-o8-YWy"/>
                             <constraint firstItem="KZS-SS-hFV" firstAttribute="top" secondItem="KSF-Qg-kXt" secondAttribute="top" constant="-226" id="OR2-It-zcv"/>
-                            <constraint firstItem="kg1-60-pbW" firstAttribute="height" secondItem="KSF-Qg-kXt" secondAttribute="height" constant="-568" id="Pmn-ts-FjT"/>
+                            <constraint firstItem="kg1-60-pbW" firstAttribute="height" secondItem="KSF-Qg-kXt" secondAttribute="height" constant="-468" id="Pmn-ts-FjT"/>
                             <constraint firstItem="xzz-Ib-YS0" firstAttribute="leading" secondItem="40a-Zb-dzg" secondAttribute="trailing" constant="64" id="QaP-fc-Dzi"/>
                             <constraint firstItem="kES-Eg-VpX" firstAttribute="trailing" secondItem="tKp-RV-6vt" secondAttribute="trailing" id="UiG-6r-CyI"/>
                             <constraint firstItem="8EV-dk-6Rf" firstAttribute="leading" secondItem="40a-Zb-dzg" secondAttribute="trailing" constant="8" symbolic="YES" id="ZBE-P4-rSk"/>
@@ -156,7 +156,7 @@ went whizzing right past!</string>
                             <constraint firstItem="kpc-wp-Jr8" firstAttribute="top" secondItem="0xX-yx-cv9" secondAttribute="bottom" constant="4" id="pj5-nC-9hd"/>
                             <constraint firstAttribute="bottomMargin" secondItem="kES-Eg-VpX" secondAttribute="bottom" constant="-36" id="rmj-ua-RQN"/>
                             <constraint firstItem="0xX-yx-cv9" firstAttribute="centerY" secondItem="xzz-Ib-YS0" secondAttribute="centerY" id="vfs-aw-S5V"/>
-                            <constraint firstItem="H7F-0Z-L5H" firstAttribute="top" secondItem="kg1-60-pbW" secondAttribute="top" id="w01-Uk-sqU"/>
+                            <constraint firstItem="H7F-0Z-L5H" firstAttribute="top" secondItem="kg1-60-pbW" secondAttribute="top" constant="-32" id="w01-Uk-sqU"/>
                             <constraint firstAttribute="trailing" secondItem="xzz-Ib-YS0" secondAttribute="trailing" constant="123" id="xns-QP-pRH"/>
                         </constraints>
                     </view>

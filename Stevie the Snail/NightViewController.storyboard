@@ -30,58 +30,72 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night_001" translatesAutoresizingMaskIntoConstraints="NO" id="0YZ-Wj-kbb">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="NUl-M2-08q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="NUl-M2-08q">
                                 <rect key="frame" x="-75" y="619" width="1173" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="z5p-Vo-Xwd"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="7cI-L6-zvx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="7cI-L6-zvx">
                                 <rect key="frame" x="0.0" y="675" width="1024" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dust" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-Ae-xeA">
                                 <rect key="frame" x="150" y="-2" width="700" height="502"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ID-fZm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ID-fZm">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="or0-aS-GDk">
                                 <rect key="frame" x="500" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_strings" translatesAutoresizingMaskIntoConstraints="NO" id="QOw-hp-YCg">
-                                <rect key="frame" x="212" y="-210" width="600" height="676"/>
+                                <rect key="frame" x="212" y="-240" width="600" height="676"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbU-tY-HAg">
-                                <rect key="frame" x="298" y="487" width="493.5" height="118"/>
-                                <string key="text">The sky grew black and full of star,
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbU-tY-HAg">
+                                <rect key="frame" x="273" y="434" width="500" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="vwB-Tn-IQG"/>
+                                    <constraint firstAttribute="width" constant="500" id="whr-pG-gs1"/>
+                                </constraints>
+                                <string key="text">The sky grew black and full of stars,
 this was the scariest moment by far.
 The night was dark and cold out there,
-with bad sounds from who knows where.</string>
+with bad sounds from who knows where.
+No mom, no dad, no home.
+Stevie felt sad and all alone.</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
+                                <string key="userLabel">The sky grew black and full of stars, this was the scariest moment by far. The night was dark and cold out there, with bad sounds from who knows where. No mom, no dad, no home. Stevie felt sad and all alone.</string>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
                                 <rect key="frame" x="250" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
-                                <rect key="frame" x="778" y="607.5" width="147" height="117"/>
+                                <rect key="frame" x="778" y="608" width="147" height="117"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="wCT-gp-iu0">
                                 <rect key="frame" x="68" y="603" width="154" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7c-lb-nE1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7c-lb-nE1">
                                 <rect key="frame" x="81" y="649" width="75" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="CnM-jG-bUA"/>
+                                    <constraint firstAttribute="width" constant="75" id="tXf-Z5-gSs"/>
+                                </constraints>
                                 <state key="normal" title="Josh" image="josh"/>
                                 <connections>
                                     <action selector="tapJosh:" destination="wzZ-TF-O2q" eventType="touchDown" id="l3t-6u-iBf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flower_daisy" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-w8-cAs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower_daisy" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-w8-cAs">
                                 <rect key="frame" x="174" y="620" width="50" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2wl-9w-N4i"/>
+                                    <constraint firstAttribute="height" constant="47" id="FFO-gu-GU6"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -95,11 +109,10 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
-                                <rect key="frame" x="-13" y="-140.5" width="1049" height="1049"/>
+                                <rect key="frame" x="-13" y="-141" width="1049" height="1049"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
-                                <rect key="frame" x="227" y="288" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
+                                <rect key="frame" x="226" y="288" width="51" height="51"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -116,7 +129,7 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="hqK-U2-TwI">
-                                <rect key="frame" x="51" y="210" width="50" height="51"/>
+                                <rect key="frame" x="40" y="207" width="61" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -134,7 +147,7 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar2" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-vy-hse">
-                                <rect key="frame" x="340" y="138" width="50" height="51"/>
+                                <rect key="frame" x="340" y="101" width="50" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -152,7 +165,7 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cumplestar2" translatesAutoresizingMaskIntoConstraints="NO" id="ki4-Sd-82v">
-                                <rect key="frame" x="651" y="138" width="50" height="51"/>
+                                <rect key="frame" x="651" y="138" width="51" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -170,7 +183,7 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-q2-VT8">
-                                <rect key="frame" x="106" y="43" width="50" height="51"/>
+                                <rect key="frame" x="104" y="43" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -187,9 +200,11 @@ with bad sounds from who knows where.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="AS4-Rt-Nfv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="AS4-Rt-Nfv">
                                 <rect key="frame" x="843" y="452" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="hlL-pN-jwL"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -205,9 +220,8 @@ with bad sounds from who knows where.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-Ll-8BM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-Ll-8BM">
                                 <rect key="frame" x="500" y="337" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -223,9 +237,11 @@ with bad sounds from who knows where.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-BU-t8O">
-                                <rect key="frame" x="800" y="170" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-BU-t8O">
+                                <rect key="frame" x="801" y="170" width="50" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="yJg-Q7-Dr1"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -242,7 +258,7 @@ with bad sounds from who knows where.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="4dS-wU-oAD">
-                                <rect key="frame" x="921" y="69" width="50" height="51"/>
+                                <rect key="frame" x="910" y="67.5" width="61" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -263,23 +279,32 @@ with bad sounds from who knows where.</string>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="T4Q-P7-BZ0" secondAttribute="trailing" constant="79" id="30t-uv-EcN"/>
-                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="QOw-hp-YCg" secondAttribute="bottom" constant="302" id="5to-wD-LYv"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="YWp-Ll-8BM" secondAttribute="bottom" constant="46" id="3MQ-Tu-9aR"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="w7c-lb-nE1" secondAttribute="bottom" constant="55" id="3T6-g9-0sv"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="QOw-hp-YCg" secondAttribute="bottom" constant="332" id="5to-wD-LYv"/>
                             <constraint firstItem="OVm-un-UqT" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="BNp-Qq-3d0"/>
-                            <constraint firstItem="Zc9-ID-fZm" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="-20" id="CYp-u0-AvT"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="FZ7-zC-KxQ"/>
+                            <constraint firstItem="7cI-L6-zvx" firstAttribute="top" secondItem="cOV-w8-cAs" secondAttribute="bottom" constant="8" symbolic="YES" id="J4P-wd-SXx"/>
+                            <constraint firstItem="7cI-L6-zvx" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="41" id="Kuw-TZ-pN1"/>
                             <constraint firstItem="or0-aS-GDk" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="480" id="L5a-9b-Wmh"/>
+                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="NUl-M2-08q" secondAttribute="bottom" constant="44" id="M9A-Hi-DRH"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="or0-aS-GDk" secondAttribute="bottom" constant="579" id="NpO-gX-TS4"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="T4Q-P7-BZ0" secondAttribute="bottom" constant="43.5" id="Shs-4p-qNT"/>
+                            <constraint firstItem="NUl-M2-08q" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="-95" id="T2V-Hq-aCI"/>
                             <constraint firstItem="OVm-un-UqT" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Uz1-gp-S7P"/>
+                            <constraint firstItem="7cI-L6-zvx" firstAttribute="centerX" secondItem="NUl-M2-08q" secondAttribute="centerX" id="Vh7-bF-Czh"/>
+                            <constraint firstItem="NUl-M2-08q" firstAttribute="centerX" secondItem="0YZ-Wj-kbb" secondAttribute="centerX" id="aNu-t9-EiO"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="tBB-5a-1FT" secondAttribute="bottom" constant="579" id="dxP-B1-h9f"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="4gI-Ae-xeA" secondAttribute="bottom" constant="268" id="fbB-WM-vUF"/>
-                            <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="278" id="m0E-pc-mgk"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="cOV-w8-cAs" secondAttribute="trailing" constant="49" id="nPn-Jr-shm"/>
                             <constraint firstItem="4gI-Ae-xeA" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="130" id="nhr-Wg-LnG"/>
+                            <constraint firstItem="T4Q-P7-BZ0" firstAttribute="leading" secondItem="FbU-tY-HAg" secondAttribute="trailing" constant="5" id="oQF-uL-K5U"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="sIY-wd-PAi"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="Zc9-ID-fZm" secondAttribute="bottom" constant="579" id="sc4-sh-HrF"/>
-                            <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="163" id="tVz-jm-QMg"/>
+                            <constraint firstItem="cOV-w8-cAs" firstAttribute="leading" secondItem="w7c-lb-nE1" secondAttribute="trailing" constant="18" id="syJ-cz-xya"/>
                             <constraint firstItem="QOw-hp-YCg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="192" id="tWZ-cF-a0c"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tBB-5a-1FT" secondAttribute="trailing" constant="154" id="uP5-ri-0cQ"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="Vh8-ni-4o1" secondAttribute="bottom" constant="95" id="v8O-Vt-8pW"/>
+                            <constraint firstAttribute="bottom" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="134" id="zSv-7E-tuL"/>
                         </constraints>
                     </view>
                     <connections>

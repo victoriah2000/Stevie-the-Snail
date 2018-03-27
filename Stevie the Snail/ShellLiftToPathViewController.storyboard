@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fEo-vj-Oul">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fEo-vj-Oul">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Shell Lift To Path View Controller-->
         <scene sceneID="4ZM-7J-Ewr">
@@ -84,9 +89,16 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHa-BQ-boj">
-                                <rect key="frame" x="61" y="28" width="500" height="200"/>
-                                <string key="text">Stevie needed this push.                                   He came out of his shell and lifted his tush, stepped onto the path with a plunk,            and started to wiggle the junk in his trunk.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHa-BQ-boj">
+                                <rect key="frame" x="421" y="380" width="600" height="350"/>
+                                <string key="text">Stevie knew 
+he needed this push. 
+He came out of his shell, 
+and lifted his tush. 
+He stepped onto the path 
+with a slimy little plunk, 
+and started to wiggle
+the junk in his trunk.</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -109,12 +121,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="LHa-BQ-boj" firstAttribute="height" secondItem="QXD-ct-Jl4" secondAttribute="height" constant="-568" id="1zt-ZQ-5JT"/>
-                            <constraint firstItem="LHa-BQ-boj" firstAttribute="width" secondItem="QXD-ct-Jl4" secondAttribute="width" constant="-524" id="7LG-TH-bh7"/>
-                            <constraint firstItem="LHa-BQ-boj" firstAttribute="leading" secondItem="QXD-ct-Jl4" secondAttribute="leading" constant="49" id="CBT-t6-DqD"/>
+                            <constraint firstItem="LHa-BQ-boj" firstAttribute="height" secondItem="QXD-ct-Jl4" secondAttribute="height" constant="-418" id="1zt-ZQ-5JT"/>
+                            <constraint firstItem="LHa-BQ-boj" firstAttribute="width" secondItem="QXD-ct-Jl4" secondAttribute="width" constant="-424" id="7LG-TH-bh7"/>
+                            <constraint firstItem="LHa-BQ-boj" firstAttribute="leading" secondItem="QXD-ct-Jl4" secondAttribute="leading" constant="421" id="CBT-t6-DqD"/>
                             <constraint firstItem="CYJ-s3-C0J" firstAttribute="centerX" secondItem="QXD-ct-Jl4" secondAttribute="centerX" id="Zgf-CD-XC9"/>
                             <constraint firstItem="CYJ-s3-C0J" firstAttribute="centerY" secondItem="QXD-ct-Jl4" secondAttribute="centerY" id="dvn-AM-l11"/>
-                            <constraint firstAttribute="bottom" secondItem="LHa-BQ-boj" secondAttribute="bottom" constant="543" id="xk4-ZI-TQR"/>
+                            <constraint firstAttribute="bottom" secondItem="LHa-BQ-boj" secondAttribute="bottom" constant="38" id="xk4-ZI-TQR"/>
                         </constraints>
                     </view>
                 </viewController>

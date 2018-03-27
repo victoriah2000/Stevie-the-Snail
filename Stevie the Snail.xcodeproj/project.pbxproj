@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03187BB4367760C0ED64FE53 /* Pods_Stevie_the_Snail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB504870F388977B981C26 /* Pods_Stevie_the_Snail.framework */; };
 		03CE7AB71EC77EBD00F0173F /* GardenCloseUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AB51EC77EBD00F0173F /* GardenCloseUpViewController.swift */; };
 		03CE7ABF1EC77EEB00F0173F /* NightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AB91EC77EEB00F0173F /* NightViewController.swift */; };
 		03CE7AC11EC77EEB00F0173F /* ShellLiftToPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7ABB1EC77EEB00F0173F /* ShellLiftToPathViewController.swift */; };
@@ -20,7 +21,6 @@
 		03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD11EC794CB00F0173F /* NightViewController.storyboard */; };
 		03CE7AD41EC7952300F0173F /* ShellLiftToPathViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */; };
 		03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */; };
-		03CE7ADA1EC7967800F0173F /* OnTheMoveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */; };
 		03CE7ADC1EC796AE00F0173F /* GardenArrivalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */; };
 		03CE7ADE1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADD1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard */; };
 		03CE7AE01EC7979A00F0173F /* FinaleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7ADF1EC7979A00F0173F /* FinaleViewController.storyboard */; };
@@ -28,13 +28,14 @@
 		03CE7AE41EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */; };
 		03CE7AE61EC79F9A00F0173F /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */; };
 		03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CE7AE71EC79FE400F0173F /* Main.storyboard */; };
+		0E2FE3C022CC81FA1823C2E2 /* Pods_Stevie_the_SnailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21A0F97C4F18548DA90A9FF /* Pods_Stevie_the_SnailUITests.framework */; };
+		886F06C0F1DF5217D2C7C357 /* Pods_Stevie_the_SnailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AD24DBA17298AD2DDA46C1 /* Pods_Stevie_the_SnailTests.framework */; };
 		B20FFE8D1EF5A3DC00DF5916 /* AVPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */; };
 		B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */; };
 		B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE901EF5A71500DF5916 /* main.mp3 */; };
 		B20FFE9B1EF5A71500DF5916 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE911EF5A71500DF5916 /* intro.mp3 */; };
 		B20FFE9C1EF5A71500DF5916 /* heartbeat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */; };
 		B20FFE9D1EF5A71500DF5916 /* hop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE931EF5A71500DF5916 /* hop.mp3 */; };
-		B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE941EF5A71500DF5916 /* meow.mp3 */; };
 		B20FFE9F1EF5A71500DF5916 /* night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE951EF5A71500DF5916 /* night.mp3 */; };
 		B20FFEA01EF5A71500DF5916 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE961EF5A71500DF5916 /* orange.mp3 */; };
 		B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */; };
@@ -42,6 +43,7 @@
 		B2135B4C1EDF9E5300FA3E21 /* bee_animation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */; };
 		B2135B4D1EDF9E5300FA3E21 /* BeeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */; };
 		B22187671F520B3100297A6A /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = B22187661F520B3100297A6A /* Boing.wav */; };
+		B224FFF7206A20D8000D824F /* OnTheMoveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B224FFF6206A20D8000D824F /* OnTheMoveViewController.storyboard */; };
 		B2263B231FCE08F1004C374E /* WhizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2263B211FCE08F1004C374E /* WhizzView.swift */; };
 		B2263B251FCE0BA0004C374E /* SnailCrawlViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */; };
 		B2339F51204526E8003B5B30 /* InsectFlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2339F50204526E8003B5B30 /* InsectFlyView.swift */; };
@@ -49,6 +51,9 @@
 		B2339F552045272C003B5B30 /* whizz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F542045272C003B5B30 /* whizz.xcassets */; };
 		B241685F20454B3D008438EC /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B241685E20454B3D008438EC /* twinkle.mp3 */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
+		B28C83752069C06E003BA1C5 /* spider.wav in Resources */ = {isa = PBXBuildFile; fileRef = B28C83742069C06D003BA1C5 /* spider.wav */; };
+		B28C83772069C209003BA1C5 /* beesummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B28C83762069C209003BA1C5 /* beesummer.mp3 */; };
+		B28C83792069E807003BA1C5 /* meow2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B28C83782069E807003BA1C5 /* meow2.mp3 */; };
 		B29157E71E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */; };
 		B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E48E71FB7931200D8157D /* SceneKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B2FD3AB41E4444E600EA21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FD3AB31E4444E600EA21EE /* AppDelegate.swift */; };
@@ -103,7 +108,6 @@
 		03CE7AD11EC794CB00F0173F /* NightViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NightViewController.storyboard; sourceTree = "<group>"; };
 		03CE7AD31EC7952300F0173F /* ShellLiftToPathViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShellLiftToPathViewController.storyboard; sourceTree = "<group>"; };
 		03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SunInSkyViewController.storyboard; sourceTree = "<group>"; };
-		03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnTheMoveViewController.storyboard; sourceTree = "<group>"; };
 		03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GardenArrivalViewController.storyboard; sourceTree = "<group>"; };
 		03CE7ADD1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GardnCloseUp2ViewController.storyboard; sourceTree = "<group>"; };
 		03CE7ADF1EC7979A00F0173F /* FinaleViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FinaleViewController.storyboard; sourceTree = "<group>"; };
@@ -111,20 +115,26 @@
 		03CE7AE31EC7983E00F0173F /* TitlesAndCreditsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TitlesAndCreditsViewController.storyboard; sourceTree = "<group>"; };
 		03CE7AE51EC79F9A00F0173F /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		03CE7AE71EC79FE400F0173F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		14AB504870F388977B981C26 /* Pods_Stevie_the_Snail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stevie_the_Snail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A634947D8E754B3BD1208A /* Pods-Stevie the Snail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the Snail.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the Snail/Pods-Stevie the Snail.release.xcconfig"; sourceTree = "<group>"; };
+		8908CE715A9D8FA461690977 /* Pods-Stevie the SnailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the SnailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the SnailTests/Pods-Stevie the SnailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96F37BC04E71A8151029A66F /* Pods-Stevie the SnailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the SnailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the SnailUITests/Pods-Stevie the SnailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A393B3298F9A2D180805F2A9 /* Pods-Stevie the Snail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the Snail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the Snail/Pods-Stevie the Snail.debug.xcconfig"; sourceTree = "<group>"; };
 		B20FFE8C1EF5A3DC00DF5916 /* AVPlayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerExtension.swift; sourceTree = "<group>"; };
 		B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzingbees.mp3; sourceTree = "<group>"; };
 		B20FFE901EF5A71500DF5916 /* main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main.mp3; sourceTree = "<group>"; };
 		B20FFE911EF5A71500DF5916 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
 		B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heartbeat.mp3; sourceTree = "<group>"; };
 		B20FFE931EF5A71500DF5916 /* hop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hop.mp3; sourceTree = "<group>"; };
-		B20FFE941EF5A71500DF5916 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
 		B20FFE951EF5A71500DF5916 /* night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = night.mp3; sourceTree = "<group>"; };
 		B20FFE961EF5A71500DF5916 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
 		B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slugcrawl.mp3; sourceTree = "<group>"; };
 		B20FFE981EF5A71500DF5916 /* sunflourish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunflourish.mp3; sourceTree = "<group>"; };
 		B2135B4A1EDF9E5300FA3E21 /* bee_animation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bee_animation.xcassets; sourceTree = "<group>"; };
 		B2135B4B1EDF9E5300FA3E21 /* BeeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeAnimationView.swift; sourceTree = "<group>"; };
+		B21A0F97C4F18548DA90A9FF /* Pods_Stevie_the_SnailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stevie_the_SnailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22187661F520B3100297A6A /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
+		B224FFF6206A20D8000D824F /* OnTheMoveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnTheMoveViewController.storyboard; sourceTree = "<group>"; };
 		B2263B211FCE08F1004C374E /* WhizzView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhizzView.swift; sourceTree = "<group>"; };
 		B2263B241FCE0BA0004C374E /* SnailCrawlViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SnailCrawlViewController.storyboard; sourceTree = "<group>"; };
 		B2339F50204526E8003B5B30 /* InsectFlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsectFlyView.swift; sourceTree = "<group>"; };
@@ -132,6 +142,10 @@
 		B2339F542045272C003B5B30 /* whizz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = whizz.xcassets; sourceTree = "<group>"; };
 		B241685E20454B3D008438EC /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twinkle.mp3; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B28C83732069C025003BA1C5 /* windchimes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = windchimes.wav; path = "/Users/victoriaheric/Documents/Apps/Develop/Stevie the Snail/Stevie-the-Snail/Stevie the Snail/windchimes.wav"; sourceTree = "<absolute>"; };
+		B28C83742069C06D003BA1C5 /* spider.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spider.wav; sourceTree = "<group>"; };
+		B28C83762069C209003BA1C5 /* beesummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beesummer.mp3; sourceTree = "<group>"; };
+		B28C83782069E807003BA1C5 /* meow2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow2.mp3; sourceTree = "<group>"; };
 		B29157E51E7DDFE600B06BA8 /* CloseUpTreeToSunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpTreeToSunViewController.swift; sourceTree = "<group>"; };
 		B29E48E71FB7931200D8157D /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		B2FD3AB01E4444E600EA21EE /* Stevie the Snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stevie the Snail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +173,9 @@
 		B2FD3B251E444D7D00EA21EE /* TitlesAndCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesAndCreditsViewController.swift; sourceTree = "<group>"; };
 		B2FD3B291E44540100EA21EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FD3B461E67E7D200EA21EE /* MainBookNavigatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBookNavigatorViewController.swift; sourceTree = "<group>"; };
+		B608FBC5D1F66739D155753D /* Pods-Stevie the SnailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the SnailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the SnailUITests/Pods-Stevie the SnailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6D1A9A08F9C8E4D26F14622 /* Pods-Stevie the SnailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stevie the SnailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stevie the SnailTests/Pods-Stevie the SnailTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9AD24DBA17298AD2DDA46C1 /* Pods_Stevie_the_SnailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stevie_the_SnailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29E48E81FB7D3C700D8157D /* SceneKit.framework in Frameworks */,
+				03187BB4367760C0ED64FE53 /* Pods_Stevie_the_Snail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886F06C0F1DF5217D2C7C357 /* Pods_Stevie_the_SnailTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,15 +200,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2FE3C022CC81FA1823C2E2 /* Pods_Stevie_the_SnailUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ECE1D452D38BC5BF31EA2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A393B3298F9A2D180805F2A9 /* Pods-Stevie the Snail.debug.xcconfig */,
+				35A634947D8E754B3BD1208A /* Pods-Stevie the Snail.release.xcconfig */,
+				8908CE715A9D8FA461690977 /* Pods-Stevie the SnailTests.debug.xcconfig */,
+				C6D1A9A08F9C8E4D26F14622 /* Pods-Stevie the SnailTests.release.xcconfig */,
+				96F37BC04E71A8151029A66F /* Pods-Stevie the SnailUITests.debug.xcconfig */,
+				B608FBC5D1F66739D155753D /* Pods-Stevie the SnailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B20FFE8E1EF5A6C800DF5916 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				B28C83782069E807003BA1C5 /* meow2.mp3 */,
+				B28C83762069C209003BA1C5 /* beesummer.mp3 */,
+				B28C83742069C06D003BA1C5 /* spider.wav */,
+				B28C83732069C025003BA1C5 /* windchimes.wav */,
 				B241685E20454B3D008438EC /* twinkle.mp3 */,
 				B22187661F520B3100297A6A /* Boing.wav */,
 				B20FFE8F1EF5A71500DF5916 /* buzzingbees.mp3 */,
@@ -197,7 +234,6 @@
 				B20FFE911EF5A71500DF5916 /* intro.mp3 */,
 				B20FFE921EF5A71500DF5916 /* heartbeat.mp3 */,
 				B20FFE931EF5A71500DF5916 /* hop.mp3 */,
-				B20FFE941EF5A71500DF5916 /* meow.mp3 */,
 				B20FFE951EF5A71500DF5916 /* night.mp3 */,
 				B20FFE961EF5A71500DF5916 /* orange.mp3 */,
 				B20FFE971EF5A71500DF5916 /* slugcrawl.mp3 */,
@@ -210,6 +246,9 @@
 			isa = PBXGroup;
 			children = (
 				B29E48E71FB7931200D8157D /* SceneKit.framework */,
+				14AB504870F388977B981C26 /* Pods_Stevie_the_Snail.framework */,
+				D9AD24DBA17298AD2DDA46C1 /* Pods_Stevie_the_SnailTests.framework */,
+				B21A0F97C4F18548DA90A9FF /* Pods_Stevie_the_SnailUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,6 +261,7 @@
 				B2FD3AD21E4444E600EA21EE /* Stevie the SnailUITests */,
 				B2FD3AB11E4444E600EA21EE /* Products */,
 				B29E48E61FB7931100D8157D /* Frameworks */,
+				3ECE1D452D38BC5BF31EA2BC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,7 +315,7 @@
 				B2FD3B0B1E44489500EA21EE /* SunInSkyViewController.swift */,
 				03CE7AD71EC7960300F0173F /* SunInSkyViewController.storyboard */,
 				B2FD3B0F1E4448A800EA21EE /* OnTheMoveViewController.swift */,
-				03CE7AD91EC7967800F0173F /* OnTheMoveViewController.storyboard */,
+				B224FFF6206A20D8000D824F /* OnTheMoveViewController.storyboard */,
 				B2FD3B151E444C6B00EA21EE /* GardenArrivalViewController.swift */,
 				03CE7ADB1EC796AE00F0173F /* GardenArrivalViewController.storyboard */,
 				B2FD3B191E444CF500EA21EE /* GardnCloseUp2ViewController.swift */,
@@ -317,9 +357,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FD3AD81E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the Snail" */;
 			buildPhases = (
+				A6B0C956C68076ABAA8D3C2D /* [CP] Check Pods Manifest.lock */,
 				B2FD3AAC1E4444E600EA21EE /* Sources */,
 				B2FD3AAD1E4444E600EA21EE /* Frameworks */,
 				B2FD3AAE1E4444E600EA21EE /* Resources */,
+				6FF1F0B7B957A8A4F65EB963 /* [CP] Embed Pods Frameworks */,
+				48CF6ADDCC468FEF55CF33A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FD3ADB1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailTests" */;
 			buildPhases = (
+				2088DC32406A0EEB420DC124 /* [CP] Check Pods Manifest.lock */,
 				B2FD3AC01E4444E600EA21EE /* Sources */,
 				B2FD3AC11E4444E600EA21EE /* Frameworks */,
 				B2FD3AC21E4444E600EA21EE /* Resources */,
+				FB3EA08D37F8F5602B0EE58A /* [CP] Embed Pods Frameworks */,
+				59082453B14FACD13926910E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FD3ADE1E4444E600EA21EE /* Build configuration list for PBXNativeTarget "Stevie the SnailUITests" */;
 			buildPhases = (
+				B01134D92F7A168C10A38E10 /* [CP] Check Pods Manifest.lock */,
 				B2FD3ACB1E4444E600EA21EE /* Sources */,
 				B2FD3ACC1E4444E600EA21EE /* Frameworks */,
 				B2FD3ACD1E4444E600EA21EE /* Resources */,
+				F3AB0C18317A6D994A794D42 /* [CP] Embed Pods Frameworks */,
+				BDC511385042728EE47E135B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -428,6 +477,7 @@
 				03CE7ACC1EC793A600F0173F /* GardenCloseUpViewController.storyboard in Resources */,
 				B20FFE9C1EF5A71500DF5916 /* heartbeat.mp3 in Resources */,
 				B20FFEA11EF5A71500DF5916 /* slugcrawl.mp3 in Resources */,
+				B28C83752069C06E003BA1C5 /* spider.wav in Resources */,
 				B20FFE991EF5A71500DF5916 /* buzzingbees.mp3 in Resources */,
 				B2FD3ABE1E4444E600EA21EE /* LaunchScreen.storyboard in Resources */,
 				B20FFE9B1EF5A71500DF5916 /* intro.mp3 in Resources */,
@@ -443,8 +493,9 @@
 				B20FFE9A1EF5A71500DF5916 /* main.mp3 in Resources */,
 				03CE7AD21EC794CB00F0173F /* NightViewController.storyboard in Resources */,
 				B241685F20454B3D008438EC /* twinkle.mp3 in Resources */,
-				B20FFE9E1EF5A71500DF5916 /* meow.mp3 in Resources */,
 				B2339F552045272C003B5B30 /* whizz.xcassets in Resources */,
+				B28C83772069C209003BA1C5 /* beesummer.mp3 in Resources */,
+				B224FFF7206A20D8000D824F /* OnTheMoveViewController.storyboard in Resources */,
 				B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
 				03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */,
@@ -453,8 +504,8 @@
 				03CE7ADE1EC796E000F0173F /* GardnCloseUp2ViewController.storyboard in Resources */,
 				03CE7AD01EC7947C00F0173F /* CloseUpTreeToSunViewController.storyboard in Resources */,
 				03CE7ACE1EC7943D00F0173F /* HeartbeatViewController.storyboard in Resources */,
-				03CE7ADA1EC7967800F0173F /* OnTheMoveViewController.storyboard in Resources */,
 				03CE7ACA1EC7932400F0173F /* ExtWideAngleToViewController.storyboard in Resources */,
+				B28C83792069E807003BA1C5 /* meow2.mp3 in Resources */,
 				B20FFE9D1EF5A71500DF5916 /* hop.mp3 in Resources */,
 				03CE7AE21EC7980200F0173F /* TheEndViewController.storyboard in Resources */,
 				03CE7ADC1EC796AE00F0173F /* GardenArrivalViewController.storyboard in Resources */,
@@ -476,6 +527,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2088DC32406A0EEB420DC124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48CF6ADDCC468FEF55CF33A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the Snail/Pods-Stevie the Snail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59082453B14FACD13926910E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the SnailTests/Pods-Stevie the SnailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF1F0B7B957A8A4F65EB963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the Snail/Pods-Stevie the Snail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B0C956C68076ABAA8D3C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B01134D92F7A168C10A38E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC511385042728EE47E135B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the SnailUITests/Pods-Stevie the SnailUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AB0C18317A6D994A794D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the SnailUITests/Pods-Stevie the SnailUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3EA08D37F8F5602B0EE58A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stevie the SnailTests/Pods-Stevie the SnailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2FD3AAC1E4444E600EA21EE /* Sources */ = {
@@ -673,6 +862,7 @@
 		};
 		B2FD3AD91E4444E600EA21EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A393B3298F9A2D180805F2A9 /* Pods-Stevie the Snail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BL9Y363NK7;
@@ -689,6 +879,7 @@
 		};
 		B2FD3ADA1E4444E600EA21EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A634947D8E754B3BD1208A /* Pods-Stevie the Snail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BL9Y363NK7;
@@ -705,6 +896,7 @@
 		};
 		B2FD3ADC1E4444E600EA21EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8908CE715A9D8FA461690977 /* Pods-Stevie the SnailTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -721,6 +913,7 @@
 		};
 		B2FD3ADD1E4444E600EA21EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D1A9A08F9C8E4D26F14622 /* Pods-Stevie the SnailTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -737,6 +930,7 @@
 		};
 		B2FD3ADF1E4444E600EA21EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F37BC04E71A8151029A66F /* Pods-Stevie the SnailUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 249REVVXPG;
@@ -752,6 +946,7 @@
 		};
 		B2FD3AE01E4444E600EA21EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B608FBC5D1F66739D155753D /* Pods-Stevie the SnailUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 249REVVXPG;

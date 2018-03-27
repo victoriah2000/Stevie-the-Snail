@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Cp-3I-Oju">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Cp-3I-Oju">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Close Up Tree To Sun View Controller-->
         <scene sceneID="DEh-H0-P84">
@@ -42,7 +47,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYa-G3-Hel">
-                                <rect key="frame" x="794" y="-1" width="229" height="239"/>
+                                <rect key="frame" x="794" y="19" width="229" height="239"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="239" id="tGN-eL-SCe"/>
                                 </constraints>
@@ -62,13 +67,12 @@
                                     <action selector="tapSun:" destination="4Cp-3I-Oju" eventType="touchUpInside" id="i4a-Fr-PGe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-a7-LP9">
-                                <rect key="frame" x="450" y="180" width="290" height="300"/>
-                                <string key="text">Stevie would cry 
-at the sun in the sky, 
-"Why can't I go, why?' 
-One day the sun said, 
-"Go! Give it a try!"</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9f-a7-LP9">
+                                <rect key="frame" x="341" y="181" width="500" height="300"/>
+                                <string key="text">Stevie would cry to the sun in the sky, 
+"Why is it so hard for me to start, why?' 
+One day the sun answered back, 
+"It's time to get going! Go! Give it a try!"</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -119,11 +123,11 @@ One day the sun said,
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="PYa-G3-Hel" secondAttribute="trailing" constant="-19" id="1NF-gp-RBi"/>
                             <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerY" secondItem="x5b-K8-tQO" secondAttribute="centerY" id="7RB-5k-Vw3"/>
-                            <constraint firstItem="PYa-G3-Hel" firstAttribute="leading" secondItem="M9f-a7-LP9" secondAttribute="trailing" constant="54" id="EWD-Ag-TDX"/>
+                            <constraint firstItem="PYa-G3-Hel" firstAttribute="leading" secondItem="M9f-a7-LP9" secondAttribute="trailing" constant="-47" id="EWD-Ag-TDX"/>
                             <constraint firstItem="M9f-a7-LP9" firstAttribute="height" secondItem="x5b-K8-tQO" secondAttribute="height" constant="-468" id="Jw3-Xj-NPk"/>
-                            <constraint firstItem="M9f-a7-LP9" firstAttribute="width" secondItem="x5b-K8-tQO" secondAttribute="width" constant="-734" id="MrI-fu-5mU"/>
-                            <constraint firstItem="M9f-a7-LP9" firstAttribute="leading" secondItem="x5b-K8-tQO" secondAttribute="leading" constant="450" id="XL2-qk-val"/>
-                            <constraint firstAttribute="bottom" secondItem="M9f-a7-LP9" secondAttribute="bottom" constant="288" id="ncF-sz-VNp"/>
+                            <constraint firstItem="M9f-a7-LP9" firstAttribute="width" secondItem="x5b-K8-tQO" secondAttribute="width" constant="-524" id="MrI-fu-5mU"/>
+                            <constraint firstItem="M9f-a7-LP9" firstAttribute="leading" secondItem="x5b-K8-tQO" secondAttribute="leading" constant="341" id="XL2-qk-val"/>
+                            <constraint firstAttribute="bottom" secondItem="M9f-a7-LP9" secondAttribute="bottom" constant="287" id="ncF-sz-VNp"/>
                             <constraint firstItem="fF0-cN-ZZy" firstAttribute="centerX" secondItem="x5b-K8-tQO" secondAttribute="centerX" id="o7r-jF-nel"/>
                             <constraint firstItem="PYa-G3-Hel" firstAttribute="top" secondItem="x5b-K8-tQO" secondAttribute="topMargin" constant="-1" id="sMB-zB-7kU"/>
                         </constraints>

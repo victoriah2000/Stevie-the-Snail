@@ -30,7 +30,7 @@ class MainBookNavigatorViewController: UIViewController {
         String(describing: GardnCloseUp2ViewController.self),
         String(describing: FinaleViewController.self),
         String(describing: TheEndViewController.self),
-        //String(describing: TitlesAndCreditsViewController.self),
+        String(describing: TitlesAndCreditsViewController.self),
         ]
 
     var currentIndex = 0

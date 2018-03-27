@@ -15,6 +15,8 @@ class ExtWideAngleToViewController: UIViewController {
     @IBOutlet weak var Josh: UIImageView!
     var joshSound = AVPlayer(name: "Boing", extension: "wav")!
     var daisySound = AVPlayer(name: "twinkle", extension: "mp3")!
+    var beeSummer = AVPlayer(name: "beesummer", extension: "mp3")!
+    var catMeow = AVPlayer(name: "meow2", extension: "mp3")!
     
     @IBAction func tapJosh(_ sender: Any) {
         joshSound.playFromStart()
@@ -36,6 +38,8 @@ class ExtWideAngleToViewController: UIViewController {
     @IBOutlet var frontGrass: UIImageView!
     
     @IBOutlet var beeFly: BeeAnimationView!
+    
+  
     var sunSound = AVPlayer(name: "sunflourish", extension: "mp3")!
     var hopSound = AVPlayer(name:  "hop", extension: "mp3")!
     
@@ -43,6 +47,7 @@ class ExtWideAngleToViewController: UIViewController {
         super.viewDidLoad()
         fly()
         frontGrass.addMotionDisplacement (xAxisAmount: 100, yAxisAmount: 0)
+        beeSummer.playLoop()
     }
     
     func fly() {
@@ -60,7 +65,11 @@ class ExtWideAngleToViewController: UIViewController {
         animation.duration = 0.5
         sender.layer.add(animation, forKey: "spin")
     }
-   
+    
+    @IBAction func Cat(_ sender: UIButton) {
+        catMeow.playFromStart()
+    }
+    
     @IBOutlet var grasshopperJump: UIImageView!
     @IBAction func sunButton(_ sender: UIButton){
         sunSound.playFromStart()
@@ -86,7 +95,10 @@ class ExtWideAngleToViewController: UIViewController {
         })
         
     }
-
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        beeSummer.endLoop()
+    }
 
 
 }

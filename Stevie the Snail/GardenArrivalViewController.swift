@@ -11,6 +11,14 @@ import AVFoundation
 
 class GardenArrivalViewController: UIViewController {
     
+    @IBOutlet weak var stevieImageView: UIImageView!
+    private var slugCrawl = AVPlayer(name: "slugcrawl", extension: "mp3")!
+    private var stevieAnimator: UIViewPropertyAnimator!
+    private let stevieInitialX: CGFloat = 170
+    private lazy var stevieDistance: CGFloat = {
+        return view.bounds.width
+    }()
+    private let stevieAnimationTime: TimeInterval = 40
     //MARK: Sounds
     var daisySound = AVPlayer(name:  "twinkle", extension: "mp3")!
     
@@ -25,7 +33,6 @@ class GardenArrivalViewController: UIViewController {
     //MARK: ButterflyEffect
     
     @IBOutlet var butterflyEffect: [UIImageView]!
-    
     
     // MARK: Variables
     var animator: UIDynamicAnimator!
@@ -45,6 +52,7 @@ class GardenArrivalViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         guard views.count == 0 else {
             return
         }
@@ -54,12 +62,11 @@ class GardenArrivalViewController: UIViewController {
             animator.addBehavior(snapBehavior)
         }
         
-        
     }
     
     deinit {
+        
     }
-    
     
     @IBAction func longPress(_ recognizer: UILongPressGestureRecognizer) {
         switch recognizer.state {
@@ -82,5 +89,41 @@ class GardenArrivalViewController: UIViewController {
             break
         }
         
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        slugCrawl.playLoop()
+        stevieAnimator = UIViewPropertyAnimator(duration: stevieAnimationTime, curve: .easeIn) {
+            self.stevieImageView.center.x = self.stevieInitialX + self.stevieDistance
+        }
+        stevieAnimator.isUserInteractionEnabled = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+            //Need to clear the page turning animation
+            self.stevieAnimator.startAnimation()
+        }
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        slugCrawl.endLoop()
+    }
+    
+    @IBAction func pan(_ recognizer: UIPanGestureRecognizer) {switch recognizer.state {
+    case .began, .changed:
+        stevieAnimator.stopAnimation(true)
+        let delta = recognizer.translation(in: stevieImageView)
+        stevieImageView.center.x += delta.x
+        stevieImageView.center.x  = min (stevieDistance + stevieInitialX, stevieImageView.center.x)
+        recognizer.setTranslation(.zero, in: stevieImageView)
+    case .ended, .cancelled:
+        let time = stevieAnimationTime * TimeInterval(1 - (stevieImageView.center.x - stevieInitialX) / stevieDistance)
+        stevieAnimator = UIViewPropertyAnimator(duration:  time , curve: .easeInOut) {
+            self.stevieImageView.center.x = self.stevieInitialX + self.stevieDistance
+        }
+        stevieAnimator.startAnimation()
+    default:
+        break
+        }
     }
 }

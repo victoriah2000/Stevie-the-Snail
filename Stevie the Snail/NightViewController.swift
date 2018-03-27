@@ -13,6 +13,7 @@ import CoreMotion
 class NightViewController: UIViewController {
     //mark variables collection view
     @IBOutlet var stars: [UIImageView]!
+    //private var starSound = AVPlayer(name: "windchimes", extension: "wav")!
     //mark variables for clouds parallax
     @IBOutlet var clouds: UIImageView!
     @IBOutlet var stars1: UIImageView!
@@ -91,6 +92,7 @@ class NightViewController: UIViewController {
                 self.pushBehavior.pushDirection = direction
                 self.pushBehavior.magnitude = 0.2
                 self.animator.addBehavior(self.pushBehavior)
+                //self.starSound.playFromStart()
             }
         }
     }
@@ -99,6 +101,7 @@ class NightViewController: UIViewController {
     
     @IBOutlet weak var Josh: UIButton!
     var joshSound = AVPlayer(name: "Boing", extension: "wav")!
+    
     
     @IBAction func tapJosh(_ sender: UIButton) {
         
