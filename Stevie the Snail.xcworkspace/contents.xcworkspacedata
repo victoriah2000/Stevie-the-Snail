@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/victoriaheric/Documents/Apps/Develop/Stevie the Snail/Stevie-the-Snail/Stevie the Snail/windchimes.wav">
-   </FileRef>
-   <FileRef
       location = "group:Stevie the Snail.xcodeproj">
    </FileRef>
    <FileRef

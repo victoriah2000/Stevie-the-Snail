@@ -15,6 +15,7 @@ class GardnCloseUp2ViewController: UIViewController {
     @IBOutlet var grasshopperJump: UIImageView!
     //Mark sounds
     var hopSound = AVPlayer(name:  "hop", extension: "mp3")!
+    var beeSummer = AVPlayer(name: "beesummer", extension: "mp3")!
 
     @IBAction func tapGrasshopper(_ sender: Any) {
         hopSound.playFromStart()
@@ -42,6 +43,7 @@ class GardnCloseUp2ViewController: UIViewController {
     // MARK: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
+        beeSummer.playLoop()
         animator = UIDynamicAnimator(referenceView: view)
         
     }

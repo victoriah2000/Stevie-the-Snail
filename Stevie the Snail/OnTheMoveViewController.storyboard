@@ -157,7 +157,6 @@ But you just get up, and start fresh each day. </string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="StevieMoves" destination="e2i-8v-OsX" id="4Vr-S4-AB8"/>
                         <outlet property="insectFly" destination="e2i-8v-OsX" id="ekz-Uv-xCC"/>
                         <outlet property="ladyBug" destination="wsr-47-8DP" id="IOs-ok-j8E"/>
                         <outlet property="stevieImageView" destination="5Rg-hx-3ok" id="djF-Pf-cgQ"/>

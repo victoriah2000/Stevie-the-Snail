@@ -42,7 +42,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dust" translatesAutoresizingMaskIntoConstraints="NO" id="4gI-Ae-xeA">
                                 <rect key="frame" x="150" y="-2" width="700" height="502"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ID-fZm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ID-fZm">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="or0-aS-GDk">
@@ -69,7 +69,7 @@ Stevie felt sad and all alone.</string>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                 <string key="userLabel">The sky grew black and full of stars, this was the scariest moment by far. The night was dark and cold out there, with bad sounds from who knows where. No mom, no dad, no home. Stevie felt sad and all alone.</string>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stars2_600" translatesAutoresizingMaskIntoConstraints="NO" id="tBB-5a-1FT">
                                 <rect key="frame" x="250" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
@@ -111,7 +111,7 @@ Stevie felt sad and all alone.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
                                 <rect key="frame" x="-13" y="-141" width="1049" height="1049"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
                                 <rect key="frame" x="226" y="288" width="51" height="51"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
@@ -128,9 +128,8 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="hqK-U2-TwI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="hqK-U2-TwI">
                                 <rect key="frame" x="40" y="207" width="61" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -146,9 +145,12 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar2" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-vy-hse">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepystar2" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-vy-hse">
                                 <rect key="frame" x="340" y="101" width="50" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="9wo-47-4xm"/>
+                                    <constraint firstAttribute="width" constant="50" id="JVF-fn-ClY"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -164,9 +166,8 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cumplestar2" translatesAutoresizingMaskIntoConstraints="NO" id="ki4-Sd-82v">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cumplestar2" translatesAutoresizingMaskIntoConstraints="NO" id="ki4-Sd-82v">
                                 <rect key="frame" x="651" y="138" width="51" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -182,9 +183,8 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-q2-VT8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-q2-VT8">
                                 <rect key="frame" x="104" y="43" width="52" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,10 +200,10 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="AS4-Rt-Nfv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="AS4-Rt-Nfv">
                                 <rect key="frame" x="843" y="452" width="50" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="hlL-pN-jwL"/>
+                                    <constraint firstAttribute="width" constant="50" id="rCQ-S4-uXc"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -220,8 +220,11 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-Ll-8BM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="YWp-Ll-8BM">
                                 <rect key="frame" x="500" y="337" width="50" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8X8-2q-S20"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -237,10 +240,10 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-BU-t8O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-BU-t8O">
                                 <rect key="frame" x="801" y="170" width="50" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="yJg-Q7-Dr1"/>
+                                    <constraint firstAttribute="width" constant="50" id="p7p-0g-Ldt"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
@@ -257,9 +260,8 @@ Stevie felt sad and all alone.</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="4dS-wU-oAD">
-                                <rect key="frame" x="910" y="67.5" width="61" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="4dS-wU-oAD">
+                                <rect key="frame" x="910" y="68" width="61" height="54"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -278,32 +280,50 @@ Stevie felt sad and all alone.</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AS4-Rt-Nfv" secondAttribute="bottom" constant="265" id="2Bl-bQ-3AY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="T4Q-P7-BZ0" secondAttribute="trailing" constant="79" id="30t-uv-EcN"/>
-                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="YWp-Ll-8BM" secondAttribute="bottom" constant="46" id="3MQ-Tu-9aR"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="w7c-lb-nE1" secondAttribute="bottom" constant="55" id="3T6-g9-0sv"/>
+                            <constraint firstItem="t2S-q2-VT8" firstAttribute="trailing" secondItem="w7c-lb-nE1" secondAttribute="trailing" id="4ee-6S-jt3"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="QOw-hp-YCg" secondAttribute="bottom" constant="332" id="5to-wD-LYv"/>
                             <constraint firstItem="OVm-un-UqT" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="BNp-Qq-3d0"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="YWp-Ll-8BM" secondAttribute="bottom" constant="46" id="Bhl-YY-Sg3"/>
+                            <constraint firstItem="hqK-U2-TwI" firstAttribute="top" secondItem="Zc9-ID-fZm" secondAttribute="bottom" constant="18" id="DV2-Du-hsx"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerX" secondItem="4zW-CI-FBr" secondAttribute="centerX" id="FZ7-zC-KxQ"/>
                             <constraint firstItem="7cI-L6-zvx" firstAttribute="top" secondItem="cOV-w8-cAs" secondAttribute="bottom" constant="8" symbolic="YES" id="J4P-wd-SXx"/>
                             <constraint firstItem="7cI-L6-zvx" firstAttribute="top" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="41" id="Kuw-TZ-pN1"/>
                             <constraint firstItem="or0-aS-GDk" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="480" id="L5a-9b-Wmh"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="NUl-M2-08q" secondAttribute="bottom" constant="44" id="M9A-Hi-DRH"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="or0-aS-GDk" secondAttribute="bottom" constant="579" id="NpO-gX-TS4"/>
+                            <constraint firstAttribute="trailing" secondItem="aZf-BU-t8O" secondAttribute="trailing" constant="173" id="QID-80-2TW"/>
+                            <constraint firstItem="4gI-Ae-xeA" firstAttribute="leading" secondItem="hqK-U2-TwI" secondAttribute="trailing" constant="49" id="Qqx-g2-PSe"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="T4Q-P7-BZ0" secondAttribute="bottom" constant="43.5" id="Shs-4p-qNT"/>
                             <constraint firstItem="NUl-M2-08q" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="-95" id="T2V-Hq-aCI"/>
+                            <constraint firstItem="pqi-vy-hse" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leading" constant="340" id="TK8-hB-072"/>
+                            <constraint firstItem="t2S-q2-VT8" firstAttribute="top" secondItem="lUH-k4-sXe" secondAttribute="bottom" constant="23" id="Ukg-6A-qBf"/>
+                            <constraint firstItem="tBB-5a-1FT" firstAttribute="trailing" secondItem="4gI-Ae-xeA" secondAttribute="trailing" id="Uwj-3Y-hSh"/>
                             <constraint firstItem="OVm-un-UqT" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="Uz1-gp-S7P"/>
                             <constraint firstItem="7cI-L6-zvx" firstAttribute="centerX" secondItem="NUl-M2-08q" secondAttribute="centerX" id="Vh7-bF-Czh"/>
+                            <constraint firstItem="aZf-BU-t8O" firstAttribute="top" secondItem="lUH-k4-sXe" secondAttribute="bottom" constant="150" id="Wn3-dg-g26"/>
+                            <constraint firstItem="ki4-Sd-82v" firstAttribute="leading" secondItem="Zc9-ID-fZm" secondAttribute="trailing" constant="51" id="Z48-p0-dXi"/>
                             <constraint firstItem="NUl-M2-08q" firstAttribute="centerX" secondItem="0YZ-Wj-kbb" secondAttribute="centerX" id="aNu-t9-EiO"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="tBB-5a-1FT" secondAttribute="bottom" constant="579" id="dxP-B1-h9f"/>
+                            <constraint firstItem="4dS-wU-oAD" firstAttribute="leading" secondItem="4gI-Ae-xeA" secondAttribute="trailing" constant="60" id="fC9-Db-Rgd"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="4gI-Ae-xeA" secondAttribute="bottom" constant="268" id="fbB-WM-vUF"/>
+                            <constraint firstItem="4dS-wU-oAD" firstAttribute="centerY" secondItem="or0-aS-GDk" secondAttribute="centerY" id="hGP-N3-vQb"/>
+                            <constraint firstItem="YWp-Ll-8BM" firstAttribute="leading" secondItem="or0-aS-GDk" secondAttribute="leading" id="igZ-N4-yJK"/>
+                            <constraint firstItem="pqi-vy-hse" firstAttribute="top" secondItem="lUH-k4-sXe" secondAttribute="bottom" constant="81" id="k4l-kY-AdD"/>
                             <constraint firstItem="FbU-tY-HAg" firstAttribute="leading" secondItem="cOV-w8-cAs" secondAttribute="trailing" constant="49" id="nPn-Jr-shm"/>
                             <constraint firstItem="4gI-Ae-xeA" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="130" id="nhr-Wg-LnG"/>
                             <constraint firstItem="T4Q-P7-BZ0" firstAttribute="leading" secondItem="FbU-tY-HAg" secondAttribute="trailing" constant="5" id="oQF-uL-K5U"/>
+                            <constraint firstItem="ki4-Sd-82v" firstAttribute="top" secondItem="lUH-k4-sXe" secondAttribute="bottom" constant="118" id="qIq-CF-hyZ"/>
+                            <constraint firstItem="aZf-BU-t8O" firstAttribute="leading" secondItem="ki4-Sd-82v" secondAttribute="trailing" constant="99" id="ri0-JJ-qox"/>
+                            <constraint firstItem="Vh8-ni-4o1" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leading" constant="226" id="rtn-Bi-mpo"/>
                             <constraint firstItem="0YZ-Wj-kbb" firstAttribute="centerY" secondItem="4zW-CI-FBr" secondAttribute="centerY" id="sIY-wd-PAi"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="Zc9-ID-fZm" secondAttribute="bottom" constant="579" id="sc4-sh-HrF"/>
                             <constraint firstItem="cOV-w8-cAs" firstAttribute="leading" secondItem="w7c-lb-nE1" secondAttribute="trailing" constant="18" id="syJ-cz-xya"/>
                             <constraint firstItem="QOw-hp-YCg" firstAttribute="leading" secondItem="4zW-CI-FBr" secondAttribute="leadingMargin" constant="192" id="tWZ-cF-a0c"/>
-                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="Vh8-ni-4o1" secondAttribute="bottom" constant="95" id="v8O-Vt-8pW"/>
+                            <constraint firstItem="AS4-Rt-Nfv" firstAttribute="leading" secondItem="FbU-tY-HAg" secondAttribute="trailing" constant="70" id="wh8-13-CMb"/>
+                            <constraint firstItem="FbU-tY-HAg" firstAttribute="top" secondItem="Vh8-ni-4o1" secondAttribute="bottom" constant="95" id="xik-Og-728"/>
                             <constraint firstAttribute="bottom" secondItem="FbU-tY-HAg" secondAttribute="bottom" constant="134" id="zSv-7E-tuL"/>
                         </constraints>
                     </view>

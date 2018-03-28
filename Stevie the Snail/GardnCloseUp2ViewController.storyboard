@@ -67,6 +67,10 @@ Oh what a joy to see                 grasshopper jumping                        
                                     <outletCollection property="gestureRecognizers" destination="hYO-3a-oku" appends="YES" id="4OM-hr-HKF"/>
                                 </connections>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bee_1" translatesAutoresizingMaskIntoConstraints="NO" id="3H2-H1-OqV">
+                                <rect key="frame" x="816" y="377" width="129" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="VFW-OD-r1f">
                                 <rect key="frame" x="434" y="552" width="319" height="329"/>
                                 <userDefinedRuntimeAttributes>
@@ -157,6 +161,7 @@ Oh what a joy to see                 grasshopper jumping                        
         </scene>
     </scenes>
     <resources>
+        <image name="bee_1" width="129" height="128"/>
         <image name="bluesky_1" width="1024" height="768"/>
         <image name="butterfly_d" width="165" height="148"/>
         <image name="butterly_e" width="51" height="46"/>

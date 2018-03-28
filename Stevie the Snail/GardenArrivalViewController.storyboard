@@ -68,9 +68,6 @@ to the garden the very next day.</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="TMM-94-mBw">
                                 <rect key="frame" x="705" y="510" width="349" height="258"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garden_515_297" translatesAutoresizingMaskIntoConstraints="NO" id="Bnq-MQ-YcM">
-                                <rect key="frame" x="569" y="481" width="515" height="297"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="ImA-ri-j7s">
                                 <rect key="frame" x="84" y="562" width="186" height="198"/>
                                 <constraints>
@@ -79,6 +76,9 @@ to the garden the very next day.</string>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="NbD-K1-NHQ" appends="YES" id="q1i-ZD-bWc"/>
                                 </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="garden_515_297" translatesAutoresizingMaskIntoConstraints="NO" id="Bnq-MQ-YcM">
+                                <rect key="frame" x="569" y="481" width="515" height="297"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower_orange" translatesAutoresizingMaskIntoConstraints="NO" id="cZP-ro-pET">
                                 <rect key="frame" x="770" y="591" width="95" height="76"/>
@@ -110,15 +110,15 @@ to the garden the very next day.</string>
                                     <constraint firstAttribute="width" constant="240" id="Yzw-Ck-t0J"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_d" translatesAutoresizingMaskIntoConstraints="NO" id="phg-g5-4Zr">
+                                <rect key="frame" x="506" y="489" width="300" height="363"/>
+                                <gestureRecognizers/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_c" translatesAutoresizingMaskIntoConstraints="NO" id="kja-3A-fea">
                                 <rect key="frame" x="858" y="150" width="196" height="234"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="9X9-iI-8FX"/>
                                 </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_d" translatesAutoresizingMaskIntoConstraints="NO" id="phg-g5-4Zr">
-                                <rect key="frame" x="506" y="489" width="300" height="363"/>
-                                <gestureRecognizers/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_frond_c" translatesAutoresizingMaskIntoConstraints="NO" id="0VR-gs-Hbf">
                                 <rect key="frame" x="705" y="344" width="145" height="158"/>
@@ -143,9 +143,8 @@ to the garden the very next day.</string>
                                 <rect key="frame" x="770" y="232" width="79" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="bcr-TU-tAc">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="bcr-TU-tAc">
                                 <rect key="frame" x="603" y="388" width="79" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
@@ -163,7 +162,6 @@ to the garden the very next day.</string>
                             <constraint firstItem="tTJ-F2-lbM" firstAttribute="centerY" secondItem="kZi-co-YFf" secondAttribute="centerY" id="Hqy-EF-IHO"/>
                             <constraint firstItem="X9w-Yj-de2" firstAttribute="bottom" secondItem="TMM-94-mBw" secondAttribute="bottom" id="J7s-0f-EC8"/>
                             <constraint firstItem="qa5-Ui-csK" firstAttribute="top" secondItem="bAN-mV-mI8" secondAttribute="bottom" constant="87" id="Jq3-nz-YXW"/>
-                            <constraint firstItem="fSW-GE-K8C" firstAttribute="leading" secondItem="phg-g5-4Zr" secondAttribute="trailing" constant="8" symbolic="YES" id="KLR-a9-ckN"/>
                             <constraint firstItem="0VR-gs-Hbf" firstAttribute="top" secondItem="bAN-mV-mI8" secondAttribute="bottom" constant="324" id="MyX-rA-iAE"/>
                             <constraint firstItem="zAG-J9-YyR" firstAttribute="top" secondItem="kja-3A-fea" secondAttribute="bottom" constant="8" symbolic="YES" id="N6X-HV-oj2"/>
                             <constraint firstItem="IWI-gi-8Xv" firstAttribute="top" secondItem="gzP-ht-98c" secondAttribute="bottom" constant="228" id="Pf0-Ua-cgj"/>
@@ -172,8 +170,9 @@ to the garden the very next day.</string>
                             <constraint firstItem="qa5-Ui-csK" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leadingMargin" constant="21" id="QX8-g8-vcI"/>
                             <constraint firstItem="cZP-ro-pET" firstAttribute="leading" secondItem="L46-cM-llV" secondAttribute="trailing" constant="8" symbolic="YES" id="Qjn-Jh-WSo"/>
                             <constraint firstItem="X9w-Yj-de2" firstAttribute="top" secondItem="kZi-co-YFf" secondAttribute="top" id="S9V-ks-1IE"/>
-                            <constraint firstItem="fSW-GE-K8C" firstAttribute="centerY" secondItem="phg-g5-4Zr" secondAttribute="centerY" id="TYm-XI-bmp"/>
+                            <constraint firstItem="phg-g5-4Zr" firstAttribute="centerY" secondItem="fSW-GE-K8C" secondAttribute="centerY" id="VEY-kz-bdM"/>
                             <constraint firstItem="X9w-Yj-de2" firstAttribute="bottom" secondItem="cfq-o3-42P" secondAttribute="bottom" id="VUC-vm-fGb"/>
+                            <constraint firstItem="fSW-GE-K8C" firstAttribute="leading" secondItem="phg-g5-4Zr" secondAttribute="trailing" constant="8" symbolic="YES" id="Vm5-4h-7UR"/>
                             <constraint firstItem="kja-3A-fea" firstAttribute="top" secondItem="bAN-mV-mI8" secondAttribute="bottom" constant="130" id="WRO-Be-akX"/>
                             <constraint firstItem="TMM-94-mBw" firstAttribute="top" secondItem="0VR-gs-Hbf" secondAttribute="bottom" constant="8" symbolic="YES" id="XYA-px-6C6"/>
                             <constraint firstItem="IWI-gi-8Xv" firstAttribute="top" secondItem="3kT-u6-xyi" secondAttribute="bottom" constant="88" id="a6j-ED-zEw"/>
@@ -197,6 +196,7 @@ to the garden the very next day.</string>
                             <constraint firstItem="3kT-u6-xyi" firstAttribute="trailing" secondItem="tTJ-F2-lbM" secondAttribute="trailing" id="qZH-EG-KcX"/>
                             <constraint firstItem="IWI-gi-8Xv" firstAttribute="top" secondItem="ImA-ri-j7s" secondAttribute="bottom" constant="8" symbolic="YES" id="qjD-FQ-3Q2"/>
                             <constraint firstItem="gzP-ht-98c" firstAttribute="top" secondItem="bAN-mV-mI8" secondAttribute="bottom" constant="375" id="rla-BI-mUq"/>
+                            <constraint firstItem="phg-g5-4Zr" firstAttribute="top" secondItem="bcr-TU-tAc" secondAttribute="bottom" constant="30" id="sCv-c7-D4N"/>
                             <constraint firstAttribute="bottomMargin" secondItem="fSW-GE-K8C" secondAttribute="bottom" constant="-10" id="sys-TO-csm"/>
                             <constraint firstItem="zAG-J9-YyR" firstAttribute="leading" secondItem="kZi-co-YFf" secondAttribute="leading" constant="653" id="tnF-N7-zbf"/>
                             <constraint firstItem="kja-3A-fea" firstAttribute="trailing" secondItem="fSW-GE-K8C" secondAttribute="trailing" id="to2-mE-UaT"/>
