@@ -52,6 +52,7 @@
 		B2339F552045272C003B5B30 /* whizz.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2339F542045272C003B5B30 /* whizz.xcassets */; };
 		B241685F20454B3D008438EC /* twinkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B241685E20454B3D008438EC /* twinkle.mp3 */; };
 		B2543C301EBAE1F3007D0812 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */; };
+		B26B64FF208285CA000742D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B26B64FE208285C9000742D1 /* GoogleService-Info.plist */; };
 		B28C83752069C06E003BA1C5 /* spider.wav in Resources */ = {isa = PBXBuildFile; fileRef = B28C83742069C06D003BA1C5 /* spider.wav */; };
 		B28C83772069C209003BA1C5 /* beesummer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B28C83762069C209003BA1C5 /* beesummer.mp3 */; };
 		B28C83792069E807003BA1C5 /* meow2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B28C83782069E807003BA1C5 /* meow2.mp3 */; };
@@ -144,6 +145,7 @@
 		B2339F542045272C003B5B30 /* whizz.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = whizz.xcassets; sourceTree = "<group>"; };
 		B241685E20454B3D008438EC /* twinkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twinkle.mp3; sourceTree = "<group>"; };
 		B2543C2F1EBAE1F3007D0812 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B26B64FE208285C9000742D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B28C83742069C06D003BA1C5 /* spider.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spider.wav; sourceTree = "<group>"; };
 		B28C83762069C209003BA1C5 /* beesummer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beesummer.mp3; sourceTree = "<group>"; };
 		B28C83782069E807003BA1C5 /* meow2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow2.mp3; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 		B2FD3AA71E4444E500EA21EE = {
 			isa = PBXGroup;
 			children = (
+				B26B64FE208285C9000742D1 /* GoogleService-Info.plist */,
 				B2FD3AB21E4444E600EA21EE /* Stevie the Snail */,
 				B2FD3AC71E4444E600EA21EE /* Stevie the SnailTests */,
 				B2FD3AD21E4444E600EA21EE /* Stevie the SnailUITests */,
@@ -499,6 +502,7 @@
 				B28C83772069C209003BA1C5 /* beesummer.mp3 in Resources */,
 				B224FFF7206A20D8000D824F /* OnTheMoveViewController.storyboard in Resources */,
 				B2339F53204526FD003B5B30 /* insect_fly.xcassets in Resources */,
+				B26B64FF208285CA000742D1 /* GoogleService-Info.plist in Resources */,
 				03CE7AC81EC7925300F0173F /* ExtTreeWideShotViewController.storyboard in Resources */,
 				03CE7AD81EC7960300F0173F /* SunInSkyViewController.storyboard in Resources */,
 				03CE7AE81EC79FE400F0173F /* Main.storyboard in Resources */,
