@@ -137,17 +137,17 @@ to the garden the very next day.</string>
                                     <action selector="daisySpin:" destination="1GE-Gh-4XU" eventType="touchUpInside" id="hsH-si-2Zl"/>
                                 </connections>
                             </button>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="rAm-75-YtX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterly_e" translatesAutoresizingMaskIntoConstraints="NO" id="rAm-75-YtX">
                                 <rect key="frame" x="628" y="258" width="79" height="71"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="79" id="Lt3-YS-1fN"/>
                                 </constraints>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_c" translatesAutoresizingMaskIntoConstraints="NO" id="Jcz-l1-qjo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_c" translatesAutoresizingMaskIntoConstraints="NO" id="Jcz-l1-qjo">
                                 <rect key="frame" x="770" y="232" width="79" height="71"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="bcr-TU-tAc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterfly_f" translatesAutoresizingMaskIntoConstraints="NO" id="bcr-TU-tAc">
                                 <rect key="frame" x="603" y="388" width="79" height="71"/>
                                 <gestureRecognizers/>
                             </imageView>
