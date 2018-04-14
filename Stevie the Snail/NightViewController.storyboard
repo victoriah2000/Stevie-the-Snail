@@ -201,7 +201,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="AS4-Rt-Nfv">
-                                <rect key="frame" x="843" y="452" width="50" height="51"/>
+                                <rect key="frame" x="843" y="400" width="50" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="rCQ-S4-uXc"/>
                                 </constraints>
@@ -280,7 +280,7 @@ Stevie felt sad and all alone.</string>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="AS4-Rt-Nfv" secondAttribute="bottom" constant="265" id="2Bl-bQ-3AY"/>
+                            <constraint firstAttribute="bottom" secondItem="AS4-Rt-Nfv" secondAttribute="bottom" constant="317" id="2Bl-bQ-3AY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="T4Q-P7-BZ0" secondAttribute="trailing" constant="79" id="30t-uv-EcN"/>
                             <constraint firstItem="Cdn-Ph-0pw" firstAttribute="top" secondItem="w7c-lb-nE1" secondAttribute="bottom" constant="55" id="3T6-g9-0sv"/>
                             <constraint firstItem="t2S-q2-VT8" firstAttribute="trailing" secondItem="w7c-lb-nE1" secondAttribute="trailing" id="4ee-6S-jt3"/>

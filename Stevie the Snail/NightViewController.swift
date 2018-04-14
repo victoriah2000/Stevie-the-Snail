@@ -53,6 +53,10 @@ class NightViewController: UIViewController {
         stars2.addMotionDisplacement(xAxisAmount: 25, yAxisAmount: 25)
         stars3.addMotionDisplacement(xAxisAmount: 25, yAxisAmount: 25)
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        view.layoutIfNeeded()
+    }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         var attachments: [UIDynamicBehavior] = [UIAttachmentBehavior(item: view, attachedToAnchor: view.center)]

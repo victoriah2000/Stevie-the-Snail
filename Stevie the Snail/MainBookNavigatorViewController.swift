@@ -39,9 +39,10 @@ class MainBookNavigatorViewController: UIViewController {
     var night = AVPlayer(name:  "night", extension: "mp3")!
     var intro = AVPlayer(name:  "intro", extension: "mp3")!
     var main = AVPlayer(name:  "main", extension: "mp3")!
+    var isMuted = false
     var musicState = MusicState.intro
     enum MusicState {
-        case intro, main, night
+        case intro, main, night, none
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,8 +72,10 @@ class MainBookNavigatorViewController: UIViewController {
     }
     
     @IBAction func muteButton(_ sender: UIButton) {
+        isMuted = !isMuted
+        music(for: pages[currentIndex])
     }
-    func transition(to identifier: String) {
+    private func music(for identifier: String) {
         let newMusicState: MusicState
         switch identifier {
         case String(describing: TitleViewController.self):
@@ -96,8 +99,12 @@ class MainBookNavigatorViewController: UIViewController {
         default:
             newMusicState = .main
         }
-        if newMusicState != musicState {
-            musicState = newMusicState
+        if newMusicState != musicState || isMuted {
+            if isMuted {
+                musicState = .none
+            } else {
+                musicState = newMusicState
+            }
             switch musicState {
             case .intro:
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
@@ -117,8 +124,16 @@ class MainBookNavigatorViewController: UIViewController {
                     self.main.pause()
                     self.night.playLoop()
                 }
+            case .none:
+                intro.pause()
+                main.pause()
+                night.pause()
             }
         }
+    }
+    
+    func transition(to identifier: String) {
+        music(for: identifier)
         let newViewcontroller = UIStoryboard(name: identifier, bundle: nil).instantiateInitialViewController()!
         newViewcontroller.view.frame = currentViewController.view.frame
         currentViewController.willMove(toParentViewController: nil)
