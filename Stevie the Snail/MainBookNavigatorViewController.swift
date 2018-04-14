@@ -65,6 +65,13 @@ class MainBookNavigatorViewController: UIViewController {
         currentIndex = nextIndex
     }
 
+    @IBAction func homeButton(_ sender: UIButton) {
+        transition(to: String(describing: TitleViewController.self))
+        currentIndex = 0
+    }
+    
+    @IBAction func muteButton(_ sender: UIButton) {
+    }
     func transition(to identifier: String) {
         let newMusicState: MusicState
         switch identifier {

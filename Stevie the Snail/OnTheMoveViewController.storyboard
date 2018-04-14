@@ -59,16 +59,6 @@ But you just get up, and start fresh each day. </string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dirt_1024_129" translatesAutoresizingMaskIntoConstraints="NO" id="enp-5J-BAs">
                                 <rect key="frame" x="0.0" y="639" width="1024" height="129"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-hx-3ok">
-                                <rect key="frame" x="49" y="557" width="197" height="211"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="211" id="g9X-7z-fo3"/>
-                                    <constraint firstAttribute="width" constant="197" id="quv-aR-klP"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="pHo-QC-d2c" appends="YES" id="qEH-EB-1NS"/>
-                                </connections>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flare_1024" translatesAutoresizingMaskIntoConstraints="NO" id="KGO-4i-xqu">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
@@ -113,6 +103,16 @@ But you just get up, and start fresh each day. </string>
                                     <action selector="tapladyBug:" destination="hhw-c7-jIR" eventType="touchUpInside" id="U1A-4d-XVr"/>
                                 </connections>
                             </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stevie_v1_s7" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-hx-3ok">
+                                <rect key="frame" x="49" y="557" width="197" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="211" id="g9X-7z-fo3"/>
+                                    <constraint firstAttribute="width" constant="197" id="quv-aR-klP"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pHo-QC-d2c" appends="YES" id="qEH-EB-1NS"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

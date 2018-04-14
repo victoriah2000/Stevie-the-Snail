@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6iM-Dy-Ove">
-    <device id="ipad9_7" orientation="landscape">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6iM-Dy-Ove">
+    <device id="ipad10_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="uy1-p4-4Yz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Wgk-Fr-Sve">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgz-d2-U31">
-                                <rect key="frame" x="960" y="360" width="50" height="50"/>
+                                <rect key="frame" x="1048" y="392" width="50" height="50"/>
                                 <size key="titleShadowOffset" width="6" height="6"/>
                                 <state key="normal" image="forwardbutton_3">
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfk-dZ-wUr">
-                                <rect key="frame" x="10" y="359" width="50" height="50"/>
+                                <rect key="frame" x="10" y="392" width="50" height="50"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" image="backbutton_3">
@@ -43,12 +43,38 @@
                                     <action selector="navigate:" destination="6iM-Dy-Ove" eventType="touchUpInside" id="b82-7P-6yH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd2-9c-sMK" userLabel="mute">
+                                <rect key="frame" x="13" y="22" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="fMI-B2-0Rh"/>
+                                </constraints>
+                                <state key="normal" image="mutebutton"/>
+                                <connections>
+                                    <action selector="muteButton:" destination="6iM-Dy-Ove" eventType="touchUpInside" id="wAE-ge-HSg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnx-dm-e51" userLabel="home">
+                                <rect key="frame" x="1068" y="22" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Q9g-Cj-XMC"/>
+                                    <constraint firstAttribute="height" constant="25" id="Rx8-MK-5Hj"/>
+                                </constraints>
+                                <state key="normal" image="homebutton"/>
+                                <connections>
+                                    <action selector="homeButton:" destination="6iM-Dy-Ove" eventType="touchUpInside" id="ZUg-ht-goB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="xfk-dZ-wUr" firstAttribute="leading" secondItem="Wgk-Fr-Sve" secondAttribute="leadingMargin" constant="-10" id="Cdu-7i-n9Z"/>
-                            <constraint firstItem="xgz-d2-U31" firstAttribute="top" secondItem="xpd-eS-AoX" secondAttribute="bottom" constant="340" id="POz-PV-UnC"/>
+                            <constraint firstItem="gd2-9c-sMK" firstAttribute="top" secondItem="xpd-eS-AoX" secondAttribute="bottom" constant="2" id="DOC-A4-eLU"/>
+                            <constraint firstItem="xgz-d2-U31" firstAttribute="top" secondItem="xpd-eS-AoX" secondAttribute="bottom" constant="372" id="POz-PV-UnC"/>
+                            <constraint firstItem="gd2-9c-sMK" firstAttribute="top" secondItem="Rnx-dm-e51" secondAttribute="top" id="TIF-uF-q40"/>
+                            <constraint firstItem="gd2-9c-sMK" firstAttribute="bottom" secondItem="Rnx-dm-e51" secondAttribute="bottom" id="ZWi-CD-oEt"/>
+                            <constraint firstItem="gd2-9c-sMK" firstAttribute="leading" secondItem="Wgk-Fr-Sve" secondAttribute="leadingMargin" constant="-7" id="c2A-QX-Zsm"/>
                             <constraint firstItem="xfk-dZ-wUr" firstAttribute="centerY" secondItem="Wgk-Fr-Sve" secondAttribute="centerY" id="dUE-HK-B0J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rnx-dm-e51" secondAttribute="trailing" constant="-1" id="n67-mF-cFD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xgz-d2-U31" secondAttribute="trailing" constant="-6" id="pCM-3Y-D6X"/>
                         </constraints>
                     </view>
@@ -65,5 +91,7 @@
     <resources>
         <image name="backbutton_3" width="50" height="50"/>
         <image name="forwardbutton_3" width="50" height="50"/>
+        <image name="homebutton" width="58" height="50"/>
+        <image name="mutebutton" width="40" height="50"/>
     </resources>
 </document>
