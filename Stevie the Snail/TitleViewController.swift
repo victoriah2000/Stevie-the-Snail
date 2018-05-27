@@ -10,15 +10,19 @@ import UIKit
 
 class TitleViewController: UIViewController {
     @IBOutlet var rainbowImageView: UIImageView!
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        rainbowImageView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        rainbowImageView.layer.anchorPoint = CGPoint(x: 0.5, y: 1)
-        rainbowImageView.frame.origin.y += rainbowImageView.bounds.size.height / 2
-        rainbowImageView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi)
-        UIView.animate(withDuration: 3) {
-            self.rainbowImageView.transform = .identity
-        }
+        UIView.animate(withDuration: 3,
+                       delay: 0.25,
+                       options: [],
+                       animations: {self.rainbowImageView.transform = .identity},
+                       completion: nil)
     }
     
 }

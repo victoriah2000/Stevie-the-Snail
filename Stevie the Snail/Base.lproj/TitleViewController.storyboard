@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,8 +24,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluesky_1" translatesAutoresizingMaskIntoConstraints="NO" id="cpx-zm-UP7">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
-                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="center" image="rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-6c-F7c">
-                                <rect key="frame" x="0.0" y="15" width="1024" height="565"/>
+                            <imageView opaque="NO" multipleTouchEnabled="YES" contentMode="top" image="rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="eq4-6c-F7c">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="1130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1130" id="rNW-Ed-wp9"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -85,7 +88,7 @@
                         <constraints>
                             <constraint firstItem="eq4-6c-F7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Af4-GX-mS2"/>
                             <constraint firstItem="cpx-zm-UP7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vmg-RL-bzq"/>
-                            <constraint firstItem="eq4-6c-F7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-5" id="Xyk-DV-ZvE"/>
+                            <constraint firstItem="eq4-6c-F7c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Xyk-DV-ZvE"/>
                             <constraint firstItem="eq4-6c-F7c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lBH-TZ-94M"/>
                             <constraint firstItem="cpx-zm-UP7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wSa-QJ-pjN"/>
                         </constraints>
