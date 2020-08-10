@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
-    <device id="ipad9_7" orientation="landscape">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wzZ-TF-O2q">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AmericanTypewriter.ttc">
-            <string>AmericanTypewriter-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Night View Controller-->
         <scene sceneID="XOC-ri-52U">
@@ -31,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greengrass_1173_105" translatesAutoresizingMaskIntoConstraints="NO" id="NUl-M2-08q">
-                                <rect key="frame" x="-75" y="619" width="1173" height="105"/>
+                                <rect key="frame" x="-75" y="619" width="1174" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="z5p-Vo-Xwd"/>
                                 </constraints>
@@ -73,7 +65,7 @@ Stevie felt sad and all alone.</string>
                                 <rect key="frame" x="250" y="0.0" width="600" height="189"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_sad_150" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-P7-BZ0">
-                                <rect key="frame" x="778" y="608" width="147" height="117"/>
+                                <rect key="frame" x="778" y="607.5" width="147" height="117"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass_strands" translatesAutoresizingMaskIntoConstraints="NO" id="wCT-gp-iu0">
                                 <rect key="frame" x="68" y="603" width="154" height="101"/>
@@ -109,7 +101,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flare_1049" translatesAutoresizingMaskIntoConstraints="NO" id="OVm-un-UqT">
-                                <rect key="frame" x="-13" y="-141" width="1049" height="1049"/>
+                                <rect key="frame" x="-12.5" y="-140.5" width="1049" height="1049"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="Vh8-ni-4o1">
                                 <rect key="frame" x="226" y="288" width="51" height="51"/>
@@ -146,7 +138,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepystar2" translatesAutoresizingMaskIntoConstraints="NO" id="pqi-vy-hse">
-                                <rect key="frame" x="340" y="101" width="50" height="51"/>
+                                <rect key="frame" x="340" y="81" width="50" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="9wo-47-4xm"/>
                                     <constraint firstAttribute="width" constant="50" id="JVF-fn-ClY"/>
@@ -167,7 +159,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cumplestar2" translatesAutoresizingMaskIntoConstraints="NO" id="ki4-Sd-82v">
-                                <rect key="frame" x="651" y="138" width="51" height="49"/>
+                                <rect key="frame" x="651" y="118" width="51" height="49"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -184,7 +176,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happystar2" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-q2-VT8">
-                                <rect key="frame" x="104" y="43" width="52" height="51"/>
+                                <rect key="frame" x="104" y="23" width="52" height="51"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -241,7 +233,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smileystar2" translatesAutoresizingMaskIntoConstraints="NO" id="aZf-BU-t8O">
-                                <rect key="frame" x="801" y="170" width="50" height="51"/>
+                                <rect key="frame" x="801" y="150" width="50" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="p7p-0g-Ldt"/>
                                 </constraints>
@@ -261,7 +253,7 @@ Stevie felt sad and all alone.</string>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepystar3" translatesAutoresizingMaskIntoConstraints="NO" id="4dS-wU-oAD">
-                                <rect key="frame" x="910" y="68" width="61" height="54"/>
+                                <rect key="frame" x="910" y="67.5" width="61" height="54"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
                                         <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

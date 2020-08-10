@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gAN-ZP-g23">
-    <device id="ipad9_7" orientation="landscape">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gAN-ZP-g23">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AmericanTypewriter.ttc">
-            <string>AmericanTypewriter-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Apple Shot View Controller-->
         <scene sceneID="ezn-iS-tjl">
@@ -64,7 +56,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stevie_apple_735_584" translatesAutoresizingMaskIntoConstraints="NO" id="u4T-Gg-hld">
-                                <rect key="frame" x="189" y="198" width="737" height="575"/>
+                                <rect key="frame" x="189" y="178" width="737" height="575"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="1"/>
@@ -78,7 +70,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEy-qp-1GH">
-                                <rect key="frame" x="244" y="272" width="366" height="150"/>
+                                <rect key="frame" x="244" y="252" width="366" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="366" id="i0W-vt-km7"/>
                                 </constraints>
@@ -114,7 +106,7 @@ an apple tree.</string>
     </scenes>
     <resources>
         <image name="apple_closeup" width="925" height="889"/>
-        <image name="bluesky_1" width="1024" height="768"/>
+        <image name="bluesky_1" width="1024.5" height="768.5"/>
         <image name="stevie_apple_735_584" width="737" height="575"/>
         <image name="tree_closeup" width="1028" height="768"/>
     </resources>

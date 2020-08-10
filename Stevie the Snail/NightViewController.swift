@@ -74,7 +74,7 @@ class NightViewController: UIViewController {
         animator.addBehavior(gravity)
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(tap))
         view.addGestureRecognizer(tapGesture)
-        let initialPush = stars.map { star -> UIPushBehavior in
+        let initialPush = stars!.map { star -> UIPushBehavior in
             let direction = CGVector(dx: 1, dy: 0)
             let pushBehavior = UIPushBehavior(items: [star], mode: .instantaneous)
             pushBehavior.pushDirection = direction

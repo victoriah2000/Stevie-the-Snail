@@ -22,13 +22,13 @@ class GardenArrivalViewController: UIViewController {
     //MARK: Sounds
     var daisySound = AVPlayer(name:  "twinkle", extension: "mp3")!
     
-    @IBAction func daisySpin(_ sender: Any) {
+    @IBAction func daisySpin(_ sender: UIView) {
         daisySound.playFromStart()
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.toValue = 2 * CGFloat.pi
         animation.isCumulative = true
         animation.duration = 0.5
-        (sender as AnyObject).layer.add(animation, forKey: "spin")
+        sender.layer.add(animation, forKey: "spin")
     }
     //MARK: ButterflyEffect
     
